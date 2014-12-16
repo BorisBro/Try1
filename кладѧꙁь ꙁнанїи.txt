@@ -4,14 +4,15 @@ https://www.youtube.com/user/TeslaUE4				( En / 1 ~ 3 мин  / в основном blueprin
 https://www.youtube.com/user/RussianMapster 			( Ru / 2 ~ 20 мин / все подряд		/ подробно и понятно  	 / лишняя инфа	  / 6 	)
 https://www.youtube.com/channel/UCzoVL1aVjec7YKPeG59xKFg	( En / 5 ~ 30 мин / текстуры, материалы(много про воду) / интересные темы / ведущий дебил, мало объясняет / ? ) 
 https://www.youtube.com/user/brentacon				( En / 2 ~ 25 мин / 3d моделинг, анимация, ландшафты(террейны), сопутсвующие программы, эффекты ... / информативно, подробно / не все связано с UE4, много программ / 7 )
-https://www.youtube.com/channel/UCgsUWI0VzBM1S_sT2fvyNtQ/playlists ( Ru / 5-15 мин / уроки // мало / ? )
-https://www.youtube.com/user/glkimmortal/playlists ( Ru / 5-10 мин / уроки / Разделено по темам / мало / ? )
-https://www.youtube.com/user/DcDenton87/playlists ( Ru / 5-10 мин / уроки // мало / ? )
-https://www.youtube.com/user/OStrough/playlists   ( Ru / 5-15 мин / уроки / много / нет названий, как следствие практически бесполезен / ? )
-https://www.youtube.com/user/SIRIESDESIGN ( Ru / 5-10 мин / уроки /классика(5 лет), все рекомендуют , много/ UDK а не UE4 / ? )
-https://www.youtube.com/channel/UCLbkGIcYJxxL0tciH9RVebg/playlists ( Ru / 5-15 мин / уроки,всё вподряд / много, кажись торт // ? )
+https://www.youtube.com/channel/UCgsUWI0VzBM1S_sT2fvyNtQ/playlist( Ru / 5-15 мин / уроки // мало / ? )
+https://www.youtube.com/user/glkimmortal/playlists 		( Ru / 5-10 мин / уроки / Разделено по темам / мало / ? )
+https://www.youtube.com/user/DcDenton87/playlists 		( Ru / 5-10 мин / уроки // мало / ? )
+https://www.youtube.com/user/OStrough/playlists   		( Ru / 5-15 мин / уроки / много / нет названий, как следствие практически бесполезен / ? )
+https://www.youtube.com/user/SIRIESDESIGN/playlist		( Ru / 5-10 мин / уроки /классика(5 лет), все рекомендуют , много/ UDK а не UE4 / ? )
+https://www.youtube.com/channel/UCLbkGIcYJxxL0tciH9RVebg/playlist( Ru / 5-15 мин / уроки,всё вподряд / много, кажись торт // ? )
 https://vk.com/videos-68573701 (свалка)
 
 Статьи:
+http://www.gamedev.ru/community/ue4/MonoUE 			( Ru-En / Mono - C# + UE / ? )
 
 Другие ссылки:
