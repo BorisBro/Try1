@@ -1,0 +1,841 @@
+﻿Log file open, 12/19/14 23:19:49
+LogInit:Display: Running engine for game: MyProject
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line: 
+LogInit: Base directory: F:/ExtraSoft/UnrealEngine/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.19-21.19.49:078][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.19-21.19.49:113][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.19-21.19.49:140][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.19-21.19.49:152][  0]LogInit: Object subsystem initialized
+[2014.12.19-21.19.49:156][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.19-21.19.49:156][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/ExtraSoft/UnrealEngine/Projects/MyProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.19-21.19.49:156][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.19-21.19.49:156][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/ExtraSoft/UnrealEngine/Projects/MyProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.19-21.19.49:156][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.19-21.19.49:156][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.19-21.19.49:180][  0]LogInit: Computer: NIKPC
+[2014.12.19-21.19.49:180][  0]LogInit: User: Nikita
+[2014.12.19-21.19.49:183][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.12.19-21.19.49:183][  0]LogInit: High frequency timer resolution =1.753825 MHz
+[2014.12.19-21.19.49:183][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2014.12.19-21.19.49:183][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.19-21.19.49:183][  0]LogMemory: Process Physical Memory: 63.32 MB used, 63.32 MB peak
+[2014.12.19-21.19.49:183][  0]LogMemory: Process Virtual Memory: 38.58 MB used, 38.58 MB peak
+[2014.12.19-21.19.49:183][  0]LogMemory: Physical Memory: 3682.94 MB used, 8077.43 MB total
+[2014.12.19-21.19.49:183][  0]LogMemory: Virtual Memory: 278.64 MB used, 134217728.00 MB total
+[2014.12.19-21.19.49:695][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2014.12.19-21.19.49:695][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.12.19-21.19.49:713][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 740M    (Feature Level 11_0)
+[2014.12.19-21.19.49:713][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2014.12.19-21.19.49:714][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.12.19-21.19.49:714][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2014.12.19-21.19.49:714][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.19-21.19.49:720][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.19-21.19.49:733][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.19-21.19.49:847][  0]LogTextLocalizationManager: The requested culture ('ru_RU') has no localization data; falling back to 'en' for localization and internationalization data.
+[2014.12.19-21.19.50:054][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.19-21.19.55:945][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.19-21.19.56:539][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.19-21.19.56:604][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.19-21.19.56:653][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Nikita/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.19-21.19.56:653][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nikita/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.12.19-21.19.56:653][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.19-21.19.56:653][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.19-21.19.56:738][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.19-21.19.56:750][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nikita/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.19-21.19.56:964][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.19-21.19.56:964][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.19-21.19.57:239][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.19-21.19.57:244][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.19-21.19.57:452][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.19-21.19.58:393][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.19-21.19.58:580][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for F:/ExtraSoft/UnrealEngine/Projects/MyProject/Binaries/Win64. Error: 0
+[2014.12.19-21.19.58:740][  0]SourceControl: Info Source control is disabled
+[2014.12.19-21.19.58:740][  0]SourceControl: Info Source control is disabled
+[2014.12.19-21.19.58:749][  0]SourceControl: Info Source control is disabled
+[2014.12.19-21.19.58:879][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.12.19-21.19.58:879][  0]LogUObjectAllocator: 4803544 out of 0 bytes used by permanent object pool.
+[2014.12.19-21.19.58:946][  0]LogEngine: Initializing Engine...
+[2014.12.19-21.19.59:113][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.12.19-21.19.59:124][  0]LogInit: FAudioDevice initialized.
+[2014.12.19-21.19.59:146][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.19-21.19.59:171][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Nikita/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.19-21.19.59:176][  0]LogInit: Texture streaming: Enabled
+[2014.12.19-21.19.59:235][  0]LogInit: Transaction tracking system initialized
+[2014.12.19-21.19.59:338][  0]BlueprintLog: New page: Editor Load
+[2014.12.19-21.19.59:371][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2014.12.19-21.19.59:371][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.19-21.20.00:055][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.19-21.20.00:562][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.19-21.20.00:811][  0]LogConsoleResponse:Display: 
+[2014.12.19-21.20.01:054][  0]SourceControl: Info Source control is disabled
+[2014.12.19-21.20.01:055][  0]Cmd: MAP LOAD FILE="../../../../Projects/MyProject/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.19-21.20.01:074][  0]LightingResults: New page: Lighting Build
+[2014.12.19-21.20.01:084][  0]MapCheck: New page: Map Check
+[2014.12.19-21.20.01:084][  0]LightingResults: New page: Lighting Build
+[2014.12.19-21.20.01:104][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036B6006840
+[2014.12.19-21.20.01:824][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.12.19-21.20.01:844][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.12.19-21.20.01:867][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.19-21.20.01:868][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.19-21.20.01:868][  0]Cmd: MAP CHECKDEP
+[2014.12.19-21.20.01:868][  0]MapCheck: New page: Example_Map - Dec 20, 2014, 1:20:01 AM
+[2014.12.19-21.20.01:982][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 113.895ms to complete.
+[2014.12.19-21.20.01:982][  0]LogFileHelpers: Loading map 'Example_Map' took 0.928
+[2014.12.19-21.20.02:089][  0]LogCollectionManager: Loaded 0 collections in 0.001142 seconds
+[2014.12.19-21.20.02:378][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.19-21.20.02:407][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.19-21.20.02:439][  0]LogLoad: Full Startup: 16.48 seconds (BP compile: 0.08 seconds)
+[2014.12.19-21.20.02:452][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.12.19-21.20.02:622][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x592.
+[2014.12.19-21.20.03:274][  4]LogAssetRegistry: Asset discovery search completed in 3.9160 seconds
+[2014.12.19-21.20.19:349][514]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.19-21.20.19:349][514]PIE: New page: PIE session: Example_Map (Dec 20, 2014, 1:20:19 AM)
+[2014.12.19-21.20.19:388][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039175s)
+[2014.12.19-21.20.19:389][514]LogPlayLevel: PIE: World Init took: (0.001073s)
+[2014.12.19-21.20.19:390][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.040599s)
+[2014.12.19-21.20.20:366][514]BlueprintLog:Warning: Warning Blueprint MyProjectile has been migrated and requires re-saving to avoid import errors
+[2014.12.19-21.20.20:367][514]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2014.12.19-21.20.20:368][514]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.12.19-21.20.20:370][514]LogWorld: Game class is 'MyGame_C'
+[2014.12.19-21.20.20:372][514]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.19-21.20.20:771][514]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.19-23.20.20
+[2014.12.19-21.20.20:771][514]LogWorld: Bringing up level for play took: 0.399060
+[2014.12.19-21.20.20:774][514]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.691
+[2014.12.19-21.20.30:238][933]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036B31A6340
+[2014.12.19-21.20.37:463][ 34]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2014.12.19-21.20.38:602][ 70]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2014.12.19-21.20.46:931][264]LogPropertyNode:Warning: UI Min (1) >= UI Max () for Ranged Numeric
+[2014.12.19-21.20.46:985][264]LogRenderer:Warning: Reallocating scene render targets to support 840x592.
+[2014.12.19-21.20.58:641][534]LogDestructible:Warning: MainMesh Tris: 108
+[2014.12.19-21.21.01:754][534]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2014.12.19-21.21.01:761][534]LogApexDestructibleAssetImport:Warning: Bones digested - 408  Depth of hierarchy - 2
+[2014.12.19-21.21.05:059][534]LogSkeletalMesh: Chunk 0: 2718 rigid vertices, 0 soft vertices, 228 active bones
+[2014.12.19-21.21.05:061][534]LogSkeletalMesh: Chunk 1: 16927 rigid vertices, 0 soft vertices, 256 active bones
+[2014.12.19-21.21.05:061][534]LogSkeletalMesh: Chunk 2: 9387 rigid vertices, 0 soft vertices, 150 active bones
+[2014.12.19-21.21.05:106][534]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 2036 triangles
+[2014.12.19-21.21.05:106][534]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 10357 triangles
+[2014.12.19-21.21.05:106][534]LogSkeletalMesh: Section 2: Material=1, Chunk=2, 5725 triangles
+[2014.12.19-21.21.14:404][810]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.19-21.21.14:404][810]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.19-21.21.14:503][810]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036ACA5B1A0
+[2014.12.19-21.21.14:503][810]LogPlayLevel: PIE:  Blueprint regeneration took 99 ms (1 blueprints)
+[2014.12.19-21.21.14:503][810]PIE: New page: PIE session: Example_Map (Dec 20, 2014, 1:21:14 AM)
+[2014.12.19-21.21.14:544][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040551s)
+[2014.12.19-21.21.14:545][810]LogPlayLevel: PIE: World Init took: (0.001371s)
+[2014.12.19-21.21.14:546][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.042278s)
+[2014.12.19-21.21.14:593][810]LogWorld: Game class is 'MyGame_C'
+[2014.12.19-21.21.14:594][810]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.19-21.21.15:029][810]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.19-23.21.15
+[2014.12.19-21.21.15:029][810]LogWorld: Bringing up level for play took: 0.434119
+[2014.12.19-21.21.15:034][810]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.95
+[2014.12.19-21.21.45:006][893]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036AD402C00
+[2014.12.19-21.21.45:918][921]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (cube_destractible_first)
+[2014.12.19-21.21.51:365][ 52]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.19-21.21.51:365][ 52]PIE: New page: PIE session: Example_Map (Dec 20, 2014, 1:21:51 AM)
+[2014.12.19-21.21.51:404][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038697s)
+[2014.12.19-21.21.51:405][ 52]LogPlayLevel: PIE: World Init took: (0.001134s)
+[2014.12.19-21.21.51:406][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.040198s)
+[2014.12.19-21.21.51:448][ 52]LogWorld: Game class is 'MyGame_C'
+[2014.12.19-21.21.51:450][ 52]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.19-21.21.51:454][ 52]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.19-23.21.51
+[2014.12.19-21.21.51:455][ 52]LogWorld: Bringing up level for play took: 0.004916
+[2014.12.19-21.21.51:458][ 52]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.625
+[2014.12.19-21.22.08:000][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036AE1F37E0
+[2014.12.19-21.22.09:360][676]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (cube_destractible_first)
+[2014.12.19-21.22.12:924][786]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.19-21.22.12:924][786]PIE: New page: PIE session: Example_Map (Dec 20, 2014, 1:22:12 AM)
+[2014.12.19-21.22.12:968][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043418s)
+[2014.12.19-21.22.12:970][786]LogPlayLevel: PIE: World Init took: (0.001622s)
+[2014.12.19-21.22.12:970][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.045629s)
+[2014.12.19-21.22.13:023][786]LogWorld: Game class is 'MyGame_C'
+[2014.12.19-21.22.13:024][786]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.19-21.22.13:027][786]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.19-23.22.13
+[2014.12.19-21.22.13:027][786]LogWorld: Bringing up level for play took: 0.002976
+[2014.12.19-21.22.13:030][786]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.947
+[2014.12.19-21.22.17:207][932]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036AD617C40
+[2014.12.19-21.22.23:780][ 82]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.19-21.22.23:780][ 82]PIE: New page: PIE session: Example_Map (Dec 20, 2014, 1:22:23 AM)
+[2014.12.19-21.22.23:822][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042046s)
+[2014.12.19-21.22.23:823][ 82]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2014.12.19-21.22.23:824][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.043475s)
+[2014.12.19-21.22.23:871][ 82]LogWorld: Game class is 'MyGame_C'
+[2014.12.19-21.22.23:873][ 82]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.19-21.22.23:877][ 82]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.19-23.22.23
+[2014.12.19-21.22.23:877][ 82]LogWorld: Bringing up level for play took: 0.004039
+[2014.12.19-21.22.23:879][ 82]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.204
+[2014.12.19-21.22.30:455][268]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036AB2456C0
+[2014.12.19-21.22.37:664][478]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.19-21.22.37:665][478]PIE: New page: PIE session: Example_Map (Dec 20, 2014, 1:22:37 AM)
+[2014.12.19-21.22.37:703][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038427s)
+[2014.12.19-21.22.37:704][478]LogPlayLevel: PIE: World Init took: (0.001120s)
+[2014.12.19-21.22.37:705][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.039902s)
+[2014.12.19-21.22.37:753][478]LogWorld: Game class is 'MyGame_C'
+[2014.12.19-21.22.37:755][478]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.19-21.22.37:759][478]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.19-23.22.37
+[2014.12.19-21.22.37:759][478]LogWorld: Bringing up level for play took: 0.004166
+[2014.12.19-21.22.37:762][478]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.321
+[2014.12.19-21.22.42:971][588]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036AD617380
+[2014.12.19-21.22.54:893][949]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.19-21.22.54:893][949]PIE: New page: PIE session: Example_Map (Dec 20, 2014, 1:22:54 AM)
+[2014.12.19-21.22.54:932][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039002s)
+[2014.12.19-21.22.54:934][949]LogPlayLevel: PIE: World Init took: (0.001222s)
+[2014.12.19-21.22.54:934][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.040515s)
+[2014.12.19-21.22.54:983][949]LogWorld: Game class is 'MyGame_C'
+[2014.12.19-21.22.54:985][949]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.19-21.22.54:988][949]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.19-23.22.54
+[2014.12.19-21.22.54:989][949]LogWorld: Bringing up level for play took: 0.004051
+[2014.12.19-21.22.54:992][949]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.909
+[2014.12.19-21.23.04:215][195]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036AD4DE200
+[2014.12.19-21.23.07:268][280]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (cube_destractible_first)
+[2014.12.19-21.23.07:568][286]LogEditorViewport: Clicking on Actor (double click): DestructibleActor (cube_destractible_first)
+[2014.12.19-21.23.18:965][623]Cmd: DELETE
+[2014.12.19-21.23.18:965][623]Cmd: ACTOR DELETE
+[2014.12.19-21.23.18:966][623]LogEditorActor: Deleted Actor: DestructibleActor
+[2014.12.19-21.23.19:004][623]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2014.12.19-21.23.19:523][639]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (cube_destractible_first)
+[2014.12.19-21.23.26:126][832]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.19-21.23.26:126][832]PIE: New page: PIE session: Example_Map (Dec 20, 2014, 1:23:26 AM)
+[2014.12.19-21.23.26:170][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042688s)
+[2014.12.19-21.23.26:172][832]LogPlayLevel: PIE: World Init took: (0.001756s)
+[2014.12.19-21.23.26:172][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.044816s)
+[2014.12.19-21.23.26:214][832]LogWorld: Game class is 'MyGame_C'
+[2014.12.19-21.23.26:215][832]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.19-21.23.26:218][832]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.19-23.23.26
+[2014.12.19-21.23.26:218][832]LogWorld: Bringing up level for play took: 0.003123
+[2014.12.19-21.23.26:222][832]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.138
+[2014.12.19-21.23.28:201][869]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036BBC756C0
+[2014.12.19-21.23.30:823][948]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (cube_destractible_first)
+[2014.12.19-21.23.32:055][967]LogPropertyNode:Warning: UI Min (1) >= UI Max () for Ranged Numeric
+[2014.12.19-21.23.37:112][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/cube_destractible_first" FILE="../../../../Projects/MyProject/Content/Meshes/cube_destractible_first.uasset" SILENT=true
+[2014.12.19-21.23.37:889][ 79]LogSavePackage: Save=706.547668ms
+[2014.12.19-21.23.37:889][ 79]LogSavePackage: Moving '../../../../Projects/MyProject/Saved/cube_destractible_first2310049B48975F05F8786F8BFAEC04FB.tmp' to '../../../../Projects/MyProject/Content/Meshes/cube_destractible_first.uasset'
+[2014.12.19-21.23.39:528][125]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.19-21.23.39:528][125]PIE: New page: PIE session: Example_Map (Dec 20, 2014, 1:23:39 AM)
+[2014.12.19-21.23.39:578][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048910s)
+[2014.12.19-21.23.39:579][125]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2014.12.19-21.23.39:579][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.050122s)
+[2014.12.19-21.23.39:625][125]LogWorld: Game class is 'MyGame_C'
+[2014.12.19-21.23.39:626][125]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.19-21.23.39:629][125]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.19-23.23.39
+[2014.12.19-21.23.39:630][125]LogWorld: Bringing up level for play took: 0.003288
+[2014.12.19-21.23.39:633][125]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.45
+[2014.12.19-21.23.46:573][271]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036AB245A80
+[2014.12.19-21.23.46:607][272]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036C21C2160
+[2014.12.19-21.23.59:168][641]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.19-21.23.59:168][641]PIE: New page: PIE session: Example_Map (Dec 20, 2014, 1:23:59 AM)
+[2014.12.19-21.23.59:206][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037719s)
+[2014.12.19-21.23.59:207][641]LogPlayLevel: PIE: World Init took: (0.001120s)
+[2014.12.19-21.23.59:208][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.039242s)
+[2014.12.19-21.23.59:256][641]LogWorld: Game class is 'MyGame_C'
+[2014.12.19-21.23.59:258][641]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.19-21.23.59:263][641]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.19-23.23.59
+[2014.12.19-21.23.59:263][641]LogWorld: Bringing up level for play took: 0.005227
+[2014.12.19-21.23.59:267][641]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.817
+[2014.12.19-21.24.01:709][725]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036AD2F32E0
+[2014.12.19-21.24.18:533][227]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.19-21.24.18:533][227]PIE: New page: PIE session: Example_Map (Dec 20, 2014, 1:24:18 AM)
+[2014.12.19-21.24.18:578][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045085s)
+[2014.12.19-21.24.18:580][227]LogPlayLevel: PIE: World Init took: (0.001807s)
+[2014.12.19-21.24.18:580][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.047294s)
+[2014.12.19-21.24.18:618][227]LogWorld: Game class is 'MyGame_C'
+[2014.12.19-21.24.18:619][227]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.19-21.24.18:622][227]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.19-23.24.18
+[2014.12.19-21.24.18:623][227]LogWorld: Bringing up level for play took: 0.003880
+[2014.12.19-21.24.18:626][227]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.542
+[2014.12.19-21.24.23:893][364]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036AD4DEFC0
+[2014.12.19-21.24.26:807][437]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.19-21.24.36:595][662]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.12.19-21.24.39:600][715]LogPropertyNode:Warning: UI Min (1) >= UI Max () for Ranged Numeric
+[2014.12.19-21.25.56:199][278]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.12.19-21.25.56:552][285]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.19-21.27.38:691][256]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_65.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.27.38:691][256]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.12.19-21.27.38:691][256]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.12.19-21.27.38:707][256]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_65.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.27.56:114][584]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_65.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.27.56:115][584]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_65.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.27.56:115][584]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.12.19-21.27.56:134][584]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_65.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.28.00:413][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyProjectile" FILE="../../../../Projects/MyProject/Content/Blueprints/MyProjectile.uasset" SILENT=true
+[2014.12.19-21.28.01:179][668]LogSavePackage: Save=742.388184ms
+[2014.12.19-21.28.01:179][668]LogSavePackage: Moving '../../../../Projects/MyProject/Saved/MyProjectile000298664593F17465418C9CEC849060.tmp' to '../../../../Projects/MyProject/Content/Blueprints/MyProjectile.uasset'
+[2014.12.19-21.28.02:966][706]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.19-21.28.03:034][706]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_65.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.28.03:035][706]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_65.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.28.03:035][706]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.12.19-21.28.03:035][706]LogPlayLevel: [PIE] Compiling MyProjectile before PIE...
+[2014.12.19-21.28.03:063][706]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_0.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.28.03:232][706]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_0.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.28.03:233][706]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_0.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.28.03:235][706]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.19-21.28.03:389][706]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036ACA5B560
+[2014.12.19-21.28.03:392][706]LogPlayLevel: PIE:  Blueprint regeneration took 427 ms (2 blueprints)
+[2014.12.19-21.28.03:393][706]PIE: New page: PIE session: Example_Map (Dec 20, 2014, 1:28:03 AM)
+[2014.12.19-21.28.03:435][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042262s)
+[2014.12.19-21.28.03:436][706]LogPlayLevel: PIE: World Init took: (0.001143s)
+[2014.12.19-21.28.03:436][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.043714s)
+[2014.12.19-21.28.03:479][706]LogWorld: Game class is 'MyGame_C'
+[2014.12.19-21.28.03:480][706]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.19-21.28.03:484][706]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.19-23.28.03
+[2014.12.19-21.28.03:484][706]LogWorld: Bringing up level for play took: 0.003788
+[2014.12.19-21.28.03:487][706]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.404
+[2014.12.19-21.28.04:489][742]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_4.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.28.04:932][758]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_5.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.28.05:514][777]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_6.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.28.06:003][795]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_7.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.28.06:483][814]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_8.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.28.07:187][842]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_9.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.28.07:992][872]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_10.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.28.08:656][895]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_11.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.28.09:055][911]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_12.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.28.10:332][961]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_13.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.28.10:863][979]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_14.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.28.12:187][ 25]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.12.19-21.28.12:187][ 25]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2014.12.19-21.28.12:220][ 25]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036BF85A3E0
+[2014.12.19-21.28.41:870][588]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToolkitHost.IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.5\Engine\Source\Editor\UnrealEd\Private\Toolkits\BaseToolkit.cpp] [Line: 119]
+
+Stack: 
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd7758f46) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd75d7148) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc1a344) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc25a85) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc36162) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ffcbd391799) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc647ec4) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5d26d3) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5dc128) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc653976) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5cb9f6) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5da18b) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5d7876) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc66859f) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc653bbf) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd49c7bd5) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd49b840b) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76b3d0c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76a62ab) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76b5019) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76a3542) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcf3df2434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcf3df2297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd7752ed6) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff60fd8a752) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launchengineloop.cpp:2111]
+UE4Editor.exe!GuardedMain() (0x00007ff60fd7f9df) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launch.cpp:133]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff60fd7fa4a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:125]
+UE4Editor.exe!WinMain() (0x00007ff60fd8bf19) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:201]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff60fd8cdc9) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffcf1b216ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcf40d4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcf40d4409) + 0 bytes [UnknownFile:0]
+
+[2014.12.19-21.29.01:874][929]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToolkitHost.IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.5\Engine\Source\Editor\UnrealEd\Private\Toolkits\BaseToolkit.cpp] [Line: 119]
+
+Stack: 
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd7758f46) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd75d7148) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc1a344) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc25a85) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc36162) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ffcbd391799) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc647ec4) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5d26d3) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5dc128) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc653976) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5cb9f6) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5da18b) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5d7876) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc66859f) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc653bbf) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd49c7bd5) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd49b840b) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76b3d0c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76a62ab) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76b5019) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76a3542) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcf3df2434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcf3df2297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd7752ed6) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff60fd8a752) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launchengineloop.cpp:2111]
+UE4Editor.exe!GuardedMain() (0x00007ff60fd7f9df) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launch.cpp:133]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff60fd7fa4a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:125]
+UE4Editor.exe!WinMain() (0x00007ff60fd8bf19) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:201]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff60fd8cdc9) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffcf1b216ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcf40d4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcf40d4409) + 0 bytes [UnknownFile:0]
+
+[2014.12.19-21.29.06:253][ 20]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToolkitHost.IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.5\Engine\Source\Editor\UnrealEd\Private\Toolkits\BaseToolkit.cpp] [Line: 119]
+
+Stack: 
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd7758f46) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd75d7148) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc1a344) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc25a85) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc36162) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ffcbd391799) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc647ec4) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5d26d3) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5dc128) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc653976) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5cb9f6) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5da18b) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5d7876) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc66859f) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc653bbf) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd49c7bd5) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd49b840b) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76b3d0c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76a62ab) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76b5019) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76a3542) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcf3df2434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcf3df2297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd7752ed6) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff60fd8a752) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launchengineloop.cpp:2111]
+UE4Editor.exe!GuardedMain() (0x00007ff60fd7f9df) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launch.cpp:133]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff60fd7fa4a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:125]
+UE4Editor.exe!WinMain() (0x00007ff60fd8bf19) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:201]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff60fd8cdc9) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffcf1b216ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcf40d4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcf40d4409) + 0 bytes [UnknownFile:0]
+
+[2014.12.19-21.29.10:218][122]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2014.12.19-21.29.11:728][162]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2014.12.19-21.29.13:019][192]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToolkitHost.IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.5\Engine\Source\Editor\UnrealEd\Private\Toolkits\BaseToolkit.cpp] [Line: 119]
+
+Stack: 
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd7758f46) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd75d7148) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc1a344) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc25a85) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc36162) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ffcbd391799) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc647ec4) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5d26d3) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5dc128) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc653976) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5cb9f6) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5da18b) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5d7876) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc66859f) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc653bbf) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd49c7bd5) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd49b840b) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76b3d0c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76a62ab) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76b5019) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76a3542) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcf3df2434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcf3df2297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd7752ed6) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff60fd8a752) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launchengineloop.cpp:2111]
+UE4Editor.exe!GuardedMain() (0x00007ff60fd7f9df) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launch.cpp:133]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff60fd7fa4a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:125]
+UE4Editor.exe!WinMain() (0x00007ff60fd8bf19) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:201]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff60fd8cdc9) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffcf1b216ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcf40d4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcf40d4409) + 0 bytes [UnknownFile:0]
+
+[2014.12.19-21.29.16:227][317]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2014.12.19-21.29.18:630][383]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.12.19-21.29.18:630][383]PIE: New page: PIE session: Example_Map (Dec 20, 2014, 1:29:18 AM)
+[2014.12.19-21.29.18:677][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046334s)
+[2014.12.19-21.29.18:678][383]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2014.12.19-21.29.18:678][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.047931s)
+[2014.12.19-21.29.18:719][383]LogWorld: Game class is 'MyGame_C'
+[2014.12.19-21.29.18:721][383]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.19-21.29.18:725][383]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.19-23.29.18
+[2014.12.19-21.29.18:726][383]LogWorld: Bringing up level for play took: 0.004673
+[2014.12.19-21.29.18:730][383]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.646
+[2014.12.19-21.29.19:865][423]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_15.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.29.20:189][434]PIE:Warning: Warning Invalid Simulate Options: Body (MyProjectile_C_16.Sphere SM_Projectile) is set to simulate physics but Collision Enabled is set to No Collision
+[2014.12.19-21.29.20:893][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2014.12.19-21.29.20:893][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.12.19-21.29.20:922][457]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036AB29B100
+[2014.12.19-21.29.22:187][477]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToolkitHost.IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.5\Engine\Source\Editor\UnrealEd\Private\Toolkits\BaseToolkit.cpp] [Line: 119]
+
+Stack: 
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd7758f46) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd75d7148) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc1a344) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc25a85) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc36162) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ffcbd391799) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc647ec4) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5d26d3) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5dc128) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc653976) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5cb9f6) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5da18b) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5d7876) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc66859f) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc653bbf) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd49c7bd5) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd49b840b) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76b3d0c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76a62ab) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76b5019) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76a3542) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcf3df2434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcf3df2297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd7752ed6) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff60fd8a752) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launchengineloop.cpp:2111]
+UE4Editor.exe!GuardedMain() (0x00007ff60fd7f9df) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launch.cpp:133]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff60fd7fa4a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:125]
+UE4Editor.exe!WinMain() (0x00007ff60fd8bf19) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:201]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff60fd8cdc9) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffcf1b216ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcf40d4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcf40d4409) + 0 bytes [UnknownFile:0]
+
+[2014.12.19-21.29.23:190][494]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToolkitHost.IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.5\Engine\Source\Editor\UnrealEd\Private\Toolkits\BaseToolkit.cpp] [Line: 119]
+
+Stack: 
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd7758f46) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd75d7148) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc1a344) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc25a85) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc36162) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ffcbd391799) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc647ec4) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5d26d3) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5dc128) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc653976) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5cb9f6) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5da18b) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5d7876) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc66859f) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc653bbf) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd49c7bd5) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd49b840b) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76b3d0c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76a62ab) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76b5019) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76a3542) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcf3df2434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcf3df2297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd7752ed6) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff60fd8a752) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launchengineloop.cpp:2111]
+UE4Editor.exe!GuardedMain() (0x00007ff60fd7f9df) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launch.cpp:133]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff60fd7fa4a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:125]
+UE4Editor.exe!WinMain() (0x00007ff60fd8bf19) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:201]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff60fd8cdc9) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffcf1b216ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcf40d4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcf40d4409) + 0 bytes [UnknownFile:0]
+
+[2014.12.19-21.29.23:609][502]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToolkitHost.IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.5\Engine\Source\Editor\UnrealEd\Private\Toolkits\BaseToolkit.cpp] [Line: 119]
+
+Stack: 
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd7758f46) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd75d7148) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc1a344) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc25a85) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc36162) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ffcbd391799) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc647ec4) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5d26d3) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5dc128) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc653976) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5cb9f6) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5da18b) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5d7876) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc66859f) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc653bbf) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd49c7bd5) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd49b840b) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76b3d0c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76a62ab) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76b5019) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76a3542) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcf3df2434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcf3df2297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd7752ed6) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff60fd8a752) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launchengineloop.cpp:2111]
+UE4Editor.exe!GuardedMain() (0x00007ff60fd7f9df) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launch.cpp:133]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff60fd7fa4a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:125]
+UE4Editor.exe!WinMain() (0x00007ff60fd8bf19) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:201]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff60fd8cdc9) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffcf1b216ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcf40d4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcf40d4409) + 0 bytes [UnknownFile:0]
+
+[2014.12.19-21.29.31:061][669]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToolkitHost.IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.5\Engine\Source\Editor\UnrealEd\Private\Toolkits\BaseToolkit.cpp] [Line: 119]
+
+Stack: 
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd7758f46) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd75d7148) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc1a344) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc25a85) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc36162) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ffcbd391799) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc647ec4) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5d26d3) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5dc128) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc653976) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5cb9f6) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5da18b) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc5d7876) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc66859f) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffcbc653bbf) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd49c7bd5) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd49b840b) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76b3d0c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76a62ab) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76b5019) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76a3542) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcf3df2434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcf3df2297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd7752ed6) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff60fd8a752) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launchengineloop.cpp:2111]
+UE4Editor.exe!GuardedMain() (0x00007ff60fd7f9df) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launch.cpp:133]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff60fd7fa4a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:125]
+UE4Editor.exe!WinMain() (0x00007ff60fd8bf19) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:201]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff60fd8cdc9) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffcf1b216ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcf40d4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcf40d4409) + 0 bytes [UnknownFile:0]
+
+[2014.12.19-21.29.36:703][890]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToolkitHost.IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.5\Engine\Source\Editor\UnrealEd\Private\Toolkits\BaseToolkit.cpp] [Line: 119]
+
+Stack: 
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd7758f46) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd75d7148) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc1a344) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc25a85) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffccfc36162) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ffcbd3ba1af) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ffcbd3b3bbe) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ffcbd3bf687) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd4a77b79) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd4a7c848) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd4a5c1ef) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd4b0173a) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd4b2dfa5) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd49c8b4c) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffcd49b8b26) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76b3e99) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76a62ab) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76b5019) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd76a3542) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcf3df2434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcf3df2297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffcd7752ed6) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff60fd8a752) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launchengineloop.cpp:2111]
+UE4Editor.exe!GuardedMain() (0x00007ff60fd7f9df) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launch.cpp:133]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff60fd7fa4a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:125]
+UE4Editor.exe!WinMain() (0x00007ff60fd8bf19) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:201]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff60fd8cdc9) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffcf1b216ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcf40d4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcf40d4409) + 0 bytes [UnknownFile:0]
+
+[2014.12.19-21.29.46:901][175]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2014.12.19-21.29.46:901][175]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.12.19-21.29.50:619][176]Cmd: QUIT_EDITOR
+[2014.12.19-21.29.51:110][176]LogExit: Preparing to exit.
+[2014.12.19-21.29.51:766][176]LogExit: Editor shut down
+[2014.12.19-21.29.51:767][176]LogExit: Transaction tracking system shut down
+[2014.12.19-21.29.51:768][176]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036ADFFBEC0
+[2014.12.19-21.29.51:771][176]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036B7F38CC0
+[2014.12.19-21.29.51:771][176]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036B18FD260
+[2014.12.19-21.29.51:771][176]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036B31A5620
+[2014.12.19-21.29.51:771][176]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036CAF40B80
+[2014.12.19-21.29.51:772][176]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036B58D9800
+[2014.12.19-21.29.51:813][176]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036B58DAD40
+[2014.12.19-21.29.51:813][176]LogExit: Object subsystem successfully closed.
+[2014.12.19-21.29.51:910][176]LogModuleManager: Shutting down and abandoning module DestructibleMeshEditor (167)
+[2014.12.19-21.29.51:910][176]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
+[2014.12.19-21.29.51:910][176]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
+[2014.12.19-21.29.51:910][176]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
+[2014.12.19-21.29.51:910][176]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
+[2014.12.19-21.29.51:910][176]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2014.12.19-21.29.51:910][176]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2014.12.19-21.29.51:910][176]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2014.12.19-21.29.51:910][176]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2014.12.19-21.29.51:910][176]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2014.12.19-21.29.51:910][176]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2014.12.19-21.29.51:910][176]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2014.12.19-21.29.51:910][176]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2014.12.19-21.29.51:910][176]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2014.12.19-21.29.51:910][176]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2014.12.19-21.29.51:910][176]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2014.12.19-21.29.51:911][176]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2014.12.19-21.29.51:912][176]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2014.12.19-21.29.51:912][176]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2014.12.19-21.29.51:912][176]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2014.12.19-21.29.51:912][176]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2014.12.19-21.29.51:912][176]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2014.12.19-21.29.51:912][176]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2014.12.19-21.29.51:912][176]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2014.12.19-21.29.51:912][176]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2014.12.19-21.29.51:912][176]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2014.12.19-21.29.51:912][176]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2014.12.19-21.29.51:912][176]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2014.12.19-21.29.51:912][176]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2014.12.19-21.29.51:913][176]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2014.12.19-21.29.51:913][176]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.12.19-21.29.51:975][176]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.12.19-21.29.51:975][176]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2014.12.19-21.29.51:976][176]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2014.12.19-21.29.51:976][176]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.12.19-21.29.51:976][176]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.12.19-21.29.51:976][176]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.12.19-21.29.51:976][176]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2014.12.19-21.29.51:976][176]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2014.12.19-21.29.51:976][176]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2014.12.19-21.29.51:976][176]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2014.12.19-21.29.51:977][176]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2014.12.19-21.29.51:977][176]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2014.12.19-21.29.51:977][176]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2014.12.19-21.29.51:977][176]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.12.19-21.29.51:977][176]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.12.19-21.29.51:977][176]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2014.12.19-21.29.51:977][176]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2014.12.19-21.29.51:977][176]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2014.12.19-21.29.52:112][176]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2014.12.19-21.29.52:113][176]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2014.12.19-21.29.52:114][176]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2014.12.19-21.29.52:114][176]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2014.12.19-21.29.52:114][176]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2014.12.19-21.29.52:114][176]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2014.12.19-21.29.52:114][176]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2014.12.19-21.29.52:114][176]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2014.12.19-21.29.52:114][176]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2014.12.19-21.29.52:115][176]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2014.12.19-21.29.52:115][176]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2014.12.19-21.29.52:217][176]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2014.12.19-21.29.52:217][176]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2014.12.19-21.29.52:221][176]LogModuleManager: Shutting down and abandoning module Media (66)
+[2014.12.19-21.29.52:221][176]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2014.12.19-21.29.52:221][176]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2014.12.19-21.29.52:221][176]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2014.12.19-21.29.52:222][176]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2014.12.19-21.29.52:222][176]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2014.12.19-21.29.52:222][176]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2014.12.19-21.29.52:222][176]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2014.12.19-21.29.52:222][176]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2014.12.19-21.29.52:222][176]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2014.12.19-21.29.52:222][176]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2014.12.19-21.29.52:222][176]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2014.12.19-21.29.52:222][176]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2014.12.19-21.29.52:225][176]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2014.12.19-21.29.52:225][176]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2014.12.19-21.29.52:225][176]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2014.12.19-21.29.52:225][176]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2014.12.19-21.29.52:225][176]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2014.12.19-21.29.52:225][176]LogModuleManager: Shutting down and abandoning module Core (47)
+[2014.12.19-21.29.52:225][176]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2014.12.19-21.29.52:225][176]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2014.12.19-21.29.52:225][176]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2014.12.19-21.29.52:225][176]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2014.12.19-21.29.52:305][176]LogDerivedDataCache: Shutdown
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.12.19-21.29.52:305][176]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.12.19-21.29.52:306][176]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.12.19-21.29.52:306][176]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.12.19-21.29.52:307][176]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.12.19-21.29.52:307][176]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.12.19-21.29.52:307][176]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.12.19-21.29.52:307][176]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.12.19-21.29.52:307][176]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.12.19-21.29.52:307][176]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.12.19-21.29.52:307][176]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.12.19-21.29.52:307][176]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.12.19-21.29.52:307][176]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.12.19-21.29.52:308][176]LogExit: Exiting.
+[2014.12.19-21.29.52:314][176]Log file closed, 12/19/14 23:29:52
