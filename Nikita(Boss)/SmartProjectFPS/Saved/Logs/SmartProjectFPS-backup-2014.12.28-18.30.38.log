@@ -1,0 +1,602 @@
+﻿Log file open, 12/28/14 17:49:21
+LogInit:Display: Running engine for game: SmartProjectFPS
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line: 
+LogInit: Base directory: F:/ExtraSoft/UnrealEngine/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.12.28-15.49.21:728][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.12.28-15.49.21:778][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.28-15.49.21:817][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.28-15.49.21:828][  0]LogInit: Object subsystem initialized
+[2014.12.28-15.49.21:832][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.28-15.49.21:832][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/ExtraSoft/UnrealEngine/Projects/SmartProjectFPS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.28-15.49.21:832][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.12.28-15.49.21:832][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/ExtraSoft/UnrealEngine/Projects/SmartProjectFPS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.28-15.49.21:833][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.28-15.49.21:833][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.28-15.49.21:840][  0]LogInit: Computer: NIKPC
+[2014.12.28-15.49.21:840][  0]LogInit: User: Nikita
+[2014.12.28-15.49.21:841][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.12.28-15.49.21:841][  0]LogInit: High frequency timer resolution =1.753831 MHz
+[2014.12.28-15.49.21:841][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2014.12.28-15.49.21:841][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.28-15.49.21:841][  0]LogMemory: Process Physical Memory: 63.26 MB used, 63.26 MB peak
+[2014.12.28-15.49.21:841][  0]LogMemory: Process Virtual Memory: 38.55 MB used, 39.28 MB peak
+[2014.12.28-15.49.21:841][  0]LogMemory: Physical Memory: 1759.52 MB used, 8077.43 MB total
+[2014.12.28-15.49.21:841][  0]LogMemory: Virtual Memory: 282.49 MB used, 134217728.00 MB total
+[2014.12.28-15.49.22:322][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2014.12.28-15.49.22:322][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.12.28-15.49.22:339][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 740M    (Feature Level 11_0)
+[2014.12.28-15.49.22:339][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2014.12.28-15.49.22:340][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.12.28-15.49.22:340][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2014.12.28-15.49.22:340][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.28-15.49.22:343][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.28-15.49.22:355][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.28-15.49.22:404][  0]LogTextLocalizationManager: The requested culture ('ru_RU') has no localization data; falling back to 'en' for localization and internationalization data.
+[2014.12.28-15.49.22:607][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.28-15.49.28:224][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.28-15.49.28:773][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.28-15.49.28:832][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.28-15.49.28:880][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Nikita/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.28-15.49.28:880][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nikita/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.12.28-15.49.28:880][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projects/SmartProjectFPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.28-15.49.28:880][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.28-15.49.28:959][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.28-15.49.28:972][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nikita/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.28-15.49.29:175][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.28-15.49.29:175][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.28-15.49.29:440][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.28-15.49.29:443][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.12.28-15.49.29:647][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.28-15.49.30:511][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.28-15.49.30:686][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for F:/ExtraSoft/UnrealEngine/Projects/SmartProjectFPS/Binaries/Win64. Error: 0
+[2014.12.28-15.49.30:824][  0]SourceControl: Info Source control is disabled
+[2014.12.28-15.49.30:825][  0]SourceControl: Info Source control is disabled
+[2014.12.28-15.49.30:832][  0]SourceControl: Info Source control is disabled
+[2014.12.28-15.49.30:949][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.12.28-15.49.30:949][  0]LogUObjectAllocator: 4803544 out of 0 bytes used by permanent object pool.
+[2014.12.28-15.49.31:012][  0]LogEngine: Initializing Engine...
+[2014.12.28-15.49.31:170][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.12.28-15.49.31:179][  0]LogInit: FAudioDevice initialized.
+[2014.12.28-15.49.31:202][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.28-15.49.31:226][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Nikita/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.12.28-15.49.31:230][  0]LogInit: Texture streaming: Enabled
+[2014.12.28-15.49.31:276][  0]LogInit: Transaction tracking system initialized
+[2014.12.28-15.49.31:373][  0]BlueprintLog: New page: Editor Load
+[2014.12.28-15.49.31:404][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2014.12.28-15.49.31:404][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.28-15.49.32:042][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.28-15.49.32:482][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.28-15.49.32:696][  0]LogConsoleResponse:Display: 
+[2014.12.28-15.49.32:904][  0]SourceControl: Info Source control is disabled
+[2014.12.28-15.49.32:904][  0]Cmd: MAP LOAD FILE="../../../../Projects/SmartProjectFPS/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.12.28-15.49.32:905][  0]LightingResults: New page: Lighting Build
+[2014.12.28-15.49.32:915][  0]MapCheck: New page: Map Check
+[2014.12.28-15.49.32:915][  0]LightingResults: New page: Lighting Build
+[2014.12.28-15.49.32:933][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000022B3F56A20
+[2014.12.28-15.49.34:285][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.12.28-15.49.34:286][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.28-15.49.34:286][  0]Cmd: MAP CHECKDEP
+[2014.12.28-15.49.34:286][  0]MapCheck: New page: Example_Map - Dec 28, 2014, 7:49:34 PM
+[2014.12.28-15.49.34:412][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 125.957ms to complete.
+[2014.12.28-15.49.34:412][  0]LogFileHelpers: Loading map 'Example_Map' took 1.508
+[2014.12.28-15.49.34:532][  0]LogCollectionManager: Loaded 0 collections in 0.001238 seconds
+[2014.12.28-15.49.34:659][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.12.28-15.49.34:704][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.12.28-15.49.34:732][  0]LogLoad: Full Startup: 15.29 seconds (BP compile: 0.62 seconds)
+[2014.12.28-15.49.34:745][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.12.28-15.49.34:937][  0]LogRenderer:Warning: Reallocating scene render targets to support 800x568.
+[2014.12.28-15.49.35:468][  3]LogAssetRegistry: Asset discovery search completed in 4.0754 seconds
+[2014.12.28-15.49.47:206][324]LogRenderer:Warning: Reallocating scene render targets to support 1008x592.
+[2014.12.28-15.49.58:812][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bullet" FILE="../../../../Projects/SmartProjectFPS/Content/Blueprints/Bullet.uasset" SILENT=true
+[2014.12.28-15.49.59:273][570]LogSavePackage: Save=432.084381ms
+[2014.12.28-15.49.59:273][570]LogSavePackage: Moving '../../../../Projects/SmartProjectFPS/Saved/Bullet6E5D8D5945DD88CAFE8C4783FBB5B221.tmp' to '../../../../Projects/SmartProjectFPS/Content/Blueprints/Bullet.uasset'
+[2014.12.28-15.50.00:657][608]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.28-15.50.00:687][608]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.12.28-15.50.00:687][608]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.12.28-15.50.00:687][608]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.12.28-15.50.00:687][608]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.12.28-15.50.00:687][608]LogPlayLevel: [PIE] Compiling Bullet before PIE...
+[2014.12.28-15.50.00:877][608]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.12.28-15.50.00:971][608]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.28-15.50.01:369][608]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2014.12.28-15.50.01:496][608]LogPlayLevel: [PIE] Compiling SpawnAmmoBox before PIE...
+[2014.12.28-15.50.01:740][608]LogPlayLevel: PIE:  Blueprint regeneration took 1082 ms (5 blueprints)
+[2014.12.28-15.50.01:740][608]PIE: New page: PIE session: Example_Map (Dec 28, 2014, 7:50:01 PM)
+[2014.12.28-15.50.01:787][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046621s)
+[2014.12.28-15.50.01:788][608]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2014.12.28-15.50.01:788][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.047905s)
+[2014.12.28-15.50.02:008][608]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.12.28-15.50.02:009][608]LogWorld: Game class is 'MyGame_C'
+[2014.12.28-15.50.02:010][608]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.28-15.50.02:039][608]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.12.28-15.50.02:039][608]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.28-17.50.02
+[2014.12.28-15.50.02:039][608]LogWorld: Bringing up level for play took: 0.028611
+[2014.12.28-15.50.02:042][608]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.647
+[2014.12.28-15.50.02:904][631]LogBlueprintUserMessages: 59
+[2014.12.28-15.50.02:999][635]LogBlueprintUserMessages: 58
+[2014.12.28-15.50.03:440][637]LogBlueprintUserMessages: 57
+[2014.12.28-15.50.03:541][641]LogBlueprintUserMessages: 56
+[2014.12.28-15.50.04:051][661]LogBlueprintUserMessages: 55
+[2014.12.28-15.50.04:146][665]LogBlueprintUserMessages: 54
+[2014.12.28-15.50.04:250][669]LogBlueprintUserMessages: 53
+[2014.12.28-15.50.04:353][673]LogBlueprintUserMessages: 52
+[2014.12.28-15.50.04:461][677]LogBlueprintUserMessages: 51
+[2014.12.28-15.50.04:567][681]LogBlueprintUserMessages: 50
+[2014.12.28-15.50.04:676][685]LogBlueprintUserMessages: 49
+[2014.12.28-15.50.05:181][704]LogBlueprintUserMessages: 48
+[2014.12.28-15.50.05:275][708]LogBlueprintUserMessages: 47
+[2014.12.28-15.50.05:376][712]LogBlueprintUserMessages: 46
+[2014.12.28-15.50.05:483][716]LogBlueprintUserMessages: 45
+[2014.12.28-15.50.05:591][720]LogBlueprintUserMessages: 44
+[2014.12.28-15.50.05:699][724]LogBlueprintUserMessages: 43
+[2014.12.28-15.50.05:807][728]LogBlueprintUserMessages: 42
+[2014.12.28-15.50.06:342][748]LogBlueprintUserMessages: 41
+[2014.12.28-15.50.06:438][752]LogBlueprintUserMessages: 40
+[2014.12.28-15.50.06:543][756]LogBlueprintUserMessages: 39
+[2014.12.28-15.50.06:651][760]LogBlueprintUserMessages: 38
+[2014.12.28-15.50.06:759][764]LogBlueprintUserMessages: 37
+[2014.12.28-15.50.06:868][768]LogBlueprintUserMessages: 36
+[2014.12.28-15.50.06:976][772]LogBlueprintUserMessages: 35
+[2014.12.28-15.50.07:088][776]LogBlueprintUserMessages: 34
+[2014.12.28-15.50.07:199][780]LogBlueprintUserMessages: 33
+[2014.12.28-15.50.07:307][784]LogBlueprintUserMessages: 32
+[2014.12.28-15.50.07:742][800]LogBlueprintUserMessages: 31
+[2014.12.28-15.50.07:818][803]LogBlueprintUserMessages: 30
+[2014.12.28-15.50.07:921][807]LogBlueprintUserMessages: 29
+[2014.12.28-15.50.08:028][811]LogBlueprintUserMessages: 28
+[2014.12.28-15.50.08:138][815]LogBlueprintUserMessages: 27
+[2014.12.28-15.50.08:246][819]LogBlueprintUserMessages: 26
+[2014.12.28-15.50.08:356][823]LogBlueprintUserMessages: 25
+[2014.12.28-15.50.08:466][827]LogBlueprintUserMessages: 24
+[2014.12.28-15.50.09:433][865]LogBlueprintUserMessages: 23
+[2014.12.28-15.50.09:526][869]LogBlueprintUserMessages: 22
+[2014.12.28-15.50.09:627][873]LogBlueprintUserMessages: 21
+[2014.12.28-15.50.09:732][877]LogBlueprintUserMessages: 20
+[2014.12.28-15.50.09:840][881]LogBlueprintUserMessages: 19
+[2014.12.28-15.50.09:949][885]LogBlueprintUserMessages: 18
+[2014.12.28-15.50.10:279][897]LogBlueprintUserMessages: 17
+[2014.12.28-15.50.10:358][900]LogBlueprintUserMessages: 16
+[2014.12.28-15.50.10:468][904]LogBlueprintUserMessages: 15
+[2014.12.28-15.50.10:576][908]LogBlueprintUserMessages: 14
+[2014.12.28-15.50.10:687][912]LogBlueprintUserMessages: 13
+[2014.12.28-15.50.10:798][916]LogBlueprintUserMessages: 12
+[2014.12.28-15.50.10:908][920]LogBlueprintUserMessages: 11
+[2014.12.28-15.50.11:018][924]LogBlueprintUserMessages: 10
+[2014.12.28-15.50.11:132][928]LogBlueprintUserMessages: 9
+[2014.12.28-15.50.11:724][950]LogBlueprintUserMessages: 8
+[2014.12.28-15.50.11:800][953]LogBlueprintUserMessages: 7
+[2014.12.28-15.50.11:904][957]LogBlueprintUserMessages: 6
+[2014.12.28-15.50.12:015][961]LogBlueprintUserMessages: 5
+[2014.12.28-15.50.12:127][965]LogBlueprintUserMessages: 4
+[2014.12.28-15.50.12:237][969]LogBlueprintUserMessages: 3
+[2014.12.28-15.50.12:349][973]LogBlueprintUserMessages: 2
+[2014.12.28-15.50.12:460][977]LogBlueprintUserMessages: 1
+[2014.12.28-15.50.12:849][991]LogBlueprintUserMessages: 0
+[2014.12.28-15.50.14:189][ 43]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.12.28-15.50.14:189][ 43]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2014.12.28-15.50.14:249][ 44]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000022B99DE840
+[2014.12.28-15.50.21:810][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bullet" FILE="../../../../Projects/SmartProjectFPS/Content/Blueprints/Bullet.uasset" SILENT=true
+[2014.12.28-15.50.22:290][186]LogSavePackage: Save=452.466614ms
+[2014.12.28-15.50.22:290][186]LogSavePackage: Moving '../../../../Projects/SmartProjectFPS/Saved/Bullet638D55054CBED9DD6966169BA543455E.tmp' to '../../../../Projects/SmartProjectFPS/Content/Blueprints/Bullet.uasset'
+[2014.12.28-15.50.24:263][245]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.28-15.50.24:293][245]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2014.12.28-15.50.24:293][245]LogPlayLevel: [PIE] Compiling Bullet before PIE...
+[2014.12.28-15.50.24:433][245]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.28-15.50.24:775][245]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2014.12.28-15.50.24:865][245]LogPlayLevel: [PIE] Compiling MyHUD before PIE...
+[2014.12.28-15.50.24:983][245]LogPlayLevel: [PIE] Compiling SpawnAmmoBox before PIE...
+[2014.12.28-15.50.25:132][245]LogPlayLevel: PIE:  Blueprint regeneration took 868 ms (5 blueprints)
+[2014.12.28-15.50.25:132][245]PIE: New page: PIE session: Example_Map (Dec 28, 2014, 7:50:25 PM)
+[2014.12.28-15.50.25:173][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040235s)
+[2014.12.28-15.50.25:174][245]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2014.12.28-15.50.25:174][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.041462s)
+[2014.12.28-15.50.25:218][245]LogWorld: Game class is 'MyGame_C'
+[2014.12.28-15.50.25:220][245]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.28-15.50.25:222][245]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.12.28-15.50.25:222][245]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.28-17.50.25
+[2014.12.28-15.50.25:223][245]LogWorld: Bringing up level for play took: 0.002974
+[2014.12.28-15.50.25:226][245]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.83
+[2014.12.28-15.50.26:203][277]LogBlueprintUserMessages: 59
+[2014.12.28-15.50.26:298][281]LogBlueprintUserMessages: 58
+[2014.12.28-15.50.26:403][285]LogBlueprintUserMessages: 57
+[2014.12.28-15.50.26:510][289]LogBlueprintUserMessages: 56
+[2014.12.28-15.50.26:618][293]LogBlueprintUserMessages: 55
+[2014.12.28-15.50.26:726][297]LogBlueprintUserMessages: 54
+[2014.12.28-15.50.26:836][301]LogBlueprintUserMessages: 53
+[2014.12.28-15.50.26:944][305]LogBlueprintUserMessages: 52
+[2014.12.28-15.50.27:052][309]LogBlueprintUserMessages: 51
+[2014.12.28-15.50.27:160][313]LogBlueprintUserMessages: 50
+[2014.12.28-15.50.27:270][317]LogBlueprintUserMessages: 49
+[2014.12.28-15.50.27:378][321]LogBlueprintUserMessages: 48
+[2014.12.28-15.50.27:487][325]LogBlueprintUserMessages: 47
+[2014.12.28-15.50.27:841][338]LogBlueprintUserMessages: 46
+[2014.12.28-15.50.27:919][341]LogBlueprintUserMessages: 45
+[2014.12.28-15.50.28:023][345]LogBlueprintUserMessages: 44
+[2014.12.28-15.50.28:131][349]LogBlueprintUserMessages: 43
+[2014.12.28-15.50.28:237][353]LogBlueprintUserMessages: 42
+[2014.12.28-15.50.28:346][357]LogBlueprintUserMessages: 41
+[2014.12.28-15.50.28:454][361]LogBlueprintUserMessages: 40
+[2014.12.28-15.50.28:563][365]LogBlueprintUserMessages: 39
+[2014.12.28-15.50.28:674][369]LogBlueprintUserMessages: 38
+[2014.12.28-15.50.28:785][373]LogBlueprintUserMessages: 37
+[2014.12.28-15.50.28:895][377]LogBlueprintUserMessages: 36
+[2014.12.28-15.50.29:003][381]LogBlueprintUserMessages: 35
+[2014.12.28-15.50.29:114][385]LogBlueprintUserMessages: 34
+[2014.12.28-15.50.29:222][389]LogBlueprintUserMessages: 33
+[2014.12.28-15.50.29:332][393]LogBlueprintUserMessages: 32
+[2014.12.28-15.50.29:440][397]LogBlueprintUserMessages: 31
+[2014.12.28-15.50.29:551][401]LogBlueprintUserMessages: 30
+[2014.12.28-15.50.30:011][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.12.28-15.50.30:011][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2014.12.28-15.50.30:061][417]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000022AAECE340
+[2014.12.28-15.50.52:339][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.50.52:339][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.50.52:342][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.50.52:342][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.50.52:342][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.50.52:342][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.50.52:343][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.50.52:343][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.50.52:343][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.50.52:343][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.50.52:343][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.50.52:343][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.50.52:343][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.50.52:343][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.50.52:343][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.50.52:343][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.50.52:343][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.50.52:343][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.50.52:343][966]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.12.28-15.51.13:927][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../Projects/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.28-15.51.14:651][619]LogSavePackage: Save=692.884338ms
+[2014.12.28-15.51.14:651][619]LogSavePackage: Moving '../../../../Projects/SmartProjectFPS/Saved/MyCharacterC5EA3BD44798ED64360AB8B6BA419F43.tmp' to '../../../../Projects/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset'
+[2014.12.28-15.51.23:529][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
+[2014.12.28-15.51.23:529][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.12.28-15.51.23:529][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_7) Not registered. Aborting.
+[2014.12.28-15.51.23:529][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2014.12.28-15.51.31:227][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../Projects/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.28-15.51.31:938][ 78]LogSavePackage: Save=683.824158ms
+[2014.12.28-15.51.31:938][ 78]LogSavePackage: Moving '../../../../Projects/SmartProjectFPS/Saved/MyCharacter4933304B4CE0CB682A70C19BC3A362A4.tmp' to '../../../../Projects/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset'
+[2014.12.28-15.51.32:339][ 88]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.28-15.51.32:432][ 88]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.12.28-15.51.32:433][ 88]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.28-15.51.32:910][ 88]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2014.12.28-15.51.33:006][ 88]LogPlayLevel: [PIE] Compiling MyHUD before PIE...
+[2014.12.28-15.51.33:130][ 88]LogPlayLevel: [PIE] Compiling SpawnAmmoBox before PIE...
+[2014.12.28-15.51.33:294][ 88]LogPlayLevel: PIE:  Blueprint regeneration took 954 ms (4 blueprints)
+[2014.12.28-15.51.33:294][ 88]PIE: New page: PIE session: Example_Map (Dec 28, 2014, 7:51:33 PM)
+[2014.12.28-15.51.33:335][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040520s)
+[2014.12.28-15.51.33:336][ 88]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2014.12.28-15.51.33:336][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.041820s)
+[2014.12.28-15.51.33:379][ 88]LogWorld: Game class is 'MyGame_C'
+[2014.12.28-15.51.33:381][ 88]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.28-15.51.33:384][ 88]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.12.28-15.51.33:384][ 88]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.28-17.51.33
+[2014.12.28-15.51.33:385][ 88]LogWorld: Bringing up level for play took: 0.003778
+[2014.12.28-15.51.33:387][ 88]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.992
+[2014.12.28-15.51.36:142][179]LogBlueprintUserMessages: GranadeLauncher
+[2014.12.28-15.51.38:310][268]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.12.28-15.51.38:364][269]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000022AAECDE40
+[2014.12.28-15.51.50:891][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../Projects/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.28-15.51.51:622][643]LogSavePackage: Save=704.714417ms
+[2014.12.28-15.51.51:622][643]LogSavePackage: Moving '../../../../Projects/SmartProjectFPS/Saved/MyCharacterCC9EEFCF4C7BAAA0B20E32B47241B19B.tmp' to '../../../../Projects/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset'
+[2014.12.28-15.52.48:871][256]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_9) Not registered. Aborting.
+[2014.12.28-15.52.48:871][256]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.12.28-15.52.48:871][256]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_10) Not registered. Aborting.
+[2014.12.28-15.52.48:871][256]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_11) Not registered. Aborting.
+[2014.12.28-15.52.57:660][455]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.12.28-15.53.01:035][605]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.12.28-15.53.07:952][822]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.12.28-15.53.28:448][270]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2014.12.28-15.53.32:104][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.12.28-15.54.01:631][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../Projects/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.28-15.54.02:336][ 13]LogSavePackage: Save=679.933838ms
+[2014.12.28-15.54.02:336][ 13]LogSavePackage: Moving '../../../../Projects/SmartProjectFPS/Saved/MyCharacterC15551154ED203EC2E7698A645040FEB.tmp' to '../../../../Projects/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset'
+[2014.12.28-15.54.03:484][ 43]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.28-15.54.03:578][ 43]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.12.28-15.54.03:578][ 43]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.28-15.54.04:124][ 43]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2014.12.28-15.54.04:225][ 43]LogPlayLevel: [PIE] Compiling MyHUD before PIE...
+[2014.12.28-15.54.04:358][ 43]LogPlayLevel: [PIE] Compiling SpawnAmmoBox before PIE...
+[2014.12.28-15.54.04:534][ 43]LogPlayLevel: PIE:  Blueprint regeneration took 1050 ms (4 blueprints)
+[2014.12.28-15.54.04:534][ 43]PIE: New page: PIE session: Example_Map (Dec 28, 2014, 7:54:04 PM)
+[2014.12.28-15.54.04:576][ 43]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041396s)
+[2014.12.28-15.54.04:577][ 43]LogPlayLevel: PIE: World Init took: (0.001379s)
+[2014.12.28-15.54.04:577][ 43]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.043071s)
+[2014.12.28-15.54.04:626][ 43]LogWorld: Game class is 'MyGame_C'
+[2014.12.28-15.54.04:627][ 43]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.28-15.54.04:630][ 43]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.12.28-15.54.04:630][ 43]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.28-17.54.04
+[2014.12.28-15.54.04:630][ 43]LogWorld: Bringing up level for play took: 0.003009
+[2014.12.28-15.54.04:633][ 43]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.238
+[2014.12.28-15.54.22:823][819]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.12.28-15.54.22:886][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000022C8C2DF80
+[2014.12.28-15.54.50:615][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../Projects/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.28-15.54.51:321][443]LogSavePackage: Save=685.404114ms
+[2014.12.28-15.54.51:321][443]LogSavePackage: Moving '../../../../Projects/SmartProjectFPS/Saved/MyCharacter12C0A12D4E5DBC529285C5864AC0EB45.tmp' to '../../../../Projects/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset'
+[2014.12.28-15.54.52:578][478]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.28-15.54.52:676][478]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.12.28-15.54.52:676][478]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.28-15.54.53:221][478]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2014.12.28-15.54.53:318][478]LogPlayLevel: [PIE] Compiling MyHUD before PIE...
+[2014.12.28-15.54.53:448][478]LogPlayLevel: [PIE] Compiling SpawnAmmoBox before PIE...
+[2014.12.28-15.54.53:625][478]LogPlayLevel: PIE:  Blueprint regeneration took 1046 ms (4 blueprints)
+[2014.12.28-15.54.53:625][478]PIE: New page: PIE session: Example_Map (Dec 28, 2014, 7:54:53 PM)
+[2014.12.28-15.54.53:666][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041566s)
+[2014.12.28-15.54.53:668][478]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2014.12.28-15.54.53:668][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.042956s)
+[2014.12.28-15.54.53:711][478]LogWorld: Game class is 'MyGame_C'
+[2014.12.28-15.54.53:713][478]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.28-15.54.53:716][478]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.12.28-15.54.53:716][478]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.28-17.54.53
+[2014.12.28-15.54.53:716][478]LogWorld: Bringing up level for play took: 0.003284
+[2014.12.28-15.54.53:719][478]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.323
+[2014.12.28-15.54.58:525][670]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.12.28-15.54.58:606][671]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000022BF4B1D00
+[2014.12.28-15.55.09:772][909]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.28-15.55.09:868][909]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.12.28-15.55.09:868][909]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.28-15.55.10:419][909]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2014.12.28-15.55.10:517][909]LogPlayLevel: [PIE] Compiling MyHUD before PIE...
+[2014.12.28-15.55.10:649][909]LogPlayLevel: [PIE] Compiling SpawnAmmoBox before PIE...
+[2014.12.28-15.55.10:825][909]LogPlayLevel: PIE:  Blueprint regeneration took 1052 ms (4 blueprints)
+[2014.12.28-15.55.10:826][909]PIE: New page: PIE session: Example_Map (Dec 28, 2014, 7:55:10 PM)
+[2014.12.28-15.55.10:866][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040722s)
+[2014.12.28-15.55.10:867][909]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2014.12.28-15.55.10:868][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.041933s)
+[2014.12.28-15.55.10:914][909]LogWorld: Game class is 'MyGame_C'
+[2014.12.28-15.55.10:916][909]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.28-15.55.10:918][909]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.12.28-15.55.10:918][909]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.28-17.55.10
+[2014.12.28-15.55.10:919][909]LogWorld: Bringing up level for play took: 0.003149
+[2014.12.28-15.55.10:921][909]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.527
+[2014.12.28-15.55.15:856][108]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.12.28-15.55.15:914][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000022C98F5D00
+[2014.12.28-15.55.19:650][183]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_12) Not registered. Aborting.
+[2014.12.28-15.55.19:650][183]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.12.28-15.55.19:650][183]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_13) Not registered. Aborting.
+[2014.12.28-15.55.19:650][183]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_14) Not registered. Aborting.
+[2014.12.28-15.55.27:034][395]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.12.28-15.55.30:058][475]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2014.12.28-15.55.33:647][555]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2014.12.28-15.55.37:373][682]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2014.12.28-15.55.42:664][865]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2014.12.28-15.55.49:942][ 21]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2014.12.28-15.56.29:084][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../Projects/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.28-15.56.29:789][936]LogSavePackage: Save=672.610962ms
+[2014.12.28-15.56.29:789][936]LogSavePackage: Moving '../../../../Projects/SmartProjectFPS/Saved/MyCharacter7FDB2AE04EBFC4CA176040B65884595A.tmp' to '../../../../Projects/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset'
+[2014.12.28-15.56.31:143][973]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.28-15.56.31:238][973]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2014.12.28-15.56.31:238][973]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.28-15.56.31:803][973]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2014.12.28-15.56.31:912][973]LogPlayLevel: [PIE] Compiling MyHUD before PIE...
+[2014.12.28-15.56.32:051][973]LogPlayLevel: [PIE] Compiling SpawnAmmoBox before PIE...
+[2014.12.28-15.56.32:241][973]LogPlayLevel: PIE:  Blueprint regeneration took 1098 ms (4 blueprints)
+[2014.12.28-15.56.32:241][973]PIE: New page: PIE session: Example_Map (Dec 28, 2014, 7:56:32 PM)
+[2014.12.28-15.56.32:282][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041159s)
+[2014.12.28-15.56.32:283][973]LogPlayLevel: PIE: World Init took: (0.001002s)
+[2014.12.28-15.56.32:284][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.042553s)
+[2014.12.28-15.56.32:329][973]LogWorld: Game class is 'MyGame_C'
+[2014.12.28-15.56.32:331][973]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.28-15.56.32:333][973]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.12.28-15.56.32:333][973]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.28-17.56.32
+[2014.12.28-15.56.32:334][973]LogWorld: Bringing up level for play took: 0.003195
+[2014.12.28-15.56.32:337][973]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.941
+[2014.12.28-15.56.37:021][161]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2014.12.28-15.56.37:091][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000022C703E480
+[2014.12.28-15.56.38:622][193]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2014.12.28-15.56.44:567][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../Projects/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.12.28-15.56.45:265][313]LogSavePackage: Save=680.481750ms
+[2014.12.28-15.56.45:265][313]LogSavePackage: Moving '../../../../Projects/SmartProjectFPS/Saved/MyCharacterCE8B2C3B41E8F18DC423E9A3C0D4A707.tmp' to '../../../../Projects/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset'
+[2014.12.28-15.56.46:622][347]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.12.28-15.56.46:715][347]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2014.12.28-15.56.46:716][347]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.12.28-15.56.47:284][347]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2014.12.28-15.56.47:392][347]LogPlayLevel: [PIE] Compiling MyHUD before PIE...
+[2014.12.28-15.56.47:530][347]LogPlayLevel: [PIE] Compiling SpawnAmmoBox before PIE...
+[2014.12.28-15.56.47:716][347]LogPlayLevel: PIE:  Blueprint regeneration took 1094 ms (4 blueprints)
+[2014.12.28-15.56.47:717][347]PIE: New page: PIE session: Example_Map (Dec 28, 2014, 7:56:47 PM)
+[2014.12.28-15.56.47:757][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040206s)
+[2014.12.28-15.56.47:758][347]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2014.12.28-15.56.47:758][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.041453s)
+[2014.12.28-15.56.47:802][347]LogWorld: Game class is 'MyGame_C'
+[2014.12.28-15.56.47:804][347]LogAIModule: Creating AISystem for world Example_Map
+[2014.12.28-15.56.47:807][347]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.12.28-15.56.47:807][347]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.12.28-17.56.47
+[2014.12.28-15.56.47:808][347]LogWorld: Bringing up level for play took: 0.003667
+[2014.12.28-15.56.47:810][347]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.415
+[2014.12.28-15.57.17:650][649]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2014.12.28-15.57.17:716][650]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000022C1839DA0
+[2014.12.28-16.01.11:110][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../Projects/SmartProjectFPS/Saved/Autosaves/Game/Maps/Example_Map_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.12.28-16.01.11:259][385]LogSavePackage: Save=97.121674ms
+[2014.12.28-16.01.11:259][385]LogSavePackage: Moving '../../../../Projects/SmartProjectFPS/Saved/Example_Map_Auto1ABDDA80646A57AA5D8A025AABA63F2A2.tmp' to '../../../../Projects/SmartProjectFPS/Saved/Autosaves/Game/Maps/Example_Map_Auto1.umap'
+[2014.12.28-16.01.11:274][385]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.269
+[2014.12.28-16.01.11:274][385]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.269
+[2014.12.28-16.05.52:527][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../Projects/SmartProjectFPS/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.12.28-16.05.52:675][268]LogSavePackage: Save=71.264565ms
+[2014.12.28-16.05.52:675][268]LogSavePackage: Moving '../../../../Projects/SmartProjectFPS/Saved/Example_Map98D7A1894202DDE7DF4790AE0FEB4537.tmp' to '../../../../Projects/SmartProjectFPS/Content/Maps/Example_Map.umap'
+[2014.12.28-16.05.55:782][303]Cmd: QUIT_EDITOR
+[2014.12.28-16.05.56:168][303]LogExit: Preparing to exit.
+[2014.12.28-16.05.57:184][303]LogExit: Editor shut down
+[2014.12.28-16.05.57:185][303]LogExit: Transaction tracking system shut down
+[2014.12.28-16.05.57:187][303]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000022AAD3E480
+[2014.12.28-16.05.57:187][303]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000022B98A2660
+[2014.12.28-16.05.57:187][303]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000022BA812340
+[2014.12.28-16.05.57:187][303]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000022BA8120C0
+[2014.12.28-16.05.57:187][303]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000022BA57CCC0
+[2014.12.28-16.05.57:188][303]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000022B6028680
+[2014.12.28-16.05.57:219][303]LogExit: Object subsystem successfully closed.
+[2014.12.28-16.05.57:273][303]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
+[2014.12.28-16.05.57:273][303]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
+[2014.12.28-16.05.57:273][303]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
+[2014.12.28-16.05.57:273][303]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
+[2014.12.28-16.05.57:273][303]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2014.12.28-16.05.57:273][303]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2014.12.28-16.05.57:273][303]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2014.12.28-16.05.57:273][303]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2014.12.28-16.05.57:273][303]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2014.12.28-16.05.57:274][303]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2014.12.28-16.05.57:275][303]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2014.12.28-16.05.57:275][303]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2014.12.28-16.05.57:275][303]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2014.12.28-16.05.57:275][303]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2014.12.28-16.05.57:275][303]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2014.12.28-16.05.57:275][303]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2014.12.28-16.05.57:275][303]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2014.12.28-16.05.57:275][303]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2014.12.28-16.05.57:275][303]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2014.12.28-16.05.57:275][303]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2014.12.28-16.05.57:275][303]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2014.12.28-16.05.57:275][303]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2014.12.28-16.05.57:275][303]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2014.12.28-16.05.57:275][303]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2014.12.28-16.05.57:276][303]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.12.28-16.05.57:312][303]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.12.28-16.05.57:312][303]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2014.12.28-16.05.57:312][303]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2014.12.28-16.05.57:312][303]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.12.28-16.05.57:312][303]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.12.28-16.05.57:312][303]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.12.28-16.05.57:312][303]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2014.12.28-16.05.57:313][303]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2014.12.28-16.05.57:313][303]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2014.12.28-16.05.57:313][303]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2014.12.28-16.05.57:313][303]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2014.12.28-16.05.57:313][303]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2014.12.28-16.05.57:313][303]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2014.12.28-16.05.57:313][303]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.12.28-16.05.57:313][303]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.12.28-16.05.57:313][303]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2014.12.28-16.05.57:313][303]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2014.12.28-16.05.57:313][303]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2014.12.28-16.05.57:425][303]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2014.12.28-16.05.57:426][303]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2014.12.28-16.05.57:427][303]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2014.12.28-16.05.57:427][303]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2014.12.28-16.05.57:427][303]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2014.12.28-16.05.57:427][303]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2014.12.28-16.05.57:427][303]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2014.12.28-16.05.57:427][303]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2014.12.28-16.05.57:427][303]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2014.12.28-16.05.57:427][303]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2014.12.28-16.05.57:428][303]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2014.12.28-16.05.57:529][303]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2014.12.28-16.05.57:529][303]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2014.12.28-16.05.57:538][303]LogModuleManager: Shutting down and abandoning module Media (66)
+[2014.12.28-16.05.57:538][303]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2014.12.28-16.05.57:538][303]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2014.12.28-16.05.57:539][303]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2014.12.28-16.05.57:539][303]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2014.12.28-16.05.57:539][303]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2014.12.28-16.05.57:539][303]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2014.12.28-16.05.57:539][303]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2014.12.28-16.05.57:539][303]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2014.12.28-16.05.57:539][303]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2014.12.28-16.05.57:539][303]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2014.12.28-16.05.57:539][303]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2014.12.28-16.05.57:539][303]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2014.12.28-16.05.57:545][303]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2014.12.28-16.05.57:545][303]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2014.12.28-16.05.57:545][303]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2014.12.28-16.05.57:545][303]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2014.12.28-16.05.57:545][303]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2014.12.28-16.05.57:545][303]LogModuleManager: Shutting down and abandoning module Core (47)
+[2014.12.28-16.05.57:545][303]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2014.12.28-16.05.57:545][303]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2014.12.28-16.05.57:545][303]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2014.12.28-16.05.57:545][303]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2014.12.28-16.05.57:603][303]LogDerivedDataCache: Shutdown
+[2014.12.28-16.05.57:603][303]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2014.12.28-16.05.57:603][303]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2014.12.28-16.05.57:603][303]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2014.12.28-16.05.57:603][303]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2014.12.28-16.05.57:603][303]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2014.12.28-16.05.57:603][303]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2014.12.28-16.05.57:603][303]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2014.12.28-16.05.57:603][303]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2014.12.28-16.05.57:604][303]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2014.12.28-16.05.57:604][303]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2014.12.28-16.05.57:604][303]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2014.12.28-16.05.57:604][303]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2014.12.28-16.05.57:604][303]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2014.12.28-16.05.57:604][303]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2014.12.28-16.05.57:604][303]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2014.12.28-16.05.57:604][303]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2014.12.28-16.05.57:604][303]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2014.12.28-16.05.57:604][303]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2014.12.28-16.05.57:604][303]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.12.28-16.05.57:604][303]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.12.28-16.05.57:604][303]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.12.28-16.05.57:604][303]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.12.28-16.05.57:604][303]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.12.28-16.05.57:604][303]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.12.28-16.05.57:604][303]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.12.28-16.05.57:605][303]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2014.12.28-16.05.57:605][303]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.12.28-16.05.57:605][303]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.12.28-16.05.57:605][303]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.12.28-16.05.57:605][303]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.12.28-16.05.57:605][303]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.12.28-16.05.57:611][303]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.12.28-16.05.57:611][303]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.12.28-16.05.57:611][303]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.12.28-16.05.57:611][303]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.12.28-16.05.57:611][303]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.12.28-16.05.57:611][303]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.12.28-16.05.57:611][303]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.12.28-16.05.57:611][303]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.12.28-16.05.57:611][303]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.12.28-16.05.57:612][303]LogExit: Exiting.
+[2014.12.28-16.05.57:639][303]Log file closed, 12/28/14 18:05:57
