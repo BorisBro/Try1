@@ -1,0 +1,1730 @@
+﻿Log file open, 01/03/15 02:30:45
+LogInit:Display: Running engine for game: SmartProjectFPS
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line: 
+LogInit: Base directory: F:/ExtraSoft/UnrealEngine/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.01.03-00.30.45:797][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.01.03-00.30.45:832][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.03-00.30.45:854][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.03-00.30.45:866][  0]LogInit: Object subsystem initialized
+[2015.01.03-00.30.45:871][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.01.03-00.30.45:871][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/ExtraSoft/Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.03-00.30.45:871][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.01.03-00.30.45:871][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/ExtraSoft/Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.03-00.30.45:872][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.03-00.30.45:872][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.03-00.30.45:924][  0]LogInit: Computer: NIKPC
+[2015.01.03-00.30.45:924][  0]LogInit: User: Nikita
+[2015.01.03-00.30.45:925][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.01.03-00.30.45:925][  0]LogInit: High frequency timer resolution =1.753831 MHz
+[2015.01.03-00.30.45:925][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.01.03-00.30.45:925][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.03-00.30.45:925][  0]LogMemory: Process Physical Memory: 63.35 MB used, 63.35 MB peak
+[2015.01.03-00.30.45:925][  0]LogMemory: Process Virtual Memory: 38.57 MB used, 38.57 MB peak
+[2015.01.03-00.30.45:925][  0]LogMemory: Physical Memory: 4193.06 MB used, 8077.43 MB total
+[2015.01.03-00.30.45:926][  0]LogMemory: Virtual Memory: 282.49 MB used, 134217728.00 MB total
+[2015.01.03-00.30.45:962][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.01.03-00.30.45:962][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.01.03-00.30.45:980][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 740M    (Feature Level 11_0)
+[2015.01.03-00.30.45:980][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.01.03-00.30.45:981][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.01.03-00.30.45:981][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.01.03-00.30.45:981][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.03-00.30.45:986][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.03-00.30.46:003][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.03-00.30.46:062][  0]LogTextLocalizationManager: The requested culture ('ru_RU') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.01.03-00.30.46:286][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.03-00.30.57:477][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.03-00.30.58:645][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.03-00.30.59:053][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.03-00.31.00:594][  0]LogDerivedDataCache: Loaded boot cache 1.54s 67MB C:/Users/Nikita/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2015.01.03-00.31.00:594][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nikita/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2015.01.03-00.31.00:594][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.03-00.31.00:594][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.03-00.31.00:728][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.03-00.31.00:763][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nikita/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.03-00.31.04:511][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.03-00.31.04:511][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.03-00.31.05:461][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.03-00.31.05:525][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.03-00.31.05:773][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.03-00.31.20:693][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.03-00.31.21:821][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for F:/ExtraSoft/Git/Try1/Nikita(Boss)/SmartProjectFPS/Binaries/Win64. Error: 0
+[2015.01.03-00.31.22:463][  0]SourceControl: Info Source control is disabled
+[2015.01.03-00.31.22:463][  0]SourceControl: Info Source control is disabled
+[2015.01.03-00.31.22:472][  0]SourceControl: Info Source control is disabled
+[2015.01.03-00.31.23:157][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2015.01.03-00.31.23:157][  0]LogUObjectAllocator: 4803544 out of 0 bytes used by permanent object pool.
+[2015.01.03-00.31.23:346][  0]LogEngine: Initializing Engine...
+[2015.01.03-00.31.23:940][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.01.03-00.31.24:077][  0]LogInit: FAudioDevice initialized.
+[2015.01.03-00.31.24:235][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.03-00.31.24:292][  0]LogDerivedDataCache: Saved boot cache 0.06s 39MB C:/Users/Nikita/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2015.01.03-00.31.24:303][  0]LogInit: Texture streaming: Enabled
+[2015.01.03-00.31.24:464][  0]LogInit: Transaction tracking system initialized
+[2015.01.03-00.31.25:095][  0]BlueprintLog: New page: Editor Load
+[2015.01.03-00.31.25:158][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2015.01.03-00.31.25:158][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.01.03-00.31.26:546][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.03-00.31.27:135][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.03-00.31.28:206][  0]LogConsoleResponse:Display: 
+[2015.01.03-00.31.29:554][  0]SourceControl: Info Source control is disabled
+[2015.01.03-00.31.29:554][  0]Cmd: MAP LOAD FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.03-00.31.29:554][  0]LightingResults: New page: Lighting Build
+[2015.01.03-00.31.29:566][  0]MapCheck: New page: Map Check
+[2015.01.03-00.31.29:566][  0]LightingResults: New page: Lighting Build
+[2015.01.03-00.31.29:584][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000185B929A80
+[2015.01.03-00.31.32:979][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.03-00.31.32:980][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-00.31.32:980][  0]Cmd: MAP CHECKDEP
+[2015.01.03-00.31.32:981][  0]MapCheck: New page: Example_Map - Jan 3, 2015, 4:31:32 AM
+[2015.01.03-00.31.33:155][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 174.635ms to complete.
+[2015.01.03-00.31.33:155][  0]LogFileHelpers: Loading map 'Example_Map' took 3.601
+[2015.01.03-00.31.33:343][  0]LogCollectionManager: Loaded 0 collections in 0.001454 seconds
+[2015.01.03-00.31.33:594][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.01.03-00.31.33:681][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.01.03-00.31.33:708][  0]LogLoad: Full Startup: 51.84 seconds (BP compile: 1.06 seconds)
+[2015.01.03-00.31.34:052][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.03-00.31.34:390][  0]LogRenderer:Warning: Reallocating scene render targets to support 800x568.
+[2015.01.03-00.31.35:913][  4]LogAssetRegistry: Asset discovery search completed in 10.7672 seconds
+[2015.01.03-00.31.43:304][ 91]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.01.03-00.31.45:742][152]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.01.03-00.31.45:742][152]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.01.03-00.31.45:742][152]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.01.03-00.31.45:742][152]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.01.03-00.31.45:742][152]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.01.03-00.31.45:742][152]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2015.01.03-00.31.45:850][152]Cmd: MAP LOAD FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.03-00.31.45:850][152]LightingResults: New page: Lighting Build
+[2015.01.03-00.31.45:896][152]LoadErrors: New page: Loading map: Example_Map.umap
+[2015.01.03-00.31.45:897][152]MapCheck: New page: Map Check
+[2015.01.03-00.31.45:897][152]LightingResults: New page: Lighting Build
+[2015.01.03-00.31.45:939][152]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018567737E0
+[2015.01.03-00.31.46:097][152]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.03-00.31.46:098][152]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-00.31.46:246][152]Cmd: MAP CHECKDEP
+[2015.01.03-00.31.46:246][152]MapCheck: New page: Example_Map - Jan 3, 2015, 4:31:46 AM
+[2015.01.03-00.31.46:382][152]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 135.836ms to complete.
+[2015.01.03-00.31.46:382][152]LogFileHelpers: Loading map 'Example_Map' took 0.535
+[2015.01.03-00.31.47:537][175]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.01.03-00.31.47:537][175]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2015.01.03-00.31.47:572][175]Cmd: MAP LOAD FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.03-00.31.47:572][175]LightingResults: New page: Lighting Build
+[2015.01.03-00.31.47:624][175]LoadErrors: New page: Loading map: Level2.umap
+[2015.01.03-00.31.47:625][175]MapCheck: New page: Map Check
+[2015.01.03-00.31.47:625][175]LightingResults: New page: Lighting Build
+[2015.01.03-00.31.47:660][175]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001856A0B380
+[2015.01.03-00.31.47:685][175]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.03-00.31.47:685][175]LogAIModule: Creating AISystem for world Level2
+[2015.01.03-00.31.47:835][175]Cmd: MAP CHECKDEP
+[2015.01.03-00.31.47:836][175]MapCheck: New page: Level2 - Jan 3, 2015, 4:31:47 AM
+[2015.01.03-00.31.47:966][175]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 130.713ms to complete.
+[2015.01.03-00.31.47:966][175]LogFileHelpers: Loading map 'Level2' took 0.397
+[2015.01.03-00.31.51:317][252]LogEditorViewport: Clicking on Actor (LMB): Dummy_C (Dummy)
+[2015.01.03-00.31.52:374][275]Cmd: DELETE
+[2015.01.03-00.31.52:375][275]Cmd: ACTOR DELETE
+[2015.01.03-00.31.52:378][275]LogEditorActor: Deleted Actor: Dummy_C
+[2015.01.03-00.31.52:379][275]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.01.03-00.31.52:379][275]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_2) Not registered. Aborting.
+[2015.01.03-00.31.52:422][275]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2015.01.03-00.31.54:218][315]Cmd: DELETE
+[2015.01.03-00.31.54:218][315]Cmd: ACTOR DELETE
+[2015.01.03-00.31.54:220][315]LogEditorActor: Deleted Actor: Brush
+[2015.01.03-00.31.54:338][315]LogEditorActor: Deleted 1 Actors (0.120 secs)
+[2015.01.03-00.31.57:699][340]Cmd: MAP LOAD FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.03-00.31.57:699][340]LightingResults: New page: Lighting Build
+[2015.01.03-00.31.57:770][340]LoadErrors: New page: Loading map: Example_Map.umap
+[2015.01.03-00.31.57:771][340]MapCheck: New page: Map Check
+[2015.01.03-00.31.57:772][340]LightingResults: New page: Lighting Build
+[2015.01.03-00.31.57:825][340]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001867E77EC0
+[2015.01.03-00.31.57:856][340]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.03-00.31.57:857][340]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-00.31.57:995][340]Cmd: MAP CHECKDEP
+[2015.01.03-00.31.57:996][340]MapCheck: New page: Example_Map - Jan 3, 2015, 4:31:57 AM
+[2015.01.03-00.31.58:148][340]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 152.962ms to complete.
+[2015.01.03-00.31.58:148][340]LogFileHelpers: Loading map 'Example_Map' took 0.454
+[2015.01.03-00.31.59:824][372]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.01.03-00.31.59:824][372]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_3) Not registered. Aborting.
+[2015.01.03-00.31.59:864][372]Cmd: MAP LOAD FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.03-00.31.59:864][372]LightingResults: New page: Lighting Build
+[2015.01.03-00.31.59:912][372]LoadErrors: New page: Loading map: Level2.umap
+[2015.01.03-00.31.59:913][372]MapCheck: New page: Map Check
+[2015.01.03-00.31.59:914][372]LightingResults: New page: Lighting Build
+[2015.01.03-00.31.59:954][372]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001856A88CC0
+[2015.01.03-00.31.59:977][372]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.03-00.31.59:978][372]LogAIModule: Creating AISystem for world Level2
+[2015.01.03-00.32.00:131][372]Cmd: MAP CHECKDEP
+[2015.01.03-00.32.00:131][372]MapCheck: New page: Level2 - Jan 3, 2015, 4:32:00 AM
+[2015.01.03-00.32.00:268][372]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 136.783ms to complete.
+[2015.01.03-00.32.00:268][372]LogFileHelpers: Loading map 'Level2' took 0.406
+[2015.01.03-00.32.02:515][425]LogEditorViewport: Clicking on Actor (LMB): Dummy_C (Dummy)
+[2015.01.03-00.32.03:531][447]Cmd: DELETE
+[2015.01.03-00.32.03:531][447]Cmd: ACTOR DELETE
+[2015.01.03-00.32.03:533][447]LogEditorActor: Deleted Actor: Dummy_C
+[2015.01.03-00.32.03:534][447]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.01.03-00.32.03:534][447]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_4) Not registered. Aborting.
+[2015.01.03-00.32.03:571][447]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2015.01.03-00.32.05:861][501]Cmd: DELETE
+[2015.01.03-00.32.05:861][501]Cmd: ACTOR DELETE
+[2015.01.03-00.32.05:862][501]LogEditorActor: Deleted Actor: Brush
+[2015.01.03-00.32.05:979][501]LogEditorActor: Deleted 1 Actors (0.118 secs)
+[2015.01.03-00.32.07:639][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.01.03-00.32.07:890][531]LogSavePackage: Save=129.158401ms
+[2015.01.03-00.32.07:891][531]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Level28D72FB4D428946EE4414DDB5BD9D2D75.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Level2.umap'
+[2015.01.03-00.32.09:201][551]Cmd: MAP LOAD FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.03-00.32.09:201][551]LightingResults: New page: Lighting Build
+[2015.01.03-00.32.09:253][551]LoadErrors: New page: Loading map: Example_Map.umap
+[2015.01.03-00.32.09:255][551]MapCheck: New page: Map Check
+[2015.01.03-00.32.09:255][551]LightingResults: New page: Lighting Build
+[2015.01.03-00.32.09:283][551]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001856B5CF40
+[2015.01.03-00.32.09:329][551]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.03-00.32.09:330][551]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-00.32.09:466][551]Cmd: MAP CHECKDEP
+[2015.01.03-00.32.09:466][551]MapCheck: New page: Example_Map - Jan 3, 2015, 4:32:09 AM
+[2015.01.03-00.32.09:608][551]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 141.801ms to complete.
+[2015.01.03-00.32.09:608][551]LogFileHelpers: Loading map 'Example_Map' took 0.410
+[2015.01.03-00.32.10:603][570]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-00.32.10:603][570]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-00.32.10:680][570]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.01.03-00.32.10:680][570]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_5) Not registered. Aborting.
+[2015.01.03-00.32.10:713][570]LogPlayLevel: PIE:  Blueprint regeneration took 109 ms (1 blueprints)
+[2015.01.03-00.32.10:713][570]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 4:32:10 AM)
+[2015.01.03-00.32.10:717][570]LogNavigation:Warning: ARecastNavMesh: Unable to serialize navmesh when build is in progress or navmesh is not up to date.
+[2015.01.03-00.32.10:760][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047154s)
+[2015.01.03-00.32.10:761][570]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2015.01.03-00.32.10:762][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.048559s)
+[2015.01.03-00.32.10:985][570]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-00.32.10:987][570]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-00.32.11:021][570]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-00.32.11:021][570]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-02.32.11
+[2015.01.03-00.32.11:023][570]LogWorld: Bringing up level for play took: 0.036236
+[2015.01.03-00.32.11:029][570]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.7
+[2015.01.03-00.32.15:639][692]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-00.32.15:757][693]LogPackageName: SearchForPackageOnDisk took   0.088s to resolve Level2.umap
+[2015.01.03-00.32.15:858][694]LogPackageName: SearchForPackageOnDisk took   0.089s to resolve Level2.umap
+[2015.01.03-00.32.15:858][694]LogNet: Browse: /Game/Maps/Level2
+[2015.01.03-00.32.15:858][694]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.01.03-00.32.15:897][694]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000185F8F5940
+[2015.01.03-00.32.15:898][694]Cmd: MEM
+[2015.01.03-00.32.15:935][694]LogMemory: Platform Memory Stats for Windows
+[2015.01.03-00.32.15:935][694]LogMemory: Process Physical Memory: 470.11 MB used, 485.68 MB peak
+[2015.01.03-00.32.15:935][694]LogMemory: Process Virtual Memory: 372.51 MB used, 406.73 MB peak
+[2015.01.03-00.32.15:935][694]LogMemory: Physical Memory: 4480.72 MB used, 8077.43 MB total
+[2015.01.03-00.32.15:935][694]LogMemory: Virtual Memory: 908.73 MB used, 134217728.00 MB total
+[2015.01.03-00.32.15:935][694]LogMemory: 
+[2015.01.03-00.32.15:935][694]Allocator Stats for TBB: (not implemented)
+[2015.01.03-00.32.16:371][694]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-00.32.16:372][694]LogAIModule: Creating AISystem for world Level2
+[2015.01.03-00.32.16:378][694]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-00.32.16:378][694]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2015.01.03-02.32.16
+[2015.01.03-00.32.16:378][694]LogWorld: Bringing up level for play took: 0.005735
+[2015.01.03-00.32.18:675][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018589A8400
+[2015.01.03-00.32.29:323][  5]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-00.32.29:324][  5]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.01.03-00.32.29:395][  5]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-00.32.29:521][  5]LogPlayLevel: PIE:  Blueprint regeneration took 197 ms (2 blueprints)
+[2015.01.03-00.32.29:521][  5]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 4:32:29 AM)
+[2015.01.03-00.32.29:568][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045946s)
+[2015.01.03-00.32.29:569][  5]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2015.01.03-00.32.29:569][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.047352s)
+[2015.01.03-00.32.29:623][  5]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-00.32.29:624][  5]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-00.32.29:628][  5]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-00.32.29:628][  5]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-02.32.29
+[2015.01.03-00.32.29:629][  5]LogWorld: Bringing up level for play took: 0.004845
+[2015.01.03-00.32.29:631][  5]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.304
+[2015.01.03-00.32.47:122][545]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001867E767A0
+[2015.01.03-00.32.51:658][679]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.03-00.33.00:327][804]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2015.01.03-00.33.00:327][804]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.01.03-00.33.00:328][804]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2015.01.03-00.33.00:328][804]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.01.03-00.33.00:328][804]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_6) Not registered. Aborting.
+[2015.01.03-00.33.00:328][804]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2015.01.03-00.33.04:909][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.01.03-00.33.09:295][973]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.01.03-00.33.12:854][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.03-00.33.13:756][ 28]LogSavePackage: Save=866.954712ms
+[2015.01.03-00.33.13:757][ 28]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/MyCharacterB67A561341BCC2FE3C7D0CA4A5FBD3BA.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset'
+[2015.01.03-00.33.14:058][ 35]BlueprintLog: New page: Compile MyCharacter
+[2015.01.03-00.33.14:590][ 35]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.01.03-00.33.14:836][ 35]BlueprintEditorCompileResults: Info [0152.64] Compile of MyCharacter successful! [in 197 ms]
+[2015.01.03-00.33.40:359][449]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.40:359][449]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.40:362][449]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.40:362][449]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.40:362][449]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.40:362][449]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.40:362][449]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.40:362][449]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.40:363][449]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.40:363][449]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.40:363][449]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.40:363][449]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.40:363][449]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.40:363][449]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.40:363][449]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.40:363][449]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.40:363][449]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.41:816][485]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.41:816][485]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.41:816][485]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.41:816][485]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.41:817][485]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.33.41:817][485]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.34.08:870][121]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.34.08:871][121]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.34.08:871][121]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.34.08:871][121]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.34.08:871][121]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.34.08:871][121]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.34.20:965][410]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.34.20:965][410]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.34.52:550][151]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.35.03:661][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Dummy" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/Dummy.uasset" SILENT=true
+[2015.01.03-00.35.04:343][403]LogSavePackage: Save=572.929199ms
+[2015.01.03-00.35.04:343][403]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Dummy49A6BE5140A8BC2DD264DCA1728F330C.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/Dummy.uasset'
+[2015.01.03-00.35.18:570][792]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.35.18:570][792]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.03-00.36.39:157][ 37]BlueprintLog: New page: Compile Example_Map
+[2015.01.03-00.36.39:324][ 37]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.01.03-00.36.39:324][ 37]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
+[2015.01.03-00.36.39:324][ 37]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_7) Not registered. Aborting.
+[2015.01.03-00.36.39:324][ 37]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.01.03-00.36.39:324][ 37]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_7) Not registered. Aborting.
+[2015.01.03-00.36.39:324][ 37]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2015.01.03-00.36.39:404][ 37]BlueprintEditorCompileResults: Info [0357.36] Compile of Example_Map successful! [in 5 ms]
+[2015.01.03-00.36.40:040][ 48]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-00.36.40:202][ 48]LogPlayLevel: [PIE] Compiling Dummy before PIE...
+[2015.01.03-00.36.40:628][ 48]LogPlayLevel: [PIE] Compiling AmmoBox before PIE...
+[2015.01.03-00.36.40:750][ 48]LogPlayLevel: [PIE] Compiling HealthBox before PIE...
+[2015.01.03-00.36.40:869][ 48]LogPlayLevel: [PIE] Compiling MyHUD before PIE...
+[2015.01.03-00.36.41:040][ 48]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-00.36.41:159][ 48]LogPlayLevel: [PIE] Compiling SpawnAmmoBox before PIE...
+[2015.01.03-00.36.41:303][ 48]LogPlayLevel: [PIE] Compiling SpawnHealthBox before PIE...
+[2015.01.03-00.36.41:512][ 48]LogPlayLevel: PIE:  Blueprint regeneration took 1472 ms (7 blueprints)
+[2015.01.03-00.36.41:512][ 48]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 4:36:41 AM)
+[2015.01.03-00.36.41:561][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048368s)
+[2015.01.03-00.36.41:562][ 48]LogPlayLevel: PIE: World Init took: (0.001132s)
+[2015.01.03-00.36.41:562][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.049873s)
+[2015.01.03-00.36.41:629][ 48]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-00.36.41:631][ 48]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-00.36.41:635][ 48]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-00.36.41:635][ 48]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-02.36.41
+[2015.01.03-00.36.41:636][ 48]LogWorld: Bringing up level for play took: 0.005062
+[2015.01.03-00.36.41:638][ 48]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.311
+[2015.01.03-00.36.47:757][207]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.01.03-00.36.47:757][207]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_8) Not registered. Aborting.
+[2015.01.03-00.36.47:862][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001876CE62A0
+[2015.01.03-00.37.12:509][784]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-00.37.12:523][784]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_9) Not registered. Aborting.
+[2015.01.03-00.37.12:523][784]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.01.03-00.37.12:523][784]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_10) Not registered. Aborting.
+[2015.01.03-00.37.12:523][784]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.01.03-00.37.12:523][784]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_9) Not registered. Aborting.
+[2015.01.03-00.37.12:523][784]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_11) Not registered. Aborting.
+[2015.01.03-00.37.12:523][784]LogPlayLevel: [PIE] Compiling SpawnDummy before PIE...
+[2015.01.03-00.37.12:673][784]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-00.37.12:841][784]LogPlayLevel: PIE:  Blueprint regeneration took 332 ms (2 blueprints)
+[2015.01.03-00.37.12:841][784]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 4:37:12 AM)
+[2015.01.03-00.37.12:887][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046454s)
+[2015.01.03-00.37.12:889][784]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2015.01.03-00.37.12:889][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.047820s)
+[2015.01.03-00.37.12:940][784]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-00.37.12:941][784]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-00.37.12:945][784]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-00.37.12:945][784]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-02.37.12
+[2015.01.03-00.37.12:946][784]LogWorld: Bringing up level for play took: 0.004605
+[2015.01.03-00.37.12:948][784]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.621
+[2015.01.03-00.37.14:562][829]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-00.37.16:453][895]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.03-00.37.22:082][ 77]LogCharacterMovement: Dummy_C_3 is stuck and failed to move!
+[2015.01.03-00.37.25:190][176]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-00.37.27:082][233]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-00.37.30:402][331]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.30:440][332]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.30:473][333]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.30:507][334]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.30:539][335]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.30:573][336]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.30:606][337]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.30:640][338]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.30:676][339]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.30:677][339]LogCharacterMovement: Dummy_C_8 is stuck and failed to move!
+[2015.01.03-00.37.30:735][340]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.30:771][341]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.30:806][342]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.30:840][343]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.30:875][344]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.30:908][345]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.30:940][346]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.30:975][347]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:035][348]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:072][349]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:103][350]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:136][351]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:166][352]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:196][353]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:236][354]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:265][355]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:293][356]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:338][357]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:367][358]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:397][359]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:436][360]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:465][361]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:492][362]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:536][363]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:563][364]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:590][365]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:636][366]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:663][367]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:691][368]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:736][369]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:763][370]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:787][371]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:836][372]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:863][373]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:889][374]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:937][375]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:962][376]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.31:988][377]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.32:037][378]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.32:066][379]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.32:089][380]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.32:137][381]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.32:167][382]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.32:196][383]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.32:225][384]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.32:254][385]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.32:283][386]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.32:327][387]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.32:358][388]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.32:389][389]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.37.32:482][389]LogPackageName: SearchForPackageOnDisk took   0.092s to resolve Level2.umap
+[2015.01.03-00.37.32:592][390]LogPackageName: SearchForPackageOnDisk took   0.087s to resolve Level2.umap
+[2015.01.03-00.37.32:592][390]LogNet: Browse: /Game/Maps/Level2
+[2015.01.03-00.37.32:593][390]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.01.03-00.37.32:685][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001878C66700
+[2015.01.03-00.37.32:685][390]Cmd: MEM
+[2015.01.03-00.37.32:745][390]LogMemory: Platform Memory Stats for Windows
+[2015.01.03-00.37.32:745][390]LogMemory: Process Physical Memory: 771.17 MB used, 776.88 MB peak
+[2015.01.03-00.37.32:745][390]LogMemory: Process Virtual Memory: 676.12 MB used, 683.26 MB peak
+[2015.01.03-00.37.32:745][390]LogMemory: Physical Memory: 4811.49 MB used, 8077.43 MB total
+[2015.01.03-00.37.32:745][390]LogMemory: Virtual Memory: 1189.56 MB used, 134217728.00 MB total
+[2015.01.03-00.37.32:745][390]LogMemory: 
+[2015.01.03-00.37.32:745][390]Allocator Stats for TBB: (not implemented)
+[2015.01.03-00.37.33:136][390]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-00.37.33:138][390]LogAIModule: Creating AISystem for world Level2
+[2015.01.03-00.37.33:145][390]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-00.37.33:145][390]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2015.01.03-02.37.33
+[2015.01.03-00.37.33:145][390]LogWorld: Bringing up level for play took: 0.007019
+[2015.01.03-00.37.35:530][462]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001878C66200
+[2015.01.03-00.37.46:383][715]BlueprintLog: New page: Compile Example_Map
+[2015.01.03-00.37.46:534][715]BlueprintEditorCompileResults: Info [0424.53] Compile of Example_Map successful! [in 3 ms]
+[2015.01.03-00.37.49:245][771]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-00.37.49:251][771]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-00.37.49:395][771]LogPlayLevel: PIE:  Blueprint regeneration took 150 ms (1 blueprints)
+[2015.01.03-00.37.49:395][771]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 4:37:49 AM)
+[2015.01.03-00.37.49:448][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052165s)
+[2015.01.03-00.37.49:449][771]LogPlayLevel: PIE: World Init took: (0.001108s)
+[2015.01.03-00.37.49:449][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.053659s)
+[2015.01.03-00.37.49:498][771]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-00.37.49:500][771]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-00.37.49:505][771]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-00.37.49:505][771]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-02.37.49
+[2015.01.03-00.37.49:506][771]LogWorld: Bringing up level for play took: 0.005713
+[2015.01.03-00.37.49:510][771]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.181
+[2015.01.03-00.37.51:157][821]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-00.37.54:136][912]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-00.38.08:687][357]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-00.38.09:790][389]LogCharacterMovement: Dummy_C_13 is stuck and failed to move!
+[2015.01.03-00.38.10:880][423]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-00.38.12:466][470]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-00.38.15:466][563]LogCharacterMovement: Dummy_C_16 is stuck and failed to move!
+[2015.01.03-00.38.15:467][563]LogCharacterMovement: Dummy_C_18 is stuck and failed to move!
+[2015.01.03-00.38.17:621][629]LogCharacterMovement: Dummy_C_19 is stuck and failed to move!
+[2015.01.03-00.38.17:624][629]LogCharacterMovement: Dummy_C_17 is stuck and failed to move!
+[2015.01.03-00.38.20:842][724]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_18
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-00.38.20:842][724]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-00.38.20:966][728]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_24
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-00.38.20:967][728]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-00.38.23:280][791]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001878C65D00
+[2015.01.03-00.38.25:052][827]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-00.38.25:058][827]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-00.38.25:207][827]LogPlayLevel: PIE:  Blueprint regeneration took 154 ms (1 blueprints)
+[2015.01.03-00.38.25:207][827]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 4:38:25 AM)
+[2015.01.03-00.38.25:260][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052251s)
+[2015.01.03-00.38.25:261][827]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2015.01.03-00.38.25:261][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.053536s)
+[2015.01.03-00.38.25:304][827]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-00.38.25:305][827]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-00.38.25:310][827]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-00.38.25:310][827]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-02.38.25
+[2015.01.03-00.38.25:311][827]LogWorld: Bringing up level for play took: 0.005686
+[2015.01.03-00.38.25:315][827]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.987
+[2015.01.03-00.38.26:147][850]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-00.38.28:650][919]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.03-00.38.40:766][274]LogCharacterMovement: Dummy_C_34 is stuck and failed to move!
+[2015.01.03-00.38.40:767][274]LogCharacterMovement: Dummy_C_35 is stuck and failed to move!
+[2015.01.03-00.38.41:924][310]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-00.38.43:610][358]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_38
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0869
+[2015.01.03-00.38.43:610][358]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-00.38.43:998][370]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_38
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-00.38.43:999][370]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-00.38.44:643][381]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018691C1300
+[2015.01.03-00.38.45:850][404]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-00.38.45:854][404]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-00.38.45:988][404]LogPlayLevel: PIE:  Blueprint regeneration took 137 ms (1 blueprints)
+[2015.01.03-00.38.45:988][404]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 4:38:45 AM)
+[2015.01.03-00.38.46:043][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054243s)
+[2015.01.03-00.38.46:044][404]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2015.01.03-00.38.46:044][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.055626s)
+[2015.01.03-00.38.46:087][404]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-00.38.46:088][404]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-00.38.46:092][404]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-00.38.46:092][404]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-02.38.46
+[2015.01.03-00.38.46:093][404]LogWorld: Bringing up level for play took: 0.004859
+[2015.01.03-00.38.46:097][404]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.232
+[2015.01.03-00.38.48:309][464]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-00.38.58:107][749]LogCharacterMovement: Dummy_C_42 is stuck and failed to move!
+[2015.01.03-00.38.59:002][777]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-00.38.59:429][791]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-00.39.01:241][844]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-00.39.02:676][889]LogCharacterMovement: Dummy_C_45 is stuck and failed to move!
+[2015.01.03-00.39.03:432][912]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-00.39.10:879][135]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-00.39.13:267][205]LogCharacterMovement: Dummy_C_54 is stuck and failed to move!
+[2015.01.03-00.39.13:428][210]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.13:458][211]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.13:487][212]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.13:525][213]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.13:553][214]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.13:582][215]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.13:627][216]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.13:653][217]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.13:680][218]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.13:726][219]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.13:750][220]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.13:778][221]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.13:826][222]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.13:856][223]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.13:885][224]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.13:928][225]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.13:959][226]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.13:985][227]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:027][228]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:055][229]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:081][230]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:126][231]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:153][232]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:180][233]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:231][234]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:257][235]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:286][236]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:330][237]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:357][238]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:383][239]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:430][240]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:458][241]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:483][242]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:531][243]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:557][244]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:588][245]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:631][246]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:659][247]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:686][248]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:731][249]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:760][250]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:787][251]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:832][252]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:862][253]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:889][254]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:935][255]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:963][256]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.14:990][257]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.15:033][258]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.15:061][259]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.15:088][260]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.15:132][261]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.15:160][262]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.15:188][263]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.15:234][264]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.15:262][265]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.15:292][266]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.15:334][267]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.15:364][268]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.15:390][269]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.15:435][270]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-00.39.15:513][270]LogPackageName: SearchForPackageOnDisk took   0.077s to resolve Level2.umap
+[2015.01.03-00.39.15:615][271]LogPackageName: SearchForPackageOnDisk took   0.078s to resolve Level2.umap
+[2015.01.03-00.39.15:616][271]LogNet: Browse: /Game/Maps/Level2
+[2015.01.03-00.39.15:616][271]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.01.03-00.39.15:676][271]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001802BC5F80
+[2015.01.03-00.39.15:676][271]Cmd: MEM
+[2015.01.03-00.39.15:724][271]LogMemory: Platform Memory Stats for Windows
+[2015.01.03-00.39.15:724][271]LogMemory: Process Physical Memory: 806.22 MB used, 834.71 MB peak
+[2015.01.03-00.39.15:724][271]LogMemory: Process Virtual Memory: 712.51 MB used, 749.59 MB peak
+[2015.01.03-00.39.15:725][271]LogMemory: Physical Memory: 4838.81 MB used, 8077.43 MB total
+[2015.01.03-00.39.15:725][271]LogMemory: Virtual Memory: 1234.51 MB used, 134217728.00 MB total
+[2015.01.03-00.39.15:725][271]LogMemory: 
+[2015.01.03-00.39.15:725][271]Allocator Stats for TBB: (not implemented)
+[2015.01.03-00.39.16:043][271]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-00.39.16:045][271]LogAIModule: Creating AISystem for world Level2
+[2015.01.03-00.39.16:053][271]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-00.39.16:053][271]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2015.01.03-02.39.16
+[2015.01.03-00.39.16:053][271]LogWorld: Bringing up level for play took: 0.008416
+[2015.01.03-00.39.18:236][342]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-00.39.32:403][793]LogPackageName: SearchForPackageOnDisk took   0.074s to resolve Level2.umap
+[2015.01.03-00.39.32:495][794]LogPackageName: SearchForPackageOnDisk took   0.071s to resolve Level2.umap
+[2015.01.03-00.39.32:495][794]LogNet: Browse: /Game/Maps/Level2
+[2015.01.03-00.39.32:495][794]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.01.03-00.39.32:555][794]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001802BC4E00
+[2015.01.03-00.39.32:555][794]Cmd: MEM
+[2015.01.03-00.39.32:608][794]LogMemory: Platform Memory Stats for Windows
+[2015.01.03-00.39.32:608][794]LogMemory: Process Physical Memory: 811.19 MB used, 858.72 MB peak
+[2015.01.03-00.39.32:608][794]LogMemory: Process Virtual Memory: 717.50 MB used, 767.95 MB peak
+[2015.01.03-00.39.32:608][794]LogMemory: Physical Memory: 4847.45 MB used, 8077.43 MB total
+[2015.01.03-00.39.32:608][794]LogMemory: Virtual Memory: 1244.39 MB used, 134217728.00 MB total
+[2015.01.03-00.39.32:608][794]LogMemory: 
+[2015.01.03-00.39.32:608][794]Allocator Stats for TBB: (not implemented)
+[2015.01.03-00.39.32:926][794]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-00.39.32:930][794]LogAIModule: Creating AISystem for world Level2
+[2015.01.03-00.39.32:941][794]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-00.39.32:941][794]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2015.01.03-02.39.32
+[2015.01.03-00.39.32:942][794]LogWorld: Bringing up level for play took: 0.011842
+[2015.01.03-00.39.36:825][918]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-00.39.47:070][229]LogPackageName: SearchForPackageOnDisk took   0.085s to resolve Level2.umap
+[2015.01.03-00.39.47:163][230]LogPackageName: SearchForPackageOnDisk took   0.080s to resolve Level2.umap
+[2015.01.03-00.39.47:163][230]LogNet: Browse: /Game/Maps/Level2
+[2015.01.03-00.39.47:164][230]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.01.03-00.39.47:216][230]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001802BC4A40
+[2015.01.03-00.39.47:216][230]Cmd: MEM
+[2015.01.03-00.39.47:274][230]LogMemory: Platform Memory Stats for Windows
+[2015.01.03-00.39.47:274][230]LogMemory: Process Physical Memory: 811.36 MB used, 858.72 MB peak
+[2015.01.03-00.39.47:274][230]LogMemory: Process Virtual Memory: 717.63 MB used, 767.95 MB peak
+[2015.01.03-00.39.47:274][230]LogMemory: Physical Memory: 4846.38 MB used, 8077.43 MB total
+[2015.01.03-00.39.47:274][230]LogMemory: Virtual Memory: 1244.39 MB used, 134217728.00 MB total
+[2015.01.03-00.39.47:274][230]LogMemory: 
+[2015.01.03-00.39.47:274][230]Allocator Stats for TBB: (not implemented)
+[2015.01.03-00.39.47:580][230]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-00.39.47:582][230]LogAIModule: Creating AISystem for world Level2
+[2015.01.03-00.39.47:588][230]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-00.39.47:588][230]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2015.01.03-02.39.47
+[2015.01.03-00.39.47:589][230]LogWorld: Bringing up level for play took: 0.006679
+[2015.01.03-00.39.52:201][389]LogPackageName: SearchForPackageOnDisk took   0.072s to resolve Level2.umap
+[2015.01.03-00.39.52:299][390]LogPackageName: SearchForPackageOnDisk took   0.080s to resolve Level2.umap
+[2015.01.03-00.39.52:299][390]LogNet: Browse: /Game/Maps/Level2
+[2015.01.03-00.39.52:299][390]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.01.03-00.39.52:358][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000180613FBA0
+[2015.01.03-00.39.52:358][390]Cmd: MEM
+[2015.01.03-00.39.52:410][390]LogMemory: Platform Memory Stats for Windows
+[2015.01.03-00.39.52:410][390]LogMemory: Process Physical Memory: 811.35 MB used, 858.72 MB peak
+[2015.01.03-00.39.52:410][390]LogMemory: Process Virtual Memory: 717.61 MB used, 767.95 MB peak
+[2015.01.03-00.39.52:410][390]LogMemory: Physical Memory: 4850.51 MB used, 8077.43 MB total
+[2015.01.03-00.39.52:410][390]LogMemory: Virtual Memory: 1239.57 MB used, 134217728.00 MB total
+[2015.01.03-00.39.52:410][390]LogMemory: 
+[2015.01.03-00.39.52:410][390]Allocator Stats for TBB: (not implemented)
+[2015.01.03-00.39.52:717][390]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-00.39.52:719][390]LogAIModule: Creating AISystem for world Level2
+[2015.01.03-00.39.52:726][390]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-00.39.52:726][390]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2015.01.03-02.39.52
+[2015.01.03-00.39.52:727][390]LogWorld: Bringing up level for play took: 0.008169
+[2015.01.03-00.39.52:884][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001802BC76A0
+[2015.01.03-00.40.03:993][615]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.01.03-00.40.06:476][675]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_12) Not registered. Aborting.
+[2015.01.03-00.40.06:477][675]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.01.03-00.40.06:477][675]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_13) Not registered. Aborting.
+[2015.01.03-00.40.06:477][675]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.01.03-00.40.06:477][675]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_10) Not registered. Aborting.
+[2015.01.03-00.40.06:477][675]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_14) Not registered. Aborting.
+[2015.01.03-00.40.08:866][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SpawnDummy" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/SpawnDummy.uasset" SILENT=true
+[2015.01.03-00.40.09:534][675]LogSavePackage: Save=599.522400ms
+[2015.01.03-00.40.09:534][675]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/SpawnDummyF962B5F44A658BF08FE7298133C0E331.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/SpawnDummy.uasset'
+[2015.01.03-00.40.09:709][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.01.03-00.40.09:991][675]LogSavePackage: Save=149.109573ms
+[2015.01.03-00.40.09:992][675]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Example_Map44416F3B4FA2B8B3DA8D2082B1D9478C.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Example_Map.umap'
+[2015.01.03-00.40.10:160][675]LogFileHelpers: Saving map 'Example_Map' took 0.618
+[2015.01.03-00.40.10:166][675]Cmd: MAP LOAD FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.03-00.40.10:166][675]LightingResults: New page: Lighting Build
+[2015.01.03-00.40.10:214][675]LoadErrors: New page: Loading map: Level2.umap
+[2015.01.03-00.40.10:300][675]MapCheck: New page: Map Check
+[2015.01.03-00.40.10:300][675]LightingResults: New page: Lighting Build
+[2015.01.03-00.40.10:354][675]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018589A93A0
+[2015.01.03-00.40.10:377][675]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.03-00.40.10:378][675]LogAIModule: Creating AISystem for world Level2
+[2015.01.03-00.40.10:515][675]Cmd: MAP CHECKDEP
+[2015.01.03-00.40.10:515][675]MapCheck: New page: Level2 - Jan 3, 2015, 4:40:10 AM
+[2015.01.03-00.40.10:679][675]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 163.88ms to complete.
+[2015.01.03-00.40.10:679][675]LogFileHelpers: Loading map 'Level2' took 0.517
+[2015.01.03-00.40.26:153][133]BlueprintLog: New page: Compile Level2
+[2015.01.03-00.40.26:256][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.01.03-00.40.26:256][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_11) Not registered. Aborting.
+[2015.01.03-00.40.26:309][133]BlueprintEditorCompileResults: Info [0584.32] Compile of Level2 successful! [in 1 ms]
+[2015.01.03-00.40.28:544][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level2" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.01.03-00.40.28:754][192]LogSavePackage: Save=105.303764ms
+[2015.01.03-00.40.28:754][192]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Level238F76A2E4974D9E6AC505AB1172F880B.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Level2.umap'
+[2015.01.03-00.40.29:982][220]LoadErrors:Error: Error Failed import for IntProperty
+[2015.01.03-00.40.30:181][220]Cmd: MAP LOAD FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.03-00.40.30:181][220]LightingResults: New page: Lighting Build
+[2015.01.03-00.40.30:240][220]LoadErrors: New page: Loading map: Example_Map.umap
+[2015.01.03-00.40.30:323][220]MapCheck: New page: Map Check
+[2015.01.03-00.40.30:323][220]LightingResults: New page: Lighting Build
+[2015.01.03-00.40.30:361][220]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001856A0A660
+[2015.01.03-00.40.30:385][220]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.03-00.40.30:386][220]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-00.40.30:537][220]Cmd: MAP CHECKDEP
+[2015.01.03-00.40.30:537][220]MapCheck: New page: Example_Map - Jan 3, 2015, 4:40:30 AM
+[2015.01.03-00.40.30:690][220]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 152.663ms to complete.
+[2015.01.03-00.40.30:690][220]LogFileHelpers: Loading map 'Example_Map' took 0.512
+[2015.01.03-00.40.36:738][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.01.03-00.40.36:738][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_12) Not registered. Aborting.
+[2015.01.03-00.40.36:789][384]Cmd: MAP LOAD FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.03-00.40.36:789][384]LightingResults: New page: Lighting Build
+[2015.01.03-00.40.36:841][384]LoadErrors: New page: Loading map: Example_Map.umap
+[2015.01.03-00.40.36:842][384]MapCheck: New page: Map Check
+[2015.01.03-00.40.36:842][384]LightingResults: New page: Lighting Build
+[2015.01.03-00.40.36:878][384]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001867F0DDA0
+[2015.01.03-00.40.36:938][384]LoadErrors:Error: Error Failed import for IntProperty
+[2015.01.03-00.40.37:052][384]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.03-00.40.37:052][384]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-00.40.37:230][384]Cmd: MAP CHECKDEP
+[2015.01.03-00.40.37:230][384]MapCheck: New page: Example_Map - Jan 3, 2015, 4:40:37 AM
+[2015.01.03-00.40.37:394][384]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 164.049ms to complete.
+[2015.01.03-00.40.37:394][384]LogFileHelpers: Loading map 'Example_Map' took 0.607
+[2015.01.03-00.40.50:038][755]BlueprintLog: New page: Compile Example_Map
+[2015.01.03-00.40.50:156][755]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.01.03-00.40.50:156][755]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_13) Not registered. Aborting.
+[2015.01.03-00.40.50:214][755]BlueprintEditorCompileResults: Info [0608.20] Compile of Example_Map successful! [in 3 ms]
+[2015.01.03-00.41.39:856][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.01.03-00.41.40:066][269]LogSavePackage: Save=130.420776ms
+[2015.01.03-00.41.40:066][269]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Example_Map5C0341904331DC8F67071B92E36AFABE.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Example_Map.umap'
+[2015.01.03-00.41.44:024][387]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.01.03-00.41.46:705][446]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.01.03-00.41.48:066][469]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.03-00.51.40:609][415]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_15) Not registered. Aborting.
+[2015.01.03-00.51.40:609][415]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2015.01.03-00.51.40:609][415]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_16) Not registered. Aborting.
+[2015.01.03-00.51.40:609][415]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2015.01.03-00.51.40:609][415]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_14) Not registered. Aborting.
+[2015.01.03-00.51.40:609][415]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_17) Not registered. Aborting.
+[2015.01.03-00.51.40:662][415]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.054
+[2015.01.03-01.13.22:636][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyHUD" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/MyHUD.uasset" SILENT=true
+[2015.01.03-01.13.22:736][464]LogSavePackage: Save=79.099983ms
+[2015.01.03-01.13.22:737][464]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/MyHUDB76093414C8B0AAC4A9A789B876377CC.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/MyHUD.uasset'
+[2015.01.03-01.13.53:876][388]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.049
+[2015.01.03-01.13.53:887][388]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyHUD] ([1] browsable assets)...
+[2015.01.03-01.13.53:896][388]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyHUD]
+[2015.01.03-01.13.53:902][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyHUD" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Autosaves/Game/Blueprints/MyHUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.01.03-01.13.54:019][388]LogSavePackage: Save=87.394394ms
+[2015.01.03-01.13.54:019][388]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/MyHUD_Auto1B988F0EE4A50B5E0E0731A8553990CEF.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Autosaves/Game/Blueprints/MyHUD_Auto1.uasset'
+[2015.01.03-01.13.54:025][388]LogFileHelpers: Auto-saving content packages took 0.149
+[2015.01.03-01.14.03:695][691]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.03-01.14.03:696][691]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.03-01.14.03:697][691]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_DynamicCast_540.EdGraphPin_17254"''
+[2015.01.03-01.14.13:988][969]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.03-01.14.13:989][969]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.03-01.14.13:990][969]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_110851.EdGraphPin_15783"''
+[2015.01.03-01.16.35:502][924]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.03-01.16.35:503][924]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.03-01.16.35:504][924]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_32708.EdGraphPin_19301"''
+[2015.01.03-01.16.47:353][197]BlueprintLog: New page: Compile MyHUD
+[2015.01.03-01.16.47:625][197]BlueprintEditorCompileResults: Info [2765.59] Compile of MyHUD successful! [in 16 ms]
+[2015.01.03-01.16.48:593][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyHUD" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/MyHUD.uasset" SILENT=true
+[2015.01.03-01.16.48:711][209]LogSavePackage: Save=101.721886ms
+[2015.01.03-01.16.48:711][209]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/MyHUD501138D94AED13CC4C4B6F94F8E22AB9.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/MyHUD.uasset'
+[2015.01.03-01.16.49:455][224]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-01.16.49:460][224]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-01.16.49:614][224]LogPlayLevel: PIE:  Blueprint regeneration took 159 ms (1 blueprints)
+[2015.01.03-01.16.49:615][224]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 5:16:49 AM)
+[2015.01.03-01.16.49:661][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046071s)
+[2015.01.03-01.16.49:663][224]LogPlayLevel: PIE: World Init took: (0.002448s)
+[2015.01.03-01.16.49:664][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.049102s)
+[2015.01.03-01.16.49:716][224]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-01.16.49:717][224]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-01.16.49:720][224]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-01.16.49:720][224]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-03.16.49
+[2015.01.03-01.16.49:721][224]LogWorld: Bringing up level for play took: 0.003905
+[2015.01.03-01.16.49:724][224]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.604
+[2015.01.03-01.16.57:103][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001808DB37E0
+[2015.01.03-01.17.04:433][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyHUD" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/MyHUD.uasset" SILENT=true
+[2015.01.03-01.17.04:593][587]LogSavePackage: Save=145.101776ms
+[2015.01.03-01.17.04:594][587]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/MyHUD33376E134C44649C5D50398E06B43B73.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/MyHUD.uasset'
+[2015.01.03-01.17.05:614][605]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-01.17.05:642][605]LogPlayLevel: [PIE] Compiling MyHUD before PIE...
+[2015.01.03-01.17.05:821][605]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-01.17.05:973][605]LogPlayLevel: PIE:  Blueprint regeneration took 359 ms (2 blueprints)
+[2015.01.03-01.17.05:974][605]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 5:17:05 AM)
+[2015.01.03-01.17.06:022][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048343s)
+[2015.01.03-01.17.06:023][605]LogPlayLevel: PIE: World Init took: (0.001036s)
+[2015.01.03-01.17.06:023][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.049749s)
+[2015.01.03-01.17.06:076][605]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-01.17.06:078][605]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-01.17.06:084][605]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-01.17.06:084][605]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-03.17.06
+[2015.01.03-01.17.06:085][605]LogWorld: Bringing up level for play took: 0.006712
+[2015.01.03-01.17.06:091][605]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.236
+[2015.01.03-01.17.11:243][753]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:336][756]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:369][757]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:408][758]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:440][759]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:472][760]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:506][761]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:534][762]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:568][763]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:598][764]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:630][765]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:661][766]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:696][767]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:730][768]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:764][769]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:798][770]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:835][771]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:869][772]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:905][773]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:939][774]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.11:974][775]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.12:006][776]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.12:039][777]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.12:073][778]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.12:110][779]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.12:139][780]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.12:170][781]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.12:202][782]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.12:232][783]LogCharacterMovement: MyCharacter_C_11 is stuck and failed to move!
+[2015.01.03-01.17.13:502][821]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.17.14:443][851]LogCharacterMovement: Dummy_C_67 is stuck and failed to move!
+[2015.01.03-01.17.16:402][910]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.17.19:059][990]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.17.23:532][129]LogCharacterMovement: Dummy_C_72 is stuck and failed to move!
+[2015.01.03-01.17.27:450][251]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.17.28:202][273]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.17.31:057][361]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_75
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0869
+[2015.01.03-01.17.31:057][361]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.17.31:417][372]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_75
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-01.17.31:418][372]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.17.34:684][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018017960C0
+[2015.01.03-01.17.44:612][650]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-01.17.44:641][650]LogPlayLevel: [PIE] Compiling MyHUD before PIE...
+[2015.01.03-01.17.44:810][650]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-01.17.44:970][650]LogPlayLevel: PIE:  Blueprint regeneration took 357 ms (2 blueprints)
+[2015.01.03-01.17.44:970][650]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 5:17:44 AM)
+[2015.01.03-01.17.45:020][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049959s)
+[2015.01.03-01.17.45:021][650]LogPlayLevel: PIE: World Init took: (0.001036s)
+[2015.01.03-01.17.45:022][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.051368s)
+[2015.01.03-01.17.45:073][650]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-01.17.45:074][650]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-01.17.45:078][650]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-01.17.45:078][650]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-03.17.45
+[2015.01.03-01.17.45:079][650]LogWorld: Bringing up level for play took: 0.004845
+[2015.01.03-01.17.45:083][650]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.756
+[2015.01.03-01.17.46:865][694]Cmd: LevelEditor.ToggleImmersive
+[2015.01.03-01.17.47:146][696]LogRenderer:Warning: Reallocating scene render targets to support 1368x728.
+[2015.01.03-01.17.57:397][895]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.17.58:184][914]LogCharacterMovement: Dummy_C_82 is stuck and failed to move!
+[2015.01.03-01.18.00:807][970]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.18.01:660][988]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.18.08:651][146]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.18.09:370][163]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.18.13:835][263]LogCharacterMovement: Dummy_C_91 is stuck and failed to move!
+[2015.01.03-01.18.17:774][351]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_90
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-01.18.17:774][351]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.18.20:499][409]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001801796AC0
+[2015.01.03-01.18.22:962][448]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-01.18.22:968][448]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-01.18.23:134][448]LogPlayLevel: PIE:  Blueprint regeneration took 171 ms (1 blueprints)
+[2015.01.03-01.18.23:134][448]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 5:18:23 AM)
+[2015.01.03-01.18.23:194][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058455s)
+[2015.01.03-01.18.23:196][448]LogPlayLevel: PIE: World Init took: (0.002150s)
+[2015.01.03-01.18.23:196][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.060900s)
+[2015.01.03-01.18.23:234][448]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-01.18.23:236][448]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-01.18.23:239][448]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-01.18.23:239][448]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-03.18.23
+[2015.01.03-01.18.23:241][448]LogWorld: Bringing up level for play took: 0.004247
+[2015.01.03-01.18.23:244][448]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.916
+[2015.01.03-01.18.26:671][543]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.18.33:799][754]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.18.42:536][ 17]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.18.43:433][ 43]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.18.50:998][279]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.18.51:428][291]LogCharacterMovement: Dummy_C_110 is stuck and failed to move!
+[2015.01.03-01.18.53:876][365]LogCharacterMovement: Dummy_C_115 is stuck and failed to move!
+[2015.01.03-01.18.54:332][379]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.18.58:601][505]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001800C45E40
+[2015.01.03-01.19.00:523][555]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-01.19.00:527][555]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-01.19.00:686][555]LogPlayLevel: PIE:  Blueprint regeneration took 162 ms (1 blueprints)
+[2015.01.03-01.19.00:687][555]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 5:19:00 AM)
+[2015.01.03-01.19.00:744][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057608s)
+[2015.01.03-01.19.00:745][555]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2015.01.03-01.19.00:746][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.058981s)
+[2015.01.03-01.19.00:793][555]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-01.19.00:795][555]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-01.19.00:799][555]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-01.19.00:799][555]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-03.19.00
+[2015.01.03-01.19.00:800][555]LogWorld: Bringing up level for play took: 0.005418
+[2015.01.03-01.19.00:803][555]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.475
+[2015.01.03-01.19.04:568][676]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.19.06:550][736]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.03-01.19.09:699][835]LogCharacterMovement: Dummy_C_123 is stuck and failed to move!
+[2015.01.03-01.19.12:228][912]LogCharacterMovement: Dummy_C_124 is stuck and failed to move!
+[2015.01.03-01.19.16:019][ 31]LogCharacterMovement: Dummy_C_125 is stuck and failed to move!
+[2015.01.03-01.19.16:949][ 61]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.19.19:294][135]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.19.19:723][147]LogCharacterMovement: Dummy_C_128 is stuck and failed to move!
+[2015.01.03-01.19.20:704][177]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.19.28:356][404]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.19.33:094][547]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.19.35:507][619]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.19.40:098][755]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.19.42:223][818]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.19.42:625][830]LogCharacterMovement: Dummy_C_142 is stuck and failed to move!
+[2015.01.03-01.19.42:653][831]LogCharacterMovement: Dummy_C_142 is stuck and failed to move!
+[2015.01.03-01.19.42:754][834]LogCharacterMovement: Dummy_C_142 is stuck and failed to move!
+[2015.01.03-01.19.42:800][835]LogCharacterMovement: Dummy_C_142 is stuck and failed to move!
+[2015.01.03-01.19.42:827][836]LogCharacterMovement: Dummy_C_142 is stuck and failed to move!
+[2015.01.03-01.19.42:852][837]LogCharacterMovement: Dummy_C_142 is stuck and failed to move!
+[2015.01.03-01.19.42:901][838]LogCharacterMovement: Dummy_C_142 is stuck and failed to move!
+[2015.01.03-01.19.42:925][839]LogCharacterMovement: Dummy_C_142 is stuck and failed to move!
+[2015.01.03-01.19.42:952][840]LogCharacterMovement: Dummy_C_142 is stuck and failed to move!
+[2015.01.03-01.19.43:409][853]LogCharacterMovement: Dummy_C_141 is stuck and failed to move!
+[2015.01.03-01.19.43:437][854]LogCharacterMovement: Dummy_C_141 is stuck and failed to move!
+[2015.01.03-01.19.43:464][855]LogCharacterMovement: Dummy_C_141 is stuck and failed to move!
+[2015.01.03-01.19.43:505][856]LogCharacterMovement: Dummy_C_141 is stuck and failed to move!
+[2015.01.03-01.19.43:531][857]LogCharacterMovement: Dummy_C_141 is stuck and failed to move!
+[2015.01.03-01.19.43:558][858]LogCharacterMovement: Dummy_C_141 is stuck and failed to move!
+[2015.01.03-01.19.43:603][859]LogCharacterMovement: Dummy_C_141 is stuck and failed to move!
+[2015.01.03-01.19.43:630][860]LogCharacterMovement: Dummy_C_141 is stuck and failed to move!
+[2015.01.03-01.19.43:657][861]LogCharacterMovement: Dummy_C_141 is stuck and failed to move!
+[2015.01.03-01.19.43:707][862]LogCharacterMovement: Dummy_C_141 is stuck and failed to move!
+[2015.01.03-01.19.43:735][863]LogCharacterMovement: Dummy_C_141 is stuck and failed to move!
+[2015.01.03-01.19.43:764][864]LogCharacterMovement: Dummy_C_141 is stuck and failed to move!
+[2015.01.03-01.19.43:814][865]LogCharacterMovement: Dummy_C_141 is stuck and failed to move!
+[2015.01.03-01.19.43:840][866]LogCharacterMovement: Dummy_C_141 is stuck and failed to move!
+[2015.01.03-01.19.47:153][968]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.19.51:096][ 85]LogCharacterMovement: Dummy_C_133 is stuck and failed to move!
+[2015.01.03-01.19.54:001][171]LogCharacterMovement: Dummy_C_143 is stuck and failed to move!
+[2015.01.03-01.19.55:664][220]LogCharacterMovement: Dummy_C_138 is stuck and failed to move!
+[2015.01.03-01.19.55:665][220]LogCharacterMovement: Dummy_C_137 is stuck and failed to move!
+[2015.01.03-01.19.56:855][256]LogCharacterMovement: Dummy_C_138 is stuck and failed to move!
+[2015.01.03-01.19.56:897][257]LogCharacterMovement: Dummy_C_138 is stuck and failed to move!
+[2015.01.03-01.19.56:924][258]LogCharacterMovement: Dummy_C_138 is stuck and failed to move!
+[2015.01.03-01.19.56:954][259]LogCharacterMovement: Dummy_C_138 is stuck and failed to move!
+[2015.01.03-01.19.56:997][260]LogCharacterMovement: Dummy_C_138 is stuck and failed to move!
+[2015.01.03-01.19.57:629][279]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_143
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-01.19.57:629][279]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.19.57:655][280]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_149
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-01.19.57:655][280]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.19.58:229][297]LogCharacterMovement: Dummy_C_138 is stuck and failed to move!
+[2015.01.03-01.19.59:449][337]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.19.59:494][338]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.19.59:521][339]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.19.59:547][340]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.19.59:595][341]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.19.59:620][342]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.19.59:647][343]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.19.59:695][344]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.19.59:722][345]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.19.59:749][346]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.19.59:795][347]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.19.59:823][348]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.19.59:848][349]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.19.59:894][350]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.19.59:921][351]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.19.59:947][352]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.19.59:996][353]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:023][354]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:051][355]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:098][356]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:124][357]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:150][358]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:197][359]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:225][360]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:252][361]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:297][362]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:324][363]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:351][364]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:399][365]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:426][366]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:524][367]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:545][368]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:599][369]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:625][370]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:652][371]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:699][372]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:756][374]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:801][375]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:828][376]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:854][377]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:901][378]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.00:953][380]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:003][381]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:030][382]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:057][383]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:106][384]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:158][386]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:203][387]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:229][388]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:257][389]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:301][390]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:355][392]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:405][393]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:434][394]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:460][395]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:490][396]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:515][397]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:542][398]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:569][399]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:595][400]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:623][401]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:649][402]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:691][403]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:718][404]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:745][405]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:789][406]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:843][408]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:869][409]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:896][410]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:922][411]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:948][412]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.01:991][413]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:019][414]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:046][415]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:094][416]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:146][418]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:192][419]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:218][420]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:246][421]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:292][422]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:397][425]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:423][426]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:448][427]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:494][428]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:547][430]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:595][431]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:620][432]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:648][433]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:695][434]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:795][437]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:822][438]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:848][439]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:895][440]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:948][442]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.02:996][443]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.03:023][444]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.03:049][445]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.03:098][446]LogCharacterMovement: Dummy_C_145 is stuck and failed to move!
+[2015.01.03-01.20.09:250][627]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000180F600FE0
+[2015.01.03-01.20.10:570][649]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-01.20.10:576][649]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-01.20.10:747][649]LogPlayLevel: PIE:  Blueprint regeneration took 176 ms (1 blueprints)
+[2015.01.03-01.20.10:747][649]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 5:20:10 AM)
+[2015.01.03-01.20.10:798][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051254s)
+[2015.01.03-01.20.10:800][649]LogPlayLevel: PIE: World Init took: (0.001338s)
+[2015.01.03-01.20.10:800][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.052923s)
+[2015.01.03-01.20.10:843][649]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-01.20.10:845][649]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-01.20.10:848][649]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-01.20.10:849][649]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-03.20.10
+[2015.01.03-01.20.10:849][649]LogWorld: Bringing up level for play took: 0.004191
+[2015.01.03-01.20.10:853][649]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.525
+[2015.01.03-01.20.12:985][707]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.20.15:011][767]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.20.16:791][811]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.20.29:217][190]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.20.33:205][316]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_159
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0869
+[2015.01.03-01.20.33:206][316]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.20.33:568][329]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_159
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-01.20.33:569][329]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.20.34:482][350]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001801FB2B60
+[2015.01.03-01.20.35:752][373]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-01.20.35:757][373]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-01.20.35:926][373]LogPlayLevel: PIE:  Blueprint regeneration took 174 ms (1 blueprints)
+[2015.01.03-01.20.35:926][373]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 5:20:35 AM)
+[2015.01.03-01.20.35:974][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047513s)
+[2015.01.03-01.20.35:976][373]LogPlayLevel: PIE: World Init took: (0.001980s)
+[2015.01.03-01.20.35:976][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.049954s)
+[2015.01.03-01.20.36:021][373]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-01.20.36:023][373]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-01.20.36:027][373]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-01.20.36:027][373]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-03.20.36
+[2015.01.03-01.20.36:028][373]LogWorld: Bringing up level for play took: 0.004890
+[2015.01.03-01.20.36:031][373]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.297
+[2015.01.03-01.20.38:483][444]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.20.46:324][681]LogCharacterMovement: Dummy_C_163 is stuck and failed to move!
+[2015.01.03-01.20.51:529][841]LogCharacterMovement: Dummy_C_166 is stuck and failed to move!
+[2015.01.03-01.20.51:531][841]LogCharacterMovement: Dummy_C_164 is stuck and failed to move!
+[2015.01.03-01.20.51:996][855]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.20.52:957][884]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.20.58:099][ 38]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.20.59:816][ 89]LogCharacterMovement: Dummy_C_170 is stuck and failed to move!
+[2015.01.03-01.21.02:008][155]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.21.02:691][178]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.21.05:696][265]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_175
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0869
+[2015.01.03-01.21.05:697][265]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.21.06:093][277]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_175
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-01.21.06:094][277]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.21.07:195][302]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001801FB0EA0
+[2015.01.03-01.21.08:236][317]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-01.21.08:239][317]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-01.21.08:402][317]LogPlayLevel: PIE:  Blueprint regeneration took 166 ms (1 blueprints)
+[2015.01.03-01.21.08:402][317]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 5:21:08 AM)
+[2015.01.03-01.21.08:444][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041089s)
+[2015.01.03-01.21.08:445][317]LogPlayLevel: PIE: World Init took: (0.001124s)
+[2015.01.03-01.21.08:445][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.042586s)
+[2015.01.03-01.21.08:491][317]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-01.21.08:493][317]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-01.21.08:497][317]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-01.21.08:498][317]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-03.21.08
+[2015.01.03-01.21.08:499][317]LogWorld: Bringing up level for play took: 0.005648
+[2015.01.03-01.21.08:502][317]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.173
+[2015.01.03-01.21.11:001][388]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.21.21:447][688]LogCharacterMovement: Dummy_C_181 is stuck and failed to move!
+[2015.01.03-01.21.21:932][703]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.21.22:692][728]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.21.29:262][919]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.21.30:309][948]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.21.30:606][957]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.21.32:502][ 15]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.21.36:352][128]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.21.41:526][287]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.21.46:521][439]LogCharacterMovement: Dummy_C_188 is stuck and failed to move!
+[2015.01.03-01.21.56:881][744]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000181097E020
+[2015.01.03-01.21.58:221][775]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-01.21.58:225][775]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-01.21.58:384][775]LogPlayLevel: PIE:  Blueprint regeneration took 163 ms (1 blueprints)
+[2015.01.03-01.21.58:394][775]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 5:21:58 AM)
+[2015.01.03-01.21.58:438][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043369s)
+[2015.01.03-01.21.58:439][775]LogPlayLevel: PIE: World Init took: (0.001132s)
+[2015.01.03-01.21.58:439][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.044901s)
+[2015.01.03-01.21.58:484][775]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-01.21.58:487][775]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-01.21.58:491][775]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-01.21.58:491][775]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-03.21.58
+[2015.01.03-01.21.58:492][775]LogWorld: Bringing up level for play took: 0.005599
+[2015.01.03-01.21.58:495][775]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.167
+[2015.01.03-01.22.01:547][874]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.22.03:764][944]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.03-01.22.07:167][ 51]LogCharacterMovement: Dummy_C_209 is stuck and failed to move!
+[2015.01.03-01.22.10:904][166]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.22.15:736][305]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.22.17:132][345]LogCharacterMovement: Dummy_C_215 is stuck and failed to move!
+[2015.01.03-01.22.19:327][411]LogCharacterMovement: Dummy_C_214 is stuck and failed to move!
+[2015.01.03-01.22.21:432][478]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.22.23:123][530]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.22.24:774][580]LogCharacterMovement: Dummy_C_218 is stuck and failed to move!
+[2015.01.03-01.22.25:201][593]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.22.27:031][648]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.22.34:433][882]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.22.35:118][905]LogCharacterMovement: Dummy_C_224 is stuck and failed to move!
+[2015.01.03-01.22.35:399][914]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.22.35:958][931]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_227
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-01.22.35:958][931]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.22.41:493][105]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001814891DA0
+[2015.01.03-01.22.42:832][129]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-01.22.42:836][129]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-01.22.42:984][129]LogPlayLevel: PIE:  Blueprint regeneration took 152 ms (1 blueprints)
+[2015.01.03-01.22.42:985][129]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 5:22:42 AM)
+[2015.01.03-01.22.43:044][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058547s)
+[2015.01.03-01.22.43:045][129]LogPlayLevel: PIE: World Init took: (0.001140s)
+[2015.01.03-01.22.43:045][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.060086s)
+[2015.01.03-01.22.43:093][129]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-01.22.43:095][129]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-01.22.43:099][129]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-01.22.43:099][129]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-03.22.43
+[2015.01.03-01.22.43:100][129]LogWorld: Bringing up level for play took: 0.004829
+[2015.01.03-01.22.43:103][129]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.775
+[2015.01.03-01.22.46:268][219]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.22.47:362][251]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.03-01.22.51:626][371]LogCharacterMovement: Dummy_C_231 is stuck and failed to move!
+[2015.01.03-01.23.03:095][718]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001813538900
+[2015.01.03-01.23.04:269][745]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-01.23.04:273][745]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-01.23.04:443][745]LogPlayLevel: PIE:  Blueprint regeneration took 174 ms (1 blueprints)
+[2015.01.03-01.23.04:443][745]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 5:23:04 AM)
+[2015.01.03-01.23.04:493][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049276s)
+[2015.01.03-01.23.04:494][745]LogPlayLevel: PIE: World Init took: (0.001409s)
+[2015.01.03-01.23.04:494][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.051116s)
+[2015.01.03-01.23.04:540][745]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-01.23.04:542][745]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-01.23.04:546][745]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-01.23.04:546][745]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-03.23.04
+[2015.01.03-01.23.04:547][745]LogWorld: Bringing up level for play took: 0.004896
+[2015.01.03-01.23.04:550][745]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.222
+[2015.01.03-01.23.07:695][844]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.23.11:226][955]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.23.12:894][  4]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.23.16:499][116]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.23.18:123][165]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.23.18:942][189]LogCharacterMovement: Dummy_C_242 is stuck and failed to move!
+[2015.01.03-01.23.19:199][197]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.23.20:707][242]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.23.23:202][317]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.23.26:105][405]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.23.28:125][466]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.23.29:208][498]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.23.30:192][528]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.23.35:790][699]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_254
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0869
+[2015.01.03-01.23.35:791][699]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.23.35:817][700]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_256
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-01.23.35:817][700]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.23.35:994][705]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_255
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-01.23.35:994][705]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.23.35:994][705]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_258
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0869
+[2015.01.03-01.23.35:995][705]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.23.36:147][710]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_254
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-01.23.36:148][710]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.23.36:348][716]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_258
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-01.23.36:348][716]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.23.37:659][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001812EE9D00
+[2015.01.03-01.23.39:131][774]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-01.23.39:136][774]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-01.23.39:295][774]LogPlayLevel: PIE:  Blueprint regeneration took 163 ms (1 blueprints)
+[2015.01.03-01.23.39:295][774]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 5:23:39 AM)
+[2015.01.03-01.23.39:341][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045771s)
+[2015.01.03-01.23.39:342][774]LogPlayLevel: PIE: World Init took: (0.001222s)
+[2015.01.03-01.23.39:342][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.047360s)
+[2015.01.03-01.23.39:390][774]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-01.23.39:392][774]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-01.23.39:397][774]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-01.23.39:397][774]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-03.23.39
+[2015.01.03-01.23.39:398][774]LogWorld: Bringing up level for play took: 0.004930
+[2015.01.03-01.23.39:401][774]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.073
+[2015.01.03-01.23.42:376][859]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.23.45:675][946]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001812EE93A0
+[2015.01.03-01.23.46:230][956]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-01.23.46:234][956]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-01.23.46:389][956]LogPlayLevel: PIE:  Blueprint regeneration took 159 ms (1 blueprints)
+[2015.01.03-01.23.46:390][956]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 5:23:46 AM)
+[2015.01.03-01.23.46:438][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047491s)
+[2015.01.03-01.23.46:439][956]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2015.01.03-01.23.46:439][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.048863s)
+[2015.01.03-01.23.46:481][956]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-01.23.46:483][956]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-01.23.46:487][956]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-01.23.46:487][956]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-03.23.46
+[2015.01.03-01.23.46:488][956]LogWorld: Bringing up level for play took: 0.005511
+[2015.01.03-01.23.46:493][956]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.165
+[2015.01.03-01.23.49:429][ 43]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.23.50:646][ 81]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.23.51:906][118]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.23.54:977][210]LogCharacterMovement: Dummy_C_263 is stuck and failed to move!
+[2015.01.03-01.23.57:234][281]LogCharacterMovement: Dummy_C_265 is stuck and failed to move!
+[2015.01.03-01.23.57:505][288]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.24.01:068][395]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_268
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0869
+[2015.01.03-01.24.01:068][395]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.24.01:491][408]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_268
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-01.24.01:491][408]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.24.02:252][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001814CB2480
+[2015.01.03-01.24.03:331][442]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-01.24.03:335][442]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-01.24.03:504][442]LogPlayLevel: PIE:  Blueprint regeneration took 173 ms (1 blueprints)
+[2015.01.03-01.24.03:506][442]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 5:24:03 AM)
+[2015.01.03-01.24.03:565][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058300s)
+[2015.01.03-01.24.03:566][442]LogPlayLevel: PIE: World Init took: (0.001241s)
+[2015.01.03-01.24.03:567][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.060279s)
+[2015.01.03-01.24.03:614][442]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-01.24.03:616][442]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-01.24.03:620][442]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-01.24.03:620][442]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-03.24.03
+[2015.01.03-01.24.03:621][442]LogWorld: Bringing up level for play took: 0.005250
+[2015.01.03-01.24.03:624][442]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.296
+[2015.01.03-01.24.07:974][567]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.24.08:941][595]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.03-01.24.09:406][607]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.24.19:662][915]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.24.21:543][972]LogCharacterMovement: Dummy_C_275 is stuck and failed to move!
+[2015.01.03-01.24.23:527][ 32]LogCharacterMovement: Dummy_C_278 is stuck and failed to move!
+[2015.01.03-01.24.23:806][ 41]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.24.26:905][134]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.24.29:936][224]LogCharacterMovement: Dummy_C_280 is stuck and failed to move!
+[2015.01.03-01.24.32:705][309]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.24.34:824][374]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.24.41:060][568]LogCharacterMovement: Dummy_C_286 is stuck and failed to move!
+[2015.01.03-01.24.41:102][569]LogCharacterMovement: Dummy_C_286 is stuck and failed to move!
+[2015.01.03-01.24.41:201][572]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.24.41:836][592]LogCharacterMovement: Dummy_C_282 is stuck and failed to move!
+[2015.01.03-01.24.43:033][630]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.24.44:155][664]LogCharacterMovement: Dummy_C_282 is stuck and failed to move!
+[2015.01.03-01.24.45:350][702]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.24.46:904][748]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.24.53:893][961]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.24.54:724][985]LogCharacterMovement: Dummy_C_297 is stuck and failed to move!
+[2015.01.03-01.24.55:201][  0]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.24.56:012][ 24]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_296
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-01.24.56:012][ 24]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.24.56:074][ 26]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_289
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-01.24.56:074][ 26]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.25.00:933][168]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001815B97E20
+[2015.01.03-01.25.02:038][186]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-01.25.02:044][186]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-01.25.02:218][186]LogPlayLevel: PIE:  Blueprint regeneration took 179 ms (1 blueprints)
+[2015.01.03-01.25.02:218][186]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 5:25:02 AM)
+[2015.01.03-01.25.02:264][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046268s)
+[2015.01.03-01.25.02:266][186]LogPlayLevel: PIE: World Init took: (0.001287s)
+[2015.01.03-01.25.02:266][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.047916s)
+[2015.01.03-01.25.02:315][186]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-01.25.02:318][186]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-01.25.02:324][186]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-01.25.02:324][186]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-03.25.02
+[2015.01.03-01.25.02:325][186]LogWorld: Bringing up level for play took: 0.006457
+[2015.01.03-01.25.02:327][186]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.001
+[2015.01.03-01.25.05:231][268]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.25.08:527][366]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.03-01.25.12:646][488]LogCharacterMovement: Dummy_C_302 is stuck and failed to move!
+[2015.01.03-01.25.15:406][573]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.25.18:905][677]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.25.19:985][707]LogCharacterMovement: Dummy_C_305 is stuck and failed to move!
+[2015.01.03-01.25.22:815][794]LogCharacterMovement: Dummy_C_303 is stuck and failed to move!
+[2015.01.03-01.25.24:852][855]LogCharacterMovement: Dummy_C_307 is stuck and failed to move!
+[2015.01.03-01.25.25:291][869]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.25.26:969][919]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.25.30:688][ 29]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.25.33:458][116]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.25.33:937][132]LogCharacterMovement: Dummy_C_314 is stuck and failed to move!
+[2015.01.03-01.25.34:252][142]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.25.35:341][174]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.25.35:504][178]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.25.38:801][278]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.25.40:021][317]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.25.40:372][328]LogCharacterMovement: Dummy_C_316 is stuck and failed to move!
+[2015.01.03-01.25.41:928][375]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.25.43:346][420]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.25.44:974][463]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000181573E200
+[2015.01.03-01.25.46:093][489]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-01.25.46:100][489]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-01.25.46:248][489]LogPlayLevel: PIE:  Blueprint regeneration took 155 ms (1 blueprints)
+[2015.01.03-01.25.46:249][489]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 5:25:46 AM)
+[2015.01.03-01.25.46:297][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048551s)
+[2015.01.03-01.25.46:299][489]LogPlayLevel: PIE: World Init took: (0.001371s)
+[2015.01.03-01.25.46:299][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.050305s)
+[2015.01.03-01.25.46:349][489]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-01.25.46:350][489]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-01.25.46:355][489]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-01.25.46:355][489]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-03.25.46
+[2015.01.03-01.25.46:356][489]LogWorld: Bringing up level for play took: 0.005538
+[2015.01.03-01.25.46:359][489]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.032
+[2015.01.03-01.25.50:804][629]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.25.52:143][675]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.03-01.25.52:825][696]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.25.59:566][908]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.26.00:453][936]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.26.02:734][  3]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.26.03:755][ 34]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.26.04:149][ 45]LogCharacterMovement: Dummy_C_327 is stuck and failed to move!
+[2015.01.03-01.26.06:495][118]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.26.10:702][244]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_333
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0869
+[2015.01.03-01.26.10:703][244]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.26.11:055][255]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_333
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-01.26.11:056][255]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.26.11:373][256]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000180EEC19E0
+[2015.01.03-01.26.12:614][277]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.03-01.26.12:619][277]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.03-01.26.12:775][277]LogPlayLevel: PIE:  Blueprint regeneration took 160 ms (1 blueprints)
+[2015.01.03-01.26.12:775][277]PIE: New page: PIE session: Example_Map (Jan 3, 2015, 5:26:12 AM)
+[2015.01.03-01.26.12:834][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058394s)
+[2015.01.03-01.26.12:835][277]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2015.01.03-01.26.12:835][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.059698s)
+[2015.01.03-01.26.12:882][277]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-01.26.12:883][277]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.03-01.26.12:887][277]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-01.26.12:887][277]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.03-03.26.12
+[2015.01.03-01.26.12:889][277]LogWorld: Bringing up level for play took: 0.005684
+[2015.01.03-01.26.12:893][277]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.565
+[2015.01.03-01.26.16:543][380]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.26.17:710][412]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.03-01.26.24:017][600]LogCharacterMovement: Dummy_C_335 is stuck and failed to move!
+[2015.01.03-01.26.24:856][626]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.26.26:997][689]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.26.30:960][809]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.26.33:425][885]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.26.38:045][ 28]LogCharacterMovement: Dummy_C_343 is stuck and failed to move!
+[2015.01.03-01.26.38:898][ 54]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.26.40:089][ 91]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.26.47:179][301]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.26.47:709][312]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.26.51:892][435]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.26.52:291][448]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.26.53:528][486]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.26.54:026][500]LogCharacterMovement: Dummy_C_354 is stuck and failed to move!
+[2015.01.03-01.27.00:161][685]LogCharacterMovement: Dummy_C_360 is stuck and failed to move!
+[2015.01.03-01.27.00:192][686]LogCharacterMovement: Dummy_C_360 is stuck and failed to move!
+[2015.01.03-01.27.00:218][687]LogCharacterMovement: Dummy_C_360 is stuck and failed to move!
+[2015.01.03-01.27.00:373][692]LogCharacterMovement: Dummy_C_360 is stuck and failed to move!
+[2015.01.03-01.27.02:802][766]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.27.05:330][847]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.27.05:529][853]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.27.08:102][930]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.27.11:636][ 36]LogCharacterMovement: Dummy_C_349 is stuck and failed to move!
+[2015.01.03-01.27.11:637][ 36]LogCharacterMovement: Dummy_C_353 is stuck and failed to move!
+[2015.01.03-01.27.11:857][ 43]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.11:894][ 44]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.11:927][ 45]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.11:961][ 46]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.11:993][ 47]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:020][ 48]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:052][ 49]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:092][ 50]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:122][ 51]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:153][ 52]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:193][ 53]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:222][ 54]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:256][ 55]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:296][ 56]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:296][ 56]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.27.12:328][ 57]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:357][ 58]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:395][ 59]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:423][ 60]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:453][ 61]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:496][ 62]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:607][ 63]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:633][ 64]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:658][ 65]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:698][ 66]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:731][ 67]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:756][ 68]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:798][ 69]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:826][ 70]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:858][ 71]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:900][ 72]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:925][ 73]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:955][ 74]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.12:996][ 75]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:026][ 76]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:055][ 77]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:096][ 78]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:127][ 79]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:154][ 80]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:198][ 81]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:228][ 82]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:257][ 83]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:300][ 84]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:329][ 85]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:359][ 86]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:400][ 87]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:430][ 88]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:461][ 89]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:498][ 90]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:527][ 91]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:557][ 92]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:601][ 93]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:631][ 94]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:659][ 95]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:700][ 96]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:730][ 97]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:759][ 98]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:804][ 99]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:837][100]LogBlueprintUserMessages: SUCCESS
+[2015.01.03-01.27.13:928][100]LogPackageName: SearchForPackageOnDisk took   0.091s to resolve Level2.umap
+[2015.01.03-01.27.14:024][101]LogPackageName: SearchForPackageOnDisk took   0.076s to resolve Level2.umap
+[2015.01.03-01.27.14:024][101]LogNet: Browse: /Game/Maps/Level2
+[2015.01.03-01.27.14:024][101]LogLoad: LoadMap: /Game/Maps/Level2
+[2015.01.03-01.27.14:087][101]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000180EEC1940
+[2015.01.03-01.27.14:087][101]Cmd: MEM
+[2015.01.03-01.27.14:143][101]LogMemory: Platform Memory Stats for Windows
+[2015.01.03-01.27.14:143][101]LogMemory: Process Physical Memory: 1101.34 MB used, 1124.41 MB peak
+[2015.01.03-01.27.14:143][101]LogMemory: Process Virtual Memory: 1020.07 MB used, 1052.78 MB peak
+[2015.01.03-01.27.14:143][101]LogMemory: Physical Memory: 5141.46 MB used, 8077.43 MB total
+[2015.01.03-01.27.14:143][101]LogMemory: Virtual Memory: 1540.94 MB used, 134217728.00 MB total
+[2015.01.03-01.27.14:143][101]LogMemory: 
+[2015.01.03-01.27.14:143][101]Allocator Stats for TBB: (not implemented)
+[2015.01.03-01.27.14:371][101]LoadErrors:Error: Error Failed import for IntProperty
+[2015.01.03-01.27.14:374][101]LogWorld: Game class is 'MyGame_C'
+[2015.01.03-01.27.14:375][101]LogAIModule: Creating AISystem for world Level2
+[2015.01.03-01.27.14:382][101]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.03-01.27.14:382][101]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2015.01.03-03.27.14
+[2015.01.03-01.27.14:383][101]LogWorld: Bringing up level for play took: 0.007112
+[2015.01.03-01.27.31:402][637]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.27.34:231][720]LogCharacterMovement: Dummy_C_375 is stuck and failed to move!
+[2015.01.03-01.27.34:703][734]LogBlueprintUserMessages: ShotGun
+[2015.01.03-01.27.47:004][118]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.27.48:147][152]LogCharacterMovement: Dummy_C_381 is stuck and failed to move!
+[2015.01.03-01.27.50:222][215]LogCharacterMovement: Dummy_C_386 is stuck and failed to move!
+[2015.01.03-01.27.52:578][287]LogCharacterMovement: Dummy_C_382 is stuck and failed to move!
+[2015.01.03-01.27.52:580][287]LogCharacterMovement: Dummy_C_388 is stuck and failed to move!
+[2015.01.03-01.27.54:728][351]LogCharacterMovement: Dummy_C_390 is stuck and failed to move!
+[2015.01.03-01.27.54:728][351]LogCharacterMovement: Dummy_C_387 is stuck and failed to move!
+[2015.01.03-01.27.57:527][438]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.28.01:604][556]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.28.06:970][717]LogCharacterMovement: Dummy_C_399 is stuck and failed to move!
+[2015.01.03-01.28.09:341][788]LogBlueprintUserMessages: AutoWeapon
+[2015.01.03-01.28.09:437][791]LogCharacterMovement: Dummy_C_401 is stuck and failed to move!
+[2015.01.03-01.28.09:464][792]LogCharacterMovement: Dummy_C_401 is stuck and failed to move!
+[2015.01.03-01.28.09:566][795]LogCharacterMovement: Dummy_C_401 is stuck and failed to move!
+[2015.01.03-01.28.17:635][ 30]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.03-01.28.20:426][114]LogCharacterMovement: Dummy_C_401 is stuck and failed to move!
+[2015.01.03-01.28.25:727][278]LogCharacterMovement: Dummy_C_407 is stuck and failed to move!
+[2015.01.03-01.28.27:828][341]LogCharacterMovement: Dummy_C_409 is stuck and failed to move!
+[2015.01.03-01.28.32:032][466]LogCharacterMovement: Dummy_C_406 is stuck and failed to move!
+[2015.01.03-01.28.35:409][570]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.Dummy_C_419
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0869
+[2015.01.03-01.28.35:409][570]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.28.35:793][583]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Level2.Level2:PersistentLevel.Dummy_C_419
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.03-01.28.35:794][583]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.03-01.28.36:803][613]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001819072200
+[2015.01.03-01.28.39:624][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.01.03-01.28.39:629][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_18) Not registered. Aborting.
+[2015.01.03-01.28.39:629][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2015.01.03-01.28.39:629][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_19) Not registered. Aborting.
+[2015.01.03-01.28.39:630][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2015.01.03-01.28.39:630][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_15) Not registered. Aborting.
+[2015.01.03-01.28.39:630][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_20) Not registered. Aborting.
+[2015.01.03-01.28.39:929][668]LogSavePackage: Save=142.392288ms
+[2015.01.03-01.28.39:929][668]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Example_Map3E2431004F0BBFEBD4B79B956DD2AFB0.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Example_Map.umap'
+[2015.01.03-01.28.41:524][691]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.01.03-01.28.42:140][700]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.01.03-01.28.44:397][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_21) Not registered. Aborting.
+[2015.01.03-01.28.44:397][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2015.01.03-01.28.44:397][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_22) Not registered. Aborting.
+[2015.01.03-01.28.44:397][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2015.01.03-01.28.44:397][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_16) Not registered. Aborting.
+[2015.01.03-01.28.44:397][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_23) Not registered. Aborting.
+[2015.01.03-01.28.45:750][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyHUD" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/MyHUD.uasset" SILENT=true
+[2015.01.03-01.28.45:933][753]LogSavePackage: Save=152.670929ms
+[2015.01.03-01.28.45:933][753]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/MyHUD1F23E69C4252178FAC7BEDA0FDDCC971.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/MyHUD.uasset'
+[2015.01.03-01.28.48:258][754]Cmd: QUIT_EDITOR
+[2015.01.03-01.28.49:019][754]LogExit: Preparing to exit.
+[2015.01.03-01.28.49:916][754]LogExit: Editor shut down
+[2015.01.03-01.28.49:917][754]LogExit: Transaction tracking system shut down
+[2015.01.03-01.28.49:919][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000187CDE0D60
+[2015.01.03-01.28.49:919][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001871EA49A0
+[2015.01.03-01.28.49:920][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001862DF0CC0
+[2015.01.03-01.28.49:920][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000185F64C4A0
+[2015.01.03-01.28.49:922][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018589A9620
+[2015.01.03-01.28.49:922][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018589A8E00
+[2015.01.03-01.28.49:922][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001856CFA200
+[2015.01.03-01.28.49:922][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001856F43CE0
+[2015.01.03-01.28.51:570][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001862172F20
+[2015.01.03-01.28.51:570][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001867E765C0
+[2015.01.03-01.28.51:570][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001867E76340
+[2015.01.03-01.28.51:570][754]LogExit: Object subsystem successfully closed.
+[2015.01.03-01.28.51:839][754]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
+[2015.01.03-01.28.51:839][754]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
+[2015.01.03-01.28.51:839][754]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
+[2015.01.03-01.28.51:839][754]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
+[2015.01.03-01.28.51:839][754]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2015.01.03-01.28.51:839][754]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2015.01.03-01.28.51:847][754]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2015.01.03-01.28.51:872][754]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2015.01.03-01.28.51:889][754]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2015.01.03-01.28.51:916][754]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2015.01.03-01.28.51:930][754]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2015.01.03-01.28.51:930][754]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2015.01.03-01.28.51:930][754]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2015.01.03-01.28.51:930][754]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2015.01.03-01.28.51:930][754]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2015.01.03-01.28.51:930][754]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2015.01.03-01.28.51:930][754]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2015.01.03-01.28.51:930][754]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2015.01.03-01.28.51:949][754]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2015.01.03-01.28.51:979][754]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2015.01.03-01.28.51:979][754]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2015.01.03-01.28.51:979][754]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2015.01.03-01.28.51:980][754]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2015.01.03-01.28.51:991][754]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2015.01.03-01.28.51:991][754]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2015.01.03-01.28.52:007][754]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2015.01.03-01.28.52:007][754]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2015.01.03-01.28.52:007][754]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2015.01.03-01.28.52:019][754]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2015.01.03-01.28.52:019][754]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2015.01.03-01.28.52:020][754]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2015.01.03-01.28.52:020][754]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2015.01.03-01.28.52:020][754]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2015.01.03-01.28.52:020][754]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2015.01.03-01.28.52:020][754]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2015.01.03-01.28.52:106][754]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2015.01.03-01.28.52:106][754]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2015.01.03-01.28.52:151][754]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2015.01.03-01.28.52:158][754]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2015.01.03-01.28.52:166][754]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2015.01.03-01.28.52:195][754]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2015.01.03-01.28.52:195][754]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2015.01.03-01.28.52:212][754]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2015.01.03-01.28.52:254][754]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2015.01.03-01.28.52:312][754]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2015.01.03-01.28.52:334][754]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2015.01.03-01.28.52:334][754]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2015.01.03-01.28.52:338][754]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2015.01.03-01.28.52:339][754]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2015.01.03-01.28.52:363][754]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2015.01.03-01.28.52:439][754]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2015.01.03-01.28.52:451][754]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2015.01.03-01.28.52:451][754]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2015.01.03-01.28.52:451][754]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2015.01.03-01.28.52:451][754]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2015.01.03-01.28.52:466][754]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2015.01.03-01.28.52:517][754]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2015.01.03-01.28.52:517][754]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2015.01.03-01.28.52:525][754]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2015.01.03-01.28.52:525][754]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2015.01.03-01.28.52:539][754]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2015.01.03-01.28.52:539][754]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2015.01.03-01.28.52:539][754]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2015.01.03-01.28.52:539][754]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2015.01.03-01.28.52:539][754]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2015.01.03-01.28.52:546][754]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2015.01.03-01.28.52:560][754]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2015.01.03-01.28.52:684][754]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2015.01.03-01.28.52:697][754]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2015.01.03-01.28.52:697][754]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2015.01.03-01.28.52:697][754]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2015.01.03-01.28.52:697][754]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2015.01.03-01.28.52:697][754]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2015.01.03-01.28.52:714][754]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2015.01.03-01.28.52:724][754]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2015.01.03-01.28.52:724][754]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2015.01.03-01.28.52:743][754]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2015.01.03-01.28.52:743][754]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2015.01.03-01.28.52:769][754]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2015.01.03-01.28.52:769][754]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2015.01.03-01.28.52:769][754]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2015.01.03-01.28.52:792][754]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2015.01.03-01.28.52:792][754]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2015.01.03-01.28.52:815][754]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2015.01.03-01.28.52:815][754]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2015.01.03-01.28.52:840][754]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2015.01.03-01.28.52:840][754]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2015.01.03-01.28.52:852][754]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2015.01.03-01.28.52:852][754]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2015.01.03-01.28.52:853][754]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2015.01.03-01.28.52:853][754]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2015.01.03-01.28.52:853][754]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2015.01.03-01.28.52:853][754]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2015.01.03-01.28.52:854][754]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2015.01.03-01.28.52:854][754]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2015.01.03-01.28.52:854][754]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2015.01.03-01.28.52:880][754]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2015.01.03-01.28.52:897][754]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2015.01.03-01.28.52:998][754]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2015.01.03-01.28.53:005][754]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2015.01.03-01.28.53:009][754]LogModuleManager: Shutting down and abandoning module Media (66)
+[2015.01.03-01.28.53:009][754]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2015.01.03-01.28.53:010][754]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2015.01.03-01.28.53:010][754]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2015.01.03-01.28.53:010][754]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2015.01.03-01.28.53:021][754]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2015.01.03-01.28.53:022][754]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2015.01.03-01.28.53:022][754]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2015.01.03-01.28.53:115][754]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2015.01.03-01.28.53:143][754]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2015.01.03-01.28.53:160][754]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2015.01.03-01.28.53:168][754]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2015.01.03-01.28.53:168][754]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2015.01.03-01.28.53:174][754]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2015.01.03-01.28.53:174][754]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2015.01.03-01.28.53:174][754]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2015.01.03-01.28.53:174][754]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2015.01.03-01.28.53:174][754]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2015.01.03-01.28.53:174][754]LogModuleManager: Shutting down and abandoning module Core (47)
+[2015.01.03-01.28.53:174][754]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2015.01.03-01.28.53:174][754]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2015.01.03-01.28.53:174][754]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2015.01.03-01.28.53:193][754]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2015.01.03-01.28.53:291][754]LogDerivedDataCache: Shutdown
+[2015.01.03-01.28.53:291][754]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2015.01.03-01.28.53:301][754]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2015.01.03-01.28.53:301][754]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2015.01.03-01.28.53:312][754]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2015.01.03-01.28.53:312][754]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2015.01.03-01.28.53:312][754]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2015.01.03-01.28.53:312][754]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2015.01.03-01.28.53:312][754]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2015.01.03-01.28.53:328][754]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2015.01.03-01.28.53:328][754]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2015.01.03-01.28.53:328][754]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2015.01.03-01.28.53:328][754]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2015.01.03-01.28.53:328][754]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2015.01.03-01.28.53:328][754]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2015.01.03-01.28.53:328][754]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2015.01.03-01.28.53:328][754]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.01.03-01.28.53:328][754]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.01.03-01.28.53:328][754]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.01.03-01.28.53:329][754]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.01.03-01.28.53:329][754]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.01.03-01.28.53:329][754]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.01.03-01.28.53:329][754]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.01.03-01.28.53:329][754]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.01.03-01.28.53:329][754]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.01.03-01.28.53:329][754]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.01.03-01.28.53:329][754]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2015.01.03-01.28.53:329][754]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2015.01.03-01.28.53:342][754]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2015.01.03-01.28.53:343][754]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2015.01.03-01.28.53:343][754]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2015.01.03-01.28.53:343][754]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.01.03-01.28.53:381][754]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.01.03-01.28.53:381][754]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.01.03-01.28.53:381][754]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.01.03-01.28.53:381][754]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.01.03-01.28.53:381][754]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.01.03-01.28.53:381][754]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.01.03-01.28.53:381][754]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.01.03-01.28.53:381][754]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.01.03-01.28.53:381][754]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.01.03-01.28.53:453][754]LogExit: Exiting.
+[2015.01.03-01.28.53:459][754]Log file closed, 01/03/15 03:28:53
