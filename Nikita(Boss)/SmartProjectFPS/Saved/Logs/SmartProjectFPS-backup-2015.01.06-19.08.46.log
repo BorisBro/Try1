@@ -1,0 +1,1414 @@
+﻿Log file open, 01/06/15 01:29:57
+LogInit:Display: Running engine for game: SmartProjectFPS
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line: 
+LogInit: Base directory: F:/ExtraSoft/UnrealEngine/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.01.05-23.29.57:817][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.01.05-23.29.57:854][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.05-23.29.57:892][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.05-23.29.57:908][  0]LogInit: Object subsystem initialized
+[2015.01.05-23.29.57:912][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.01.05-23.29.57:912][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/ExtraSoft/Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.05-23.29.57:912][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.01.05-23.29.57:912][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/ExtraSoft/Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.05-23.29.57:913][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.05-23.29.57:913][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.05-23.29.57:921][  0]LogInit: Computer: NIKPC
+[2015.01.05-23.29.57:921][  0]LogInit: User: Nikita
+[2015.01.05-23.29.57:924][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.01.05-23.29.57:924][  0]LogInit: High frequency timer resolution =1.753830 MHz
+[2015.01.05-23.29.57:924][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.01.05-23.29.57:924][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.05-23.29.57:924][  0]LogMemory: Process Physical Memory: 66.72 MB used, 66.72 MB peak
+[2015.01.05-23.29.57:924][  0]LogMemory: Process Virtual Memory: 41.90 MB used, 41.90 MB peak
+[2015.01.05-23.29.57:924][  0]LogMemory: Physical Memory: 2881.91 MB used, 8077.32 MB total
+[2015.01.05-23.29.57:924][  0]LogMemory: Virtual Memory: 285.87 MB used, 134217728.00 MB total
+[2015.01.05-23.29.58:414][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.01.05-23.29.58:414][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.01.05-23.29.58:429][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 740M    (Feature Level 11_0)
+[2015.01.05-23.29.58:429][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.01.05-23.29.58:430][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.01.05-23.29.58:430][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.01.05-23.29.58:431][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.05-23.29.58:434][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.05-23.29.58:449][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.05-23.29.58:501][  0]LogTextLocalizationManager: The requested culture ('ru_RU') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.01.05-23.29.58:725][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.05-23.30.05:397][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.05-23.30.06:056][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.05-23.30.06:126][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.05-23.30.06:762][  0]LogDerivedDataCache: Loaded boot cache 0.64s 39MB C:/Users/Nikita/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2015.01.05-23.30.06:762][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nikita/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2015.01.05-23.30.06:762][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.05-23.30.06:762][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.05-23.30.06:848][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.05-23.30.06:863][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nikita/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.05-23.30.07:104][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.05-23.30.07:104][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.05-23.30.07:399][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.05-23.30.07:403][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.05-23.30.07:626][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.05-23.30.08:676][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.05-23.30.08:882][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for F:/ExtraSoft/Git/Try1/Nikita(Boss)/SmartProjectFPS/Binaries/Win64. Error: 0
+[2015.01.05-23.30.09:047][  0]SourceControl: Info Source control is disabled
+[2015.01.05-23.30.09:047][  0]SourceControl: Info Source control is disabled
+[2015.01.05-23.30.09:059][  0]SourceControl: Info Source control is disabled
+[2015.01.05-23.30.09:205][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2015.01.05-23.30.09:205][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2015.01.05-23.30.09:281][  0]LogEngine: Initializing Engine...
+[2015.01.05-23.30.09:470][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.01.05-23.30.09:481][  0]LogInit: FAudioDevice initialized.
+[2015.01.05-23.30.09:506][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.05-23.30.09:530][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Nikita/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2015.01.05-23.30.09:556][  0]LogInit: Texture streaming: Enabled
+[2015.01.05-23.30.09:616][  0]LogInit: Transaction tracking system initialized
+[2015.01.05-23.30.09:728][  0]BlueprintLog: New page: Editor Load
+[2015.01.05-23.30.09:761][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.01.05-23.30.09:762][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.01.05-23.30.10:528][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.05-23.30.11:051][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.05-23.30.11:370][  0]LogConsoleResponse:Display: 
+[2015.01.05-23.30.11:619][  0]SourceControl: Info Source control is disabled
+[2015.01.05-23.30.11:619][  0]Cmd: MAP LOAD FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.05-23.30.11:619][  0]LightingResults: New page: Lighting Build
+[2015.01.05-23.30.11:630][  0]MapCheck: New page: Map Check
+[2015.01.05-23.30.11:630][  0]LightingResults: New page: Lighting Build
+[2015.01.05-23.30.11:652][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000052E6BD9A80
+[2015.01.05-23.30.13:813][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.05-23.30.13:814][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.05-23.30.13:814][  0]Cmd: MAP CHECKDEP
+[2015.01.05-23.30.13:815][  0]MapCheck: New page: Example_Map - Jan 6, 2015, 3:30:13 AM
+[2015.01.05-23.30.13:983][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 167.786ms to complete.
+[2015.01.05-23.30.13:983][  0]LogFileHelpers: Loading map 'Example_Map' took 2.363
+[2015.01.05-23.30.14:073][  0]LogCollectionManager: Loaded 0 collections in 0.001155 seconds
+[2015.01.05-23.30.14:236][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.01.05-23.30.14:419][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.01.05-23.30.14:446][  0]LogLoad: Full Startup: 19.45 seconds (BP compile: 1.04 seconds)
+[2015.01.05-23.30.14:790][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles'
+[2015.01.05-23.30.14:982][  0]LogRenderer:Warning: Reallocating scene render targets to support 848x568.
+[2015.01.05-23.30.16:413][  4]LogAssetRegistry: Asset discovery search completed in 6.6632 seconds
+[2015.01.05-23.30.40:682][226]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/box_wood.FBX)
+[2015.01.05-23.30.40:877][226]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.01.05-23.30.40:877][226]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.01.05-23.30.40:877][226]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.01.05-23.30.40:877][226]LogFbx: ItemName: Model, ItemCount : 1
+[2015.01.05-23.30.40:877][226]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.01.05-23.30.40:878][226]LogFbx: ItemName: Object, ItemCount : 3
+[2015.01.05-23.30.53:327][295]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.01.05-23.30.56:115][353]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.01.05-23.31.00:914][427]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/box_wood.FBX)
+[2015.01.05-23.31.00:916][427]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.01.05-23.31.00:916][427]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.01.05-23.31.00:917][427]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.01.05-23.31.00:917][427]LogFbx: ItemName: Model, ItemCount : 1
+[2015.01.05-23.31.00:917][427]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.01.05-23.31.00:917][427]LogFbx: ItemName: Object, ItemCount : 3
+[2015.01.05-23.31.06:169][427]LogFbx: Loading FBX Scene from ../../../../../../Documents/box_wood.FBX
+[2015.01.05-23.31.06:201][427]LogFbx: FBX Scene Loaded Succesfully
+[2015.01.05-23.31.06:225][427]LogFbx:Warning: Triangulating static mesh Box001
+[2015.01.05-23.31.06:251][427]LogFbx: == Initial material list:
+[2015.01.05-23.31.06:251][427]LogFbx: 0: None
+[2015.01.05-23.31.06:265][427]LogFbx: == After sorting:
+[2015.01.05-23.31.06:265][427]LogFbx: 0: None
+[2015.01.05-23.31.06:265][427]LogFbx: == Mapping table:
+[2015.01.05-23.31.06:265][427]LogFbx:   sort 0 -> 0
+[2015.01.05-23.31.06:291][427]LogStaticMesh: Building static mesh box_wood...
+[2015.01.05-23.31.06:311][427]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.01.05-23.31.06:312][427]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.05-23.31.06:312][427]LogLayoutUV:Display:   Rasterize: 230
+[2015.01.05-23.31.06:312][427]LogLayoutUV:Display:   Find: 194
+[2015.01.05-23.31.06:312][427]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.05-23.31.06:312][427]LogLayoutUV:Display:   Rasterize: 252
+[2015.01.05-23.31.06:312][427]LogLayoutUV:Display:   Find: 381
+[2015.01.05-23.31.06:314][427]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.05-23.31.06:314][427]LogLayoutUV:Display:   Rasterize: 254
+[2015.01.05-23.31.06:314][427]LogLayoutUV:Display:   Find: 378
+[2015.01.05-23.31.06:329][427]LogStaticMesh: Built static mesh [39.242687ms] /Game/StarterContent/Props/box_wood.box_wood
+[2015.01.05-23.31.06:421][427]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.01.05-23.31.06:582][427]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.01.05-23.31.06:583][427]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.01.05-23.31.19:527][678]LogActorFactory: Actor Factory created box_wood
+[2015.01.05-23.31.20:234][692]LogActorFactory: Actor Factory created box_wood
+[2015.01.05-23.31.24:385][800]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2015.01.05-23.31.40:225][181]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (box_wood)
+[2015.01.05-23.31.51:420][471]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props/Materials'
+[2015.01.05-23.31.55:127][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (box_wood)
+[2015.01.05-23.31.55:229][555]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (box_wood)
+[2015.01.05-23.31.57:786][628]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (box_wood)
+[2015.01.05-23.31.58:414][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (box_wood)
+[2015.01.05-23.31.58:545][652]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (box_wood)
+[2015.01.05-23.32.04:138][766]LogRenderer:Warning: Reallocating scene render targets to support 1016x592.
+[2015.01.05-23.33.45:438][424]Cmd: SELECT NONE
+[2015.01.05-23.33.59:950][594]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (box_wood)
+[2015.01.05-23.34.00:413][605]Cmd: DELETE
+[2015.01.05-23.34.00:413][605]Cmd: ACTOR DELETE
+[2015.01.05-23.34.00:415][605]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.01.05-23.34.00:415][605]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.01.05-23.34.00:415][605]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.01.05-23.34.00:497][605]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000052EAF209A0
+[2015.01.05-23.34.00:521][605]LogEditorActor: Deleted 1 Actors (0.108 secs)
+[2015.01.05-23.34.07:933][642]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/box_wood.FBX)
+[2015.01.05-23.34.07:936][642]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.01.05-23.34.07:936][642]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.01.05-23.34.07:936][642]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.01.05-23.34.07:936][642]LogFbx: ItemName: Model, ItemCount : 1
+[2015.01.05-23.34.07:937][642]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.01.05-23.34.07:937][642]LogFbx: ItemName: Object, ItemCount : 3
+[2015.01.05-23.34.16:696][642]LogFbx: Loading FBX Scene from ../../../../../../Documents/box_wood.FBX
+[2015.01.05-23.34.16:705][642]LogFbx: FBX Scene Loaded Succesfully
+[2015.01.05-23.34.16:708][642]LogFbx:Warning: Triangulating static mesh Box001
+[2015.01.05-23.34.16:711][642]LogFbx: == Initial material list:
+[2015.01.05-23.34.16:711][642]LogFbx: 0: None
+[2015.01.05-23.34.16:711][642]LogFbx: == After sorting:
+[2015.01.05-23.34.16:711][642]LogFbx: 0: None
+[2015.01.05-23.34.16:711][642]LogFbx: == Mapping table:
+[2015.01.05-23.34.16:711][642]LogFbx:   sort 0 -> 0
+[2015.01.05-23.34.16:712][642]LogStaticMesh: Building static mesh box_wood...
+[2015.01.05-23.34.16:712][642]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.01.05-23.34.16:713][642]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.05-23.34.16:713][642]LogLayoutUV:Display:   Rasterize: 296
+[2015.01.05-23.34.16:713][642]LogLayoutUV:Display:   Find: 278
+[2015.01.05-23.34.16:714][642]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.05-23.34.16:714][642]LogLayoutUV:Display:   Rasterize: 402
+[2015.01.05-23.34.16:714][642]LogLayoutUV:Display:   Find: 575
+[2015.01.05-23.34.16:715][642]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.05-23.34.16:715][642]LogLayoutUV:Display:   Rasterize: 252
+[2015.01.05-23.34.16:715][642]LogLayoutUV:Display:   Find: 380
+[2015.01.05-23.34.16:715][642]LogStaticMesh: Built static mesh [4.279206ms] /Game/StarterContent/Props/box_wood.box_wood
+[2015.01.05-23.34.16:721][642]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.01.05-23.34.16:729][642]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.01.05-23.34.16:729][642]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.01.05-23.35.36:782][202]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/box_wood.FBX)
+[2015.01.05-23.35.36:785][202]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.01.05-23.35.36:785][202]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.01.05-23.35.36:785][202]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.01.05-23.35.36:785][202]LogFbx: ItemName: Model, ItemCount : 1
+[2015.01.05-23.35.36:785][202]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.01.05-23.35.36:785][202]LogFbx: ItemName: Object, ItemCount : 3
+[2015.01.05-23.39.47:192][385]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.05-23.39.47:192][385]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.01.05-23.39.47:259][385]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.05-23.39.47:384][385]LogPlayLevel: PIE:  Blueprint regeneration took 192 ms (2 blueprints)
+[2015.01.05-23.39.47:385][385]PIE: New page: PIE session: Example_Map (Jan 6, 2015, 3:39:47 AM)
+[2015.01.05-23.39.47:458][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073114s)
+[2015.01.05-23.39.47:459][385]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2015.01.05-23.39.47:459][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.074345s)
+[2015.01.05-23.39.47:704][385]LogWorld: Game class is 'MyGame_C'
+[2015.01.05-23.39.47:706][385]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.05-23.39.47:852][385]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.05-23.39.47:852][385]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.06-01.39.47
+[2015.01.05-23.39.47:853][385]LogWorld: Bringing up level for play took: 0.147272
+[2015.01.05-23.39.47:881][385]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.01.05-23.39.47:882][385]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.271
+[2015.01.05-23.39.48:683][405]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.05-23.39.54:288][561]LogBlueprintUserMessages: AutoWeapon
+[2015.01.05-23.39.56:832][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000052E0A4D620
+[2015.01.05-23.40.24:973][841]LogSavePackage: Save=174.200470ms
+[2015.01.05-23.40.24:973][841]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Example_Map_Auto105BC5FA548D4471AC510479CD1B8B3DB.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Autosaves/Game/Maps/Example_Map_Auto1.umap'
+[2015.01.05-23.40.24:991][841]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.306
+[2015.01.05-23.40.24:991][841]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.306
+[2015.01.05-23.40.25:000][841]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/box_wood] ([1] browsable assets)...
+[2015.01.05-23.40.25:040][841]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Props/box_wood.box_wood]
+[2015.01.05-23.40.25:040][841]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/box_wood]
+[2015.01.05-23.40.25:428][841]LogSavePackage: Save=343.946686ms
+[2015.01.05-23.40.25:428][841]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/box_wood_Auto11F8FFCAB454B75A5E76912A6117D292D.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Autosaves/Game/StarterContent/Props/box_wood_Auto1.uasset'
+[2015.01.05-23.40.25:480][841]LogFileHelpers: Auto-saving content packages took 0.488
+[2015.01.05-23.40.26:485][863]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.01.05-23.40.27:418][883]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2015.01.05-23.40.28:137][903]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.01.05-23.40.31:112][934]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Documents/Wooden Box.jpg)
+[2015.01.05-23.40.31:320][934]0.000033 seconds to analyze Texture2D /Game/Textures/Wooden_Box.Wooden_Box
+
+[2015.01.05-23.40.31:329][934]LogTexture:Display: Building textures: Wooden_Box (AutoDXT)
+[2015.01.05-23.40.31:511][934]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.01.05-23.40.31:512][934]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.01.05-23.40.39:877][130]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.01.05-23.40.40:582][148]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles'
+[2015.01.05-23.40.41:558][179]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.01.05-23.40.55:749][614]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.40.55:749][614]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.40.55:749][614]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.40.59:662][696]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.01.05-23.41.21:656][255]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props/Materials'
+[2015.01.05-23.41.22:114][265]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.01.05-23.41.23:434][288]LogActorFactory: Actor Factory created box_wood
+[2015.01.05-23.41.24:405][307]LogActorFactory: Actor Factory created box_wood
+[2015.01.05-23.41.25:729][335]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.01.05-23.41.28:089][402]LogMaterial: Missing cached shader map for material Wooden_Box_Mat, compiling.
+[2015.01.05-23.41.42:364][702]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.41.42:470][702]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.01.05-23.41.43:105][702]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.01.05-23.41.43:105][702]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.01.05-23.41.43:105][702]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.01.05-23.41.43:105][702]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.01.05-23.41.43:168][702]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.41.43:210][702]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2015.01.05-23.41.49:421][824]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.01.05-23.41.49:422][824]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.01.05-23.41.49:422][824]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.01.05-23.44.42:028][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (box_wood)
+[2015.01.05-23.45.23:745][904]Cmd: TRANSACTION UNDO
+[2015.01.05-23.45.23:745][904]LogEditorTransaction: Undo Apply Material to Surface
+[2015.01.05-23.45.23:787][904]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_0) Component already registered.
+[2015.01.05-23.45.23:834][904]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.45.35:322][152]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.01.05-23.45.35:322][152]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.01.05-23.45.35:322][152]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.01.05-23.46.38:082][448]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.46.38:082][448]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.46.38:082][448]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.46.44:011][577]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.46.44:011][577]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.46.44:011][577]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.46.57:580][848]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.01.05-23.46.57:580][848]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.01.05-23.47.04:108][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.01.05-23.47.04:108][979]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.01.05-23.47.10:210][101]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.01.05-23.47.10:210][101]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.01.05-23.47.12:629][150]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.01.05-23.47.12:629][150]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.01.05-23.47.34:091][581]LogMaterialEditor: Applying material Wooden_Box_Mat
+[2015.01.05-23.47.36:029][581]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.47.36:156][581]LogMaterial: Missing cached shader map for material Wooden_Box_Mat, compiling.
+[2015.01.05-23.47.36:196][581]LogMaterial: Missing cached shader map for material Wooden_Box_Mat, compiling.
+[2015.01.05-23.47.36:212][581]LogMaterial: 0.005523 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.01.05-23.47.43:852][721]LogMaterialEditor: Saving and Compiling material Wooden_Box_Mat
+[2015.01.05-23.47.46:311][721]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.47.46:398][721]LogMaterial: Missing cached shader map for material Wooden_Box_Mat, compiling.
+[2015.01.05-23.47.46:430][721]LogMaterial: Missing cached shader map for material Wooden_Box_Mat, compiling.
+[2015.01.05-23.47.46:448][721]LogMaterial: 0.006774 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.01.05-23.47.53:384][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Wooden_Box_Mat" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Textures/Wooden_Box_Mat.uasset" SILENT=true
+[2015.01.05-23.47.53:689][721]LogSavePackage: Save=223.568985ms
+[2015.01.05-23.47.53:689][721]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Wooden_Box_MatF01700234B0FDB65D21EB280FFB10A97.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Textures/Wooden_Box_Mat.uasset'
+[2015.01.05-23.47.53:702][721]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.01.05-23.47.53:702][721]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.01.05-23.47.53:702][721]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.01.05-23.48.35:164][584]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.01.05-23.48.35:165][584]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.01.05-23.48.51:315][911]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.48.51:315][911]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.48.51:315][911]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.49.18:886][441]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.49.18:966][441]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.49.18:982][441]LogMaterial: Missing cached shader map for material Wooden_Box_Mat, compiling.
+[2015.01.05-23.49.19:001][441]LogMaterial: 0.000203 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.01.05-23.49.21:281][480]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.01.05-23.49.21:281][480]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.01.05-23.49.21:281][480]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.01.05-23.49.23:631][520]LogMaterial: Incomplete cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.49.23:643][520]LogMaterial: 0.000166 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.01.05-23.49.24:462][536]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.01.05-23.49.24:462][536]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.01.05-23.49.24:462][536]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.01.05-23.49.53:907][ 63]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.49.53:922][ 63]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.50.02:198][185]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.01.05-23.50.02:198][185]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.01.05-23.50.02:198][185]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.01.05-23.50.21:928][596]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CustomReflectionVector.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.05-23.51.02:312][759]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.51.02:312][759]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.51.02:312][759]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.51.02:323][759]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.51.02:332][759]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.51.02:370][759]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2015.01.05-23.51.06:621][831]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.01.05-23.51.06:621][831]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.01.05-23.51.06:622][831]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2015.01.05-23.51.06:622][831]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.01.05-23.51.06:987][831]LogSavePackage: Save=192.271774ms
+[2015.01.05-23.51.06:987][831]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Example_Map_Auto2D0A367F0417E789C74F435A942B124A8.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Autosaves/Game/Maps/Example_Map_Auto2.umap'
+[2015.01.05-23.51.06:998][831]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.377
+[2015.01.05-23.51.06:998][831]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.377
+[2015.01.05-23.51.07:012][831]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Wooden_Box] ([1] browsable assets)...
+[2015.01.05-23.51.07:034][831]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Wooden_Box.Wooden_Box]
+[2015.01.05-23.51.07:034][831]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Wooden_Box]
+[2015.01.05-23.51.07:056][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Wooden_Box" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Autosaves/Game/Textures/Wooden_Box_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.01.05-23.51.07:510][831]LogSavePackage: Save=426.535065ms
+[2015.01.05-23.51.07:510][831]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Wooden_Box_Auto26340F94C4F407462671132833D968702.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Autosaves/Game/Textures/Wooden_Box_Auto2.uasset'
+[2015.01.05-23.51.07:531][831]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/box_wood] ([1] browsable assets)...
+[2015.01.05-23.51.07:600][831]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Props/box_wood.box_wood]
+[2015.01.05-23.51.07:600][831]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/box_wood]
+[2015.01.05-23.51.08:077][831]LogSavePackage: Save=458.220001ms
+[2015.01.05-23.51.08:078][831]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/box_wood_Auto2D176E1334E5609E165D7E2ACFDC48B16.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Autosaves/Game/StarterContent/Props/box_wood_Auto2.uasset'
+[2015.01.05-23.51.08:087][831]LogFileHelpers: Auto-saving content packages took 1.089
+[2015.01.05-23.51.09:208][849]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling.
+[2015.01.05-23.51.12:813][917]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.01.05-23.51.12:813][917]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.01.05-23.51.12:814][917]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.01.05-23.51.32:656][296]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.51.32:656][296]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.51.32:657][296]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.51.32:671][296]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.51.32:708][296]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling.
+[2015.01.05-23.51.34:903][336]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.51.34:903][336]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.51.34:903][336]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.51.34:923][336]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.51.34:958][336]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling.
+[2015.01.05-23.51.41:406][448]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.01.05-23.51.41:406][448]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.01.05-23.51.41:406][448]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.01.05-23.51.47:118][549]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.51.47:153][549]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling.
+[2015.01.05-23.51.48:784][578]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.51.48:784][578]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.51.48:784][578]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.51.50:223][602]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.51.50:259][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling.
+[2015.01.05-23.51.53:420][663]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.51.53:420][663]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.51.53:420][663]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.51.53:515][664]LogMaterialEditor: Saving and Compiling material Wooden_Box_Mat
+[2015.01.05-23.51.55:996][664]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.51.56:094][664]LogMaterial: Missing cached shader map for material Wooden_Box_Mat, compiling.
+[2015.01.05-23.51.56:124][664]LogMaterial: Missing cached shader map for material Wooden_Box_Mat, compiling.
+[2015.01.05-23.51.56:142][664]LogMaterial: 0.005436 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.01.05-23.52.01:481][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Wooden_Box_Mat" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Textures/Wooden_Box_Mat.uasset" SILENT=true
+[2015.01.05-23.52.02:170][664]LogSavePackage: Save=674.442810ms
+[2015.01.05-23.52.02:170][664]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Wooden_Box_MatF972C80940EDA9C24CA09DAFE73EF4CC.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Textures/Wooden_Box_Mat.uasset'
+[2015.01.05-23.52.02:186][664]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 69 instructions
+[2015.01.05-23.52.02:186][664]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.01.05-23.52.02:186][664]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.01.05-23.52.09:934][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (box_wood)
+[2015.01.05-23.52.17:114][972]Cmd: SELECT NONE
+[2015.01.05-23.52.34:890][380]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.52.34:890][380]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.52.34:890][380]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.52.34:932][380]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.52.34:963][380]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling.
+[2015.01.05-23.52.36:698][414]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.52.36:733][414]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling.
+[2015.01.05-23.52.39:503][464]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.52.39:503][464]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.52.39:503][464]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.52.39:596][465]LogMaterialEditor: Saving and Compiling material Wooden_Box_Mat
+[2015.01.05-23.52.42:079][465]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.52.42:191][465]LogMaterial: Missing cached shader map for material Wooden_Box_Mat, compiling.
+[2015.01.05-23.52.42:221][465]LogMaterial: Missing cached shader map for material Wooden_Box_Mat, compiling.
+[2015.01.05-23.52.42:240][465]LogMaterial: 0.007093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.01.05-23.52.48:044][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Wooden_Box_Mat" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Textures/Wooden_Box_Mat.uasset" SILENT=true
+[2015.01.05-23.52.48:769][465]LogSavePackage: Save=715.511169ms
+[2015.01.05-23.52.48:770][465]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Wooden_Box_Mat2540BFEA45E8DF830018C49ADEE737BF.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Textures/Wooden_Box_Mat.uasset'
+[2015.01.05-23.52.48:788][465]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 69 instructions
+[2015.01.05-23.52.48:788][465]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.01.05-23.52.48:788][465]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.01.05-23.52.55:849][598]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.05-23.52.55:849][598]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.05-23.52.55:991][598]LogPlayLevel: PIE:  Blueprint regeneration took 142 ms (1 blueprints)
+[2015.01.05-23.52.55:991][598]PIE: New page: PIE session: Example_Map (Jan 6, 2015, 3:52:55 AM)
+[2015.01.05-23.52.56:038][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046465s)
+[2015.01.05-23.52.56:039][598]LogPlayLevel: PIE: World Init took: (0.001217s)
+[2015.01.05-23.52.56:039][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.048098s)
+[2015.01.05-23.52.56:083][598]LogWorld: Game class is 'MyGame_C'
+[2015.01.05-23.52.56:085][598]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.05-23.52.56:089][598]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.05-23.52.56:089][598]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.06-01.52.56
+[2015.01.05-23.52.56:090][598]LogWorld: Bringing up level for play took: 0.005170
+[2015.01.05-23.52.56:092][598]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.01.05-23.52.56:093][598]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.482
+[2015.01.05-23.53.00:577][735]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.05-23.53.04:311][846]LogCharacterMovement: Dummy_C_5 is stuck and failed to move!
+[2015.01.05-23.53.04:338][847]LogCharacterMovement: Dummy_C_5 is stuck and failed to move!
+[2015.01.05-23.53.04:384][848]LogCharacterMovement: Dummy_C_5 is stuck and failed to move!
+[2015.01.05-23.53.04:411][849]LogCharacterMovement: Dummy_C_5 is stuck and failed to move!
+[2015.01.05-23.53.10:494][ 30]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000528DE0EC00
+[2015.01.05-23.53.13:501][103]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (box_wood)
+[2015.01.05-23.53.16:609][186]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles'
+[2015.01.05-23.53.17:291][208]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.01.05-23.53.21:817][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (box_wood)
+[2015.01.05-23.53.52:346][996]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (box_wood)
+[2015.01.05-23.53.58:421][ 75]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/box_sketch.fbx)
+[2015.01.05-23.53.58:462][ 75]LogFbx: ItemName: Model, ItemCount : 2
+[2015.01.05-23.53.58:462][ 75]LogFbx: ItemName: Material, ItemCount : 1
+[2015.01.05-23.53.58:462][ 75]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.01.05-23.53.58:462][ 75]LogFbx: ItemName: Video, ItemCount : 1
+[2015.01.05-23.53.58:462][ 75]LogFbx: ItemName: SceneInfo, ItemCount : 1
+[2015.01.05-23.53.58:462][ 75]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.01.05-23.54.07:391][ 75]LogFbx: Loading FBX Scene from ../../../../../../Documents/box_sketch.fbx
+[2015.01.05-23.54.07:475][ 75]LogFbx: FBX Scene Loaded Succesfully
+[2015.01.05-23.54.07:479][ 75]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/box'
+[2015.01.05-23.54.07:479][ 75]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/box'
+[2015.01.05-23.54.07:479][ 75]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/StarterContent/Props/box.box'
+[2015.01.05-23.54.07:481][ 75]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/box'
+[2015.01.05-23.54.07:482][ 75]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/box'
+[2015.01.05-23.54.07:482][ 75]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/StarterContent/Props/box.box'
+[2015.01.05-23.54.07:482][ 75]LogStreaming:Warning: Failed to read file 'box_sketch/box.jpg' error.
+[2015.01.05-23.54.07:482][ 75]LogStreaming:Warning: Failed to read file '../../../../../../Documents/..\..\..\Desktop\texture\box_sketch\box.jpg' error.
+[2015.01.05-23.54.07:482][ 75]LogStreaming:Warning: Failed to read file '../../../../../../Documents/box.jpg' error.
+[2015.01.05-23.54.07:482][ 75]LogFbxMaterialImport:Warning: Unable to find TEXTure file box.jpg. Tried:
+ - box_sketch/box.jpg
+ - ../../../../../../Documents/..\..\..\Desktop\texture\box_sketch\box.jpg
+ - ../../../../../../Documents/box.jpg
+[2015.01.05-23.54.07:499][ 75]LogMaterial: Missing cached shader map for material box, compiling.
+[2015.01.05-23.54.07:512][ 75]LogFbx:Warning: Triangulating static mesh Mesh1
+[2015.01.05-23.54.07:530][ 75]LogFbx: == Initial material list:
+[2015.01.05-23.54.07:530][ 75]LogFbx: 0: box
+[2015.01.05-23.54.07:530][ 75]LogFbx: == After sorting:
+[2015.01.05-23.54.07:530][ 75]LogFbx: 0: box
+[2015.01.05-23.54.07:530][ 75]LogFbx: == Mapping table:
+[2015.01.05-23.54.07:530][ 75]LogFbx:   sort 0 -> 0
+[2015.01.05-23.54.07:532][ 75]LogStaticMesh: Building static mesh box_sketch...
+[2015.01.05-23.54.07:532][ 75]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.01.05-23.54.07:533][ 75]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.05-23.54.07:533][ 75]LogLayoutUV:Display:   Rasterize: 474
+[2015.01.05-23.54.07:533][ 75]LogLayoutUV:Display:   Find: 231
+[2015.01.05-23.54.07:534][ 75]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.05-23.54.07:534][ 75]LogLayoutUV:Display:   Rasterize: 431
+[2015.01.05-23.54.07:534][ 75]LogLayoutUV:Display:   Find: 529
+[2015.01.05-23.54.07:535][ 75]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.05-23.54.07:535][ 75]LogLayoutUV:Display:   Rasterize: 431
+[2015.01.05-23.54.07:535][ 75]LogLayoutUV:Display:   Find: 516
+[2015.01.05-23.54.07:536][ 75]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.05-23.54.07:536][ 75]LogLayoutUV:Display:   Rasterize: 440
+[2015.01.05-23.54.07:536][ 75]LogLayoutUV:Display:   Find: 533
+[2015.01.05-23.54.07:536][ 75]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.01.05-23.54.07:536][ 75]LogLayoutUV:Display:   Rasterize: 426
+[2015.01.05-23.54.07:536][ 75]LogLayoutUV:Display:   Find: 520
+[2015.01.05-23.54.07:537][ 75]LogStaticMesh: Built static mesh [5.884265ms] /Game/StarterContent/Props/box_sketch.box_sketch
+[2015.01.05-23.54.07:591][ 75]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.01.05-23.54.07:602][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.01.05-23.54.07:602][ 75]LogPhysics:Warning: Failed to cook convex: /Game/StarterContent/Props/box_sketch.box_sketch 0 (FlipX:0). The remaining elements will not get cooked.
+[2015.01.05-23.54.07:603][ 75]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.01.05-23.54.07:603][ 75]LogPhysics:Warning: Failed to cook convex: /Game/StarterContent/Props/box_sketch.box_sketch 0 (FlipX:1). The remaining elements will not get cooked.
+[2015.01.05-23.54.07:607][ 75]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.01.05-23.54.07:607][ 75]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.01.05-23.54.13:014][181]LogActorFactory: Actor Factory created box_sketch
+[2015.01.05-23.54.13:015][181]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/StarterContent/Props/box_sketch.box_sketch:BodySetup_240)
+[2015.01.05-23.54.13:015][181]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/StarterContent/Props/box_sketch.box_sketch:BodySetup_240)
+[2015.01.05-23.54.14:302][207]LogActorFactory: Actor Factory created box_sketch
+[2015.01.05-23.54.14:302][207]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/StarterContent/Props/box_sketch.box_sketch:BodySetup_240)
+[2015.01.05-23.54.14:346][207]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/StarterContent/Props/box_sketch.box_sketch:BodySetup_240)
+[2015.01.05-23.54.32:980][658]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/StarterContent/Props/box_sketch.box_sketch:BodySetup_240)
+[2015.01.05-23.54.32:992][658]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/StarterContent/Props/box_sketch.box_sketch:BodySetup_240)
+[2015.01.05-23.54.32:997][658]LogPhysics:Warning: AddShapesToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/StarterContent/Props/box_sketch.box_sketch:BodySetup_240)
+[2015.01.05-23.54.50:378][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (box_sketch)
+[2015.01.05-23.54.50:907][103]Cmd: DELETE
+[2015.01.05-23.54.50:907][103]Cmd: ACTOR DELETE
+[2015.01.05-23.54.50:909][103]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.01.05-23.54.50:952][103]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2015.01.05-23.55.00:512][352]LogDestructible:Warning: MainMesh Tris: 12
+[2015.01.05-23.55.00:602][352]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.01.05-23.55.00:603][352]LogApexDestructibleAssetImport:Warning: Bones digested - 2  Depth of hierarchy - 2
+[2015.01.05-23.55.00:632][352]LogSkeletalMesh: Chunk 0: 24 rigid vertices, 0 soft vertices, 1 active bones
+[2015.01.05-23.55.00:667][352]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 12 triangles
+[2015.01.05-23.55.00:706][352]LogMaterial:Warning: Material /Game/Textures/Wooden_Box_Mat.Wooden_Box_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2015.01.05-23.55.00:732][352]LogMaterial:Warning: Material /Engine/Transient.PreviewMaterial_0 needed to have new flag set bUsedWithSkeletalMesh !
+[2015.01.05-23.55.00:738][352]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.05-23.55.00:759][352]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.01.05-23.55.00:760][352]LogMaterial: Missing cached shader map for material Wooden_Box_Mat, compiling.
+[2015.01.05-23.55.00:790][352]LogMaterial: 0.000163 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.01.05-23.55.01:128][352]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.01.05-23.55.01:128][352]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.01.05-23.55.01:248][352]LogPropertyNode:Warning: UI Min (1) >= UI Max () for Ranged Numeric
+[2015.01.05-23.55.52:084][384]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 69 instructions
+[2015.01.05-23.55.52:084][384]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.01.05-23.55.52:084][384]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.01.05-23.56.01:868][618]LogDestructible:Warning: MainMesh Tris: 12
+[2015.01.05-23.56.02:026][618]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.01.05-23.56.02:026][618]LogApexDestructibleAssetImport:Warning: Bones digested - 27  Depth of hierarchy - 2
+[2015.01.05-23.56.02:076][618]LogSkeletalMesh: Chunk 0: 304 rigid vertices, 0 soft vertices, 21 active bones
+[2015.01.05-23.56.02:076][618]LogSkeletalMesh: Chunk 1: 994 rigid vertices, 0 soft vertices, 25 active bones
+[2015.01.05-23.56.02:080][618]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 192 triangles
+[2015.01.05-23.56.02:080][618]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 582 triangles
+[2015.01.05-23.56.12:994][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/box_wood_DM" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/StarterContent/Props/box_wood_DM.uasset" SILENT=true
+[2015.01.05-23.56.13:499][966]LogSavePackage: Save=501.040588ms
+[2015.01.05-23.56.13:499][966]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/box_wood_DM83E2398B4AE5791FB2478CAA09D517C7.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/StarterContent/Props/box_wood_DM.uasset'
+[2015.01.05-23.56.22:282][181]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.05-23.56.22:282][181]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.05-23.56.22:412][181]LogPlayLevel: PIE:  Blueprint regeneration took 129 ms (1 blueprints)
+[2015.01.05-23.56.22:412][181]PIE: New page: PIE session: Example_Map (Jan 6, 2015, 3:56:22 AM)
+[2015.01.05-23.56.22:457][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045011s)
+[2015.01.05-23.56.22:458][181]LogPlayLevel: PIE: World Init took: (0.001209s)
+[2015.01.05-23.56.22:459][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.046638s)
+[2015.01.05-23.56.22:505][181]LogWorld: Game class is 'MyGame_C'
+[2015.01.05-23.56.22:506][181]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.05-23.56.22:525][181]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.05-23.56.22:525][181]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.06-01.56.22
+[2015.01.05-23.56.22:526][181]LogWorld: Bringing up level for play took: 0.018900
+[2015.01.05-23.56.22:527][181]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.01.05-23.56.22:528][181]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.917
+[2015.01.05-23.56.23:210][200]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.05-23.56.27:914][337]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000052E352BA60
+[2015.01.05-23.56.28:932][360]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.05-23.56.28:932][360]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.05-23.56.29:078][360]LogPlayLevel: PIE:  Blueprint regeneration took 146 ms (1 blueprints)
+[2015.01.05-23.56.29:079][360]PIE: New page: PIE session: Example_Map (Jan 6, 2015, 3:56:29 AM)
+[2015.01.05-23.56.29:122][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043620s)
+[2015.01.05-23.56.29:123][360]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2015.01.05-23.56.29:124][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.045034s)
+[2015.01.05-23.56.29:166][360]LogWorld: Game class is 'MyGame_C'
+[2015.01.05-23.56.29:168][360]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.05-23.56.29:175][360]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.05-23.56.29:175][360]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.06-01.56.29
+[2015.01.05-23.56.29:177][360]LogWorld: Bringing up level for play took: 0.008223
+[2015.01.05-23.56.29:180][360]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.01.05-23.56.29:181][360]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.43
+[2015.01.05-23.56.29:808][377]LogBlueprintUserMessages: AutoWeapon
+[2015.01.05-23.56.30:137][387]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.05-23.56.40:797][707]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000052E3529080
+[2015.01.05-23.56.41:764][727]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.05-23.56.41:764][727]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.05-23.56.41:905][727]LogPlayLevel: PIE:  Blueprint regeneration took 140 ms (1 blueprints)
+[2015.01.05-23.56.41:905][727]PIE: New page: PIE session: Example_Map (Jan 6, 2015, 3:56:41 AM)
+[2015.01.05-23.56.41:950][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045322s)
+[2015.01.05-23.56.41:952][727]LogPlayLevel: PIE: World Init took: (0.001264s)
+[2015.01.05-23.56.41:952][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.047020s)
+[2015.01.05-23.56.41:995][727]LogWorld: Game class is 'MyGame_C'
+[2015.01.05-23.56.41:996][727]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.05-23.56.42:000][727]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.05-23.56.42:000][727]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.06-01.56.42
+[2015.01.05-23.56.42:001][727]LogWorld: Bringing up level for play took: 0.004787
+[2015.01.05-23.56.42:003][727]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.01.05-23.56.42:003][727]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.393
+[2015.01.05-23.56.43:277][770]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.05-23.56.45:305][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000528C7F8FE0
+[2015.01.05-23.56.46:424][851]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.05-23.56.46:424][851]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.05-23.56.46:558][851]LogPlayLevel: PIE:  Blueprint regeneration took 134 ms (1 blueprints)
+[2015.01.05-23.56.46:558][851]PIE: New page: PIE session: Example_Map (Jan 6, 2015, 3:56:46 AM)
+[2015.01.05-23.56.46:607][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048581s)
+[2015.01.05-23.56.46:608][851]LogPlayLevel: PIE: World Init took: (0.001211s)
+[2015.01.05-23.56.46:608][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.050166s)
+[2015.01.05-23.56.46:654][851]LogWorld: Game class is 'MyGame_C'
+[2015.01.05-23.56.46:655][851]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.05-23.56.46:660][851]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.05-23.56.46:660][851]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.06-01.56.46
+[2015.01.05-23.56.46:661][851]LogWorld: Bringing up level for play took: 0.006084
+[2015.01.05-23.56.46:665][851]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.01.05-23.56.46:666][851]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.054
+[2015.01.05-23.56.49:407][936]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.05-23.56.52:811][ 38]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.05-23.56.52:837][ 39]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.05-23.56.52:884][ 40]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.05-23.56.52:910][ 41]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.05-23.56.58:215][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000528C7FAFC0
+[2015.01.05-23.56.59:149][229]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.05-23.56.59:149][229]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.05-23.56.59:288][229]LogPlayLevel: PIE:  Blueprint regeneration took 139 ms (1 blueprints)
+[2015.01.05-23.56.59:288][229]PIE: New page: PIE session: Example_Map (Jan 6, 2015, 3:56:59 AM)
+[2015.01.05-23.56.59:329][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041047s)
+[2015.01.05-23.56.59:331][229]LogPlayLevel: PIE: World Init took: (0.001440s)
+[2015.01.05-23.56.59:331][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.042882s)
+[2015.01.05-23.56.59:377][229]LogWorld: Game class is 'MyGame_C'
+[2015.01.05-23.56.59:379][229]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.05-23.56.59:385][229]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.05-23.56.59:385][229]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.06-01.56.59
+[2015.01.05-23.56.59:386][229]LogWorld: Bringing up level for play took: 0.006679
+[2015.01.05-23.56.59:388][229]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.01.05-23.56.59:388][229]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.223
+[2015.01.05-23.57.01:886][305]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.05-23.57.04:816][394]LogBlueprintUserMessages: AutoWeapon
+[2015.01.05-23.57.06:816][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000052E2065260
+[2015.01.05-23.57.17:762][701]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.57.17:762][701]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.57.17:762][701]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.57.17:879][702]LogDestructible:Warning: MainMesh Tris: 12
+[2015.01.05-23.57.18:991][702]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.01.05-23.57.18:996][702]LogApexDestructibleAssetImport:Warning: Bones digested - 302  Depth of hierarchy - 2
+[2015.01.05-23.57.20:612][702]LogSkeletalMesh: Chunk 0: 1540 rigid vertices, 0 soft vertices, 179 active bones
+[2015.01.05-23.57.20:613][702]LogSkeletalMesh: Chunk 1: 16315 rigid vertices, 0 soft vertices, 256 active bones
+[2015.01.05-23.57.20:613][702]LogSkeletalMesh: Chunk 2: 2537 rigid vertices, 0 soft vertices, 44 active bones
+[2015.01.05-23.57.20:640][702]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 1008 triangles
+[2015.01.05-23.57.20:640][702]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 9893 triangles
+[2015.01.05-23.57.20:640][702]LogSkeletalMesh: Section 2: Material=1, Chunk=2, 1527 triangles
+[2015.01.05-23.57.29:013][926]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.57.29:013][926]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.57.29:013][926]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.57.29:677][940]LogDestructible:Warning: MainMesh Tris: 12
+[2015.01.05-23.57.31:346][940]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.01.05-23.57.31:352][940]LogApexDestructibleAssetImport:Warning: Bones digested - 402  Depth of hierarchy - 2
+[2015.01.05-23.57.34:452][940]LogSkeletalMesh: Chunk 0: 1836 rigid vertices, 0 soft vertices, 226 active bones
+[2015.01.05-23.57.34:453][940]LogSkeletalMesh: Chunk 1: 16738 rigid vertices, 0 soft vertices, 256 active bones
+[2015.01.05-23.57.34:454][940]LogSkeletalMesh: Chunk 2: 8934 rigid vertices, 0 soft vertices, 144 active bones
+[2015.01.05-23.57.34:501][940]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 1206 triangles
+[2015.01.05-23.57.34:501][940]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 10168 triangles
+[2015.01.05-23.57.34:501][940]LogSkeletalMesh: Section 2: Material=1, Chunk=2, 5400 triangles
+[2015.01.05-23.57.43:216][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/box_wood_DM" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/StarterContent/Props/box_wood_DM.uasset" SILENT=true
+[2015.01.05-23.57.43:965][193]LogSavePackage: Save=736.253784ms
+[2015.01.05-23.57.43:965][193]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/box_wood_DMBAFCE1F64203929F6A65508793A0A6AB.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/StarterContent/Props/box_wood_DM.uasset'
+[2015.01.05-23.57.45:325][224]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.05-23.57.45:325][224]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.05-23.57.45:474][224]LogPlayLevel: PIE:  Blueprint regeneration took 149 ms (1 blueprints)
+[2015.01.05-23.57.45:474][224]PIE: New page: PIE session: Example_Map (Jan 6, 2015, 3:57:45 AM)
+[2015.01.05-23.57.45:518][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043797s)
+[2015.01.05-23.57.45:519][224]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2015.01.05-23.57.45:520][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.045290s)
+[2015.01.05-23.57.45:566][224]LogWorld: Game class is 'MyGame_C'
+[2015.01.05-23.57.45:567][224]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.05-23.57.45:794][224]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.05-23.57.45:794][224]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.06-01.57.45
+[2015.01.05-23.57.45:795][224]LogWorld: Bringing up level for play took: 0.228479
+[2015.01.05-23.57.45:797][224]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.01.05-23.57.45:798][224]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.187
+[2015.01.05-23.57.46:980][261]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.05-23.57.53:686][460]LogBlueprintUserMessages: AutoWeapon
+[2015.01.05-23.58.02:705][729]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000052939FEB60
+[2015.01.05-23.58.03:546][745]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.05-23.58.03:546][745]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.05-23.58.03:698][745]LogPlayLevel: PIE:  Blueprint regeneration took 151 ms (1 blueprints)
+[2015.01.05-23.58.03:698][745]PIE: New page: PIE session: Example_Map (Jan 6, 2015, 3:58:03 AM)
+[2015.01.05-23.58.03:747][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048749s)
+[2015.01.05-23.58.03:748][745]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2015.01.05-23.58.03:749][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.050218s)
+[2015.01.05-23.58.03:795][745]LogWorld: Game class is 'MyGame_C'
+[2015.01.05-23.58.03:797][745]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.05-23.58.03:803][745]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.05-23.58.03:803][745]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.06-01.58.03
+[2015.01.05-23.58.03:804][745]LogWorld: Bringing up level for play took: 0.007097
+[2015.01.05-23.58.03:807][745]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.01.05-23.58.03:808][745]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.196
+[2015.01.05-23.58.04:330][760]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.05-23.58.07:799][857]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000052939FCA40
+[2015.01.05-23.58.08:705][875]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.05-23.58.08:705][875]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.05-23.58.08:844][875]LogPlayLevel: PIE:  Blueprint regeneration took 138 ms (1 blueprints)
+[2015.01.05-23.58.08:844][875]PIE: New page: PIE session: Example_Map (Jan 6, 2015, 3:58:08 AM)
+[2015.01.05-23.58.08:896][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052142s)
+[2015.01.05-23.58.08:897][875]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2015.01.05-23.58.08:897][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.053316s)
+[2015.01.05-23.58.08:944][875]LogWorld: Game class is 'MyGame_C'
+[2015.01.05-23.58.08:946][875]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.05-23.58.08:952][875]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.05-23.58.08:952][875]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.06-01.58.08
+[2015.01.05-23.58.08:953][875]LogWorld: Bringing up level for play took: 0.007343
+[2015.01.05-23.58.08:956][875]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.01.05-23.58.08:957][875]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.654
+[2015.01.05-23.58.10:986][937]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.05-23.58.13:686][ 13]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.13:748][ 15]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:090][ 25]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:123][ 26]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:149][ 27]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:190][ 28]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:221][ 29]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:249][ 30]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:291][ 31]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:318][ 32]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:344][ 33]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:391][ 34]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:418][ 35]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:446][ 36]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:475][ 37]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:501][ 38]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:529][ 39]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:558][ 40]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:599][ 41]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:628][ 42]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.14:664][ 43]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.18:129][149]LogBlueprintUserMessages: AutoWeapon
+[2015.01.05-23.58.20:354][216]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.20:391][217]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.21:478][252]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.05-23.58.25:016][360]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:045][361]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:083][362]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:116][363]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:144][364]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:185][365]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:214][366]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:244][367]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:286][368]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:322][369]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:350][370]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:388][371]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:423][372]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:456][373]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:498][374]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:528][375]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:560][376]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:599][377]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:629][378]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:663][379]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:701][380]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:734][381]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:788][382]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:820][383]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:852][384]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:893][385]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:922][386]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:953][387]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.25:996][388]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:024][389]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:060][390]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:102][391]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:133][392]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:178][393]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:216][394]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:248][395]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:290][396]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:319][397]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:350][398]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:390][399]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:418][400]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:450][401]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:488][402]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:522][403]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:555][404]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:594][405]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:626][406]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:659][407]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:698][408]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:727][409]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:765][410]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:804][411]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:832][412]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:878][413]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.26:916][414]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.29:705][496]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.05-23.58.30:682][525]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.30:710][526]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.35:609][673]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.05-23.58.35:635][674]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.05-23.58.38:734][767]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.38:778][768]LogCharacterMovement: MyCharacter_C_9 is stuck and failed to move!
+[2015.01.05-23.58.39:051][777]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_0
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0869
+[2015.01.05-23.58.39:052][777]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.05-23.58.39:310][785]LogCharacterMovement: Dummy_C_26 is stuck and failed to move!
+[2015.01.05-23.58.39:335][786]LogCharacterMovement: Dummy_C_26 is stuck and failed to move!
+[2015.01.05-23.58.39:436][789]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4'
+	Dummy_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Dummy_C_0
+	Function /Game/Blueprints/Dummy.Dummy_C:ExecuteUbergraph_Dummy:0752
+[2015.01.05-23.58.39:436][789]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue4' from node Construction Script in blueprint Dummy
+[2015.01.05-23.58.39:824][796]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000052939FCF40
+[2015.01.05-23.59.31:812][267]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.59.31:812][267]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.59.31:812][267]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.05-23.59.31:902][269]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Metal_Rust.M_Metal_Rust needed to have new flag set bUsedWithSkeletalMesh !
+[2015.01.05-23.59.31:910][269]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling.
+[2015.01.05-23.59.31:953][269]LogMaterial: 0.000171 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.01.06-00.00.17:910][147]LogDestructible:Warning: MainMesh Tris: 12
+[2015.01.06-00.00.19:801][147]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.01.06-00.00.19:807][147]LogApexDestructibleAssetImport:Warning: Bones digested - 402  Depth of hierarchy - 2
+[2015.01.06-00.00.22:893][147]LogSkeletalMesh: Chunk 0: 1836 rigid vertices, 0 soft vertices, 226 active bones
+[2015.01.06-00.00.22:895][147]LogSkeletalMesh: Chunk 1: 16738 rigid vertices, 0 soft vertices, 256 active bones
+[2015.01.06-00.00.22:895][147]LogSkeletalMesh: Chunk 2: 8934 rigid vertices, 0 soft vertices, 144 active bones
+[2015.01.06-00.00.22:939][147]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 1206 triangles
+[2015.01.06-00.00.22:939][147]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 10168 triangles
+[2015.01.06-00.00.22:939][147]LogSkeletalMesh: Section 2: Material=1, Chunk=2, 5400 triangles
+[2015.01.06-00.00.30:250][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/box_wood_DM" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/StarterContent/Props/box_wood_DM.uasset" SILENT=true
+[2015.01.06-00.00.30:979][334]LogSavePackage: Save=717.081482ms
+[2015.01.06-00.00.30:979][334]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/box_wood_DMF494F27141A8C3471FCB74BB7E608F4E.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/StarterContent/Props/box_wood_DM.uasset'
+[2015.01.06-00.00.32:994][381]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.06-00.00.32:994][381]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.06-00.00.33:141][381]LogPlayLevel: PIE:  Blueprint regeneration took 147 ms (1 blueprints)
+[2015.01.06-00.00.33:141][381]PIE: New page: PIE session: Example_Map (Jan 6, 2015, 4:00:33 AM)
+[2015.01.06-00.00.33:194][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052684s)
+[2015.01.06-00.00.33:195][381]LogPlayLevel: PIE: World Init took: (0.001102s)
+[2015.01.06-00.00.33:196][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.054155s)
+[2015.01.06-00.00.33:238][381]LogWorld: Game class is 'MyGame_C'
+[2015.01.06-00.00.33:240][381]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.06-00.00.33:476][381]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.06-00.00.33:476][381]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.06-02.00.33
+[2015.01.06-00.00.33:478][381]LogWorld: Bringing up level for play took: 0.237491
+[2015.01.06-00.00.33:481][381]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.01.06-00.00.33:482][381]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.129
+[2015.01.06-00.00.34:177][400]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.06-00.00.53:380][972]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000052E352AC00
+[2015.01.06-00.00.54:336][994]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.06-00.00.54:336][994]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.06-00.00.54:494][994]LogPlayLevel: PIE:  Blueprint regeneration took 158 ms (1 blueprints)
+[2015.01.06-00.00.54:494][994]PIE: New page: PIE session: Example_Map (Jan 6, 2015, 4:00:54 AM)
+[2015.01.06-00.00.54:538][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043666s)
+[2015.01.06-00.00.54:539][994]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2015.01.06-00.00.54:540][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.045107s)
+[2015.01.06-00.00.54:586][994]LogWorld: Game class is 'MyGame_C'
+[2015.01.06-00.00.54:588][994]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.06-00.00.54:593][994]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.06-00.00.54:593][994]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.06-02.00.54
+[2015.01.06-00.00.54:593][994]LogWorld: Bringing up level for play took: 0.005605
+[2015.01.06-00.00.54:596][994]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.01.06-00.00.54:597][994]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.986
+[2015.01.06-00.00.55:738][ 27]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.06-00.01.03:641][266]LogBlueprintUserMessages: AutoWeapon
+[2015.01.06-00.01.05:631][321]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000529A3E4FE0
+[2015.01.06-00.01.06:559][341]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.06-00.01.06:559][341]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.06-00.01.06:717][341]LogPlayLevel: PIE:  Blueprint regeneration took 158 ms (1 blueprints)
+[2015.01.06-00.01.06:718][341]PIE: New page: PIE session: Example_Map (Jan 6, 2015, 4:01:06 AM)
+[2015.01.06-00.01.06:761][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043191s)
+[2015.01.06-00.01.06:762][341]LogPlayLevel: PIE: World Init took: (0.001081s)
+[2015.01.06-00.01.06:762][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.044641s)
+[2015.01.06-00.01.06:813][341]LogWorld: Game class is 'MyGame_C'
+[2015.01.06-00.01.06:816][341]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.06-00.01.06:822][341]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.06-00.01.06:822][341]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.06-02.01.06
+[2015.01.06-00.01.06:823][341]LogWorld: Bringing up level for play took: 0.007089
+[2015.01.06-00.01.06:825][341]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.01.06-00.01.06:826][341]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.215
+[2015.01.06-00.01.07:287][352]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.06-00.01.10:439][451]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.01.11:377][480]LogBlueprintUserMessages: AutoWeapon
+[2015.01.06-00.01.11:703][490]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.06-00.01.15:288][591]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.15:316][592]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.15:343][593]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.15:389][594]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.15:446][596]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.15:489][597]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.15:517][598]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.15:547][599]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.15:717][604]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.15:819][607]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.15:844][608]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.15:922][610]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.15:945][611]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.15:991][612]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:230][619]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:260][620]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:295][621]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:354][623]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:388][624]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:414][625]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:479][627]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:504][628]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:534][629]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:606][631]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:636][632]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:677][633]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:707][634]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:733][635]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:778][636]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:806][637]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:832][638]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:880][639]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:908][640]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:934][641]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.16:979][642]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:008][643]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:036][644]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:079][645]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:113][646]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:138][647]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:179][648]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:212][649]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:236][650]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:309][652]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:335][653]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:381][654]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:413][655]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:441][656]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:483][657]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:510][658]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:536][659]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:586][660]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:612][661]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:637][662]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:682][663]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:709][664]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:735][665]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:784][666]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:811][667]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:841][668]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:885][669]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:917][670]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:941][671]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.17:984][672]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.18:011][673]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.18:038][674]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.18:487][687]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.18:512][688]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.18:541][689]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.18:590][690]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.18:614][691]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.18:641][692]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.18:688][693]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.18:717][694]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.18:741][695]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.18:790][696]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.18:823][697]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.18:846][698]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.18:890][699]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.18:918][700]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.18:945][701]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.18:993][702]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:018][703]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:045][704]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:091][705]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:122][706]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:150][707]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:188][708]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:212][709]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:238][710]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:278][711]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:305][712]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:334][713]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:379][714]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:413][715]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:437][716]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:478][717]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:511][718]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:540][719]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:579][720]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:608][721]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:679][723]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:707][724]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:734][725]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:780][726]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:808][727]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:878][729]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:910][730]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:939][731]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.19:980][732]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:006][733]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:034][734]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:078][735]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:106][736]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:135][737]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:179][738]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:207][739]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:233][740]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:281][741]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:313][742]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:340][743]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:382][744]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:408][745]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:436][746]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:481][747]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:509][748]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:538][749]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:581][750]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:610][751]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:639][752]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:681][753]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:710][754]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:737][755]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:783][756]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:811][757]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:837][758]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:883][759]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:910][760]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:938][761]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.20:985][762]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:012][763]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:040][764]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:084][765]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:113][766]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:149][767]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:187][768]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:215][769]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:241][770]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:286][771]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:315][772]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:340][773]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:388][774]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:412][775]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:439][776]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:485][777]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:511][778]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:537][779]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:589][780]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:614][781]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:637][782]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.21:686][783]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.25:208][889]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.25:233][890]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.25:275][891]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.25:308][892]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.25:335][893]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.25:377][894]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.25:403][895]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.25:430][896]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.25:477][897]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2015.01.06-00.01.34:898][175]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000529A3E59E0
+[2015.01.06-00.01.35:741][189]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.06-00.01.35:741][189]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.06-00.01.35:893][189]LogPlayLevel: PIE:  Blueprint regeneration took 152 ms (1 blueprints)
+[2015.01.06-00.01.35:894][189]PIE: New page: PIE session: Example_Map (Jan 6, 2015, 4:01:35 AM)
+[2015.01.06-00.01.35:940][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046638s)
+[2015.01.06-00.01.35:942][189]LogPlayLevel: PIE: World Init took: (0.001091s)
+[2015.01.06-00.01.35:942][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.048126s)
+[2015.01.06-00.01.35:989][189]LogWorld: Game class is 'MyGame_C'
+[2015.01.06-00.01.35:991][189]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.06-00.01.35:995][189]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.06-00.01.35:995][189]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.06-02.01.35
+[2015.01.06-00.01.35:996][189]LogWorld: Bringing up level for play took: 0.005086
+[2015.01.06-00.01.35:998][189]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.01.06-00.01.35:998][189]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.387
+[2015.01.06-00.01.39:142][284]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.06-00.01.49:995][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005299F3A200
+[2015.01.06-00.01.50:952][630]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.06-00.01.50:952][630]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.06-00.01.51:091][630]LogPlayLevel: PIE:  Blueprint regeneration took 139 ms (1 blueprints)
+[2015.01.06-00.01.51:092][630]PIE: New page: PIE session: Example_Map (Jan 6, 2015, 4:01:51 AM)
+[2015.01.06-00.01.51:136][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044612s)
+[2015.01.06-00.01.51:139][630]LogPlayLevel: PIE: World Init took: (0.002041s)
+[2015.01.06-00.01.51:139][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.047198s)
+[2015.01.06-00.01.51:188][630]LogWorld: Game class is 'MyGame_C'
+[2015.01.06-00.01.51:190][630]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.06-00.01.51:194][630]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.06-00.01.51:194][630]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.06-02.01.51
+[2015.01.06-00.01.51:195][630]LogWorld: Bringing up level for play took: 0.005396
+[2015.01.06-00.01.51:197][630]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.01.06-00.01.51:198][630]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.413
+[2015.01.06-00.01.52:158][658]LogBlueprintUserMessages: AutoWeapon
+[2015.01.06-00.02.04:243][ 27]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.02.04:284][ 28]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.02.04:314][ 29]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.02.04:343][ 30]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.02.04:385][ 31]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.02.04:415][ 32]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.02.04:445][ 33]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.02.04:484][ 34]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.02.04:513][ 35]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.02.04:542][ 36]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.02.04:588][ 37]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.02.04:618][ 38]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.02.04:642][ 39]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.02.04:686][ 40]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.02.04:717][ 41]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.02.04:747][ 42]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.02.04:789][ 43]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.02.04:821][ 44]LogCharacterMovement: Dummy_C_0 is stuck and failed to move!
+[2015.01.06-00.02.16:649][398]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005298829F80
+[2015.01.06-00.02.18:226][437]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.06-00.02.18:226][437]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.06-00.02.18:365][437]LogPlayLevel: PIE:  Blueprint regeneration took 139 ms (1 blueprints)
+[2015.01.06-00.02.18:365][437]PIE: New page: PIE session: Example_Map (Jan 6, 2015, 4:02:18 AM)
+[2015.01.06-00.02.18:415][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049307s)
+[2015.01.06-00.02.18:416][437]LogPlayLevel: PIE: World Init took: (0.001190s)
+[2015.01.06-00.02.18:416][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.050836s)
+[2015.01.06-00.02.18:467][437]LogWorld: Game class is 'MyGame_C'
+[2015.01.06-00.02.18:469][437]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.06-00.02.18:476][437]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.06-00.02.18:476][437]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.06-02.02.18
+[2015.01.06-00.02.18:477][437]LogWorld: Bringing up level for play took: 0.007874
+[2015.01.06-00.02.18:480][437]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.01.06-00.02.18:481][437]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.87
+[2015.01.06-00.02.19:035][452]LogBlueprintUserMessages: AutoWeapon
+[2015.01.06-00.02.23:387][577]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005299F398A0
+[2015.01.06-00.02.38:681][747]Cmd: DELETE
+[2015.01.06-00.02.38:682][747]Cmd: ACTOR DELETE
+[2015.01.06-00.02.38:685][747]LogEditorActor: Deleted Actor: DestructibleActor
+[2015.01.06-00.02.38:728][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000052E381D9E0
+[2015.01.06-00.02.38:729][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000052EB3E3920
+[2015.01.06-00.02.38:729][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000052E33140E0
+[2015.01.06-00.02.38:731][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005291F991C0
+[2015.01.06-00.02.38:731][747]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2015.01.06-00.02.39:820][777]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (box_wood)
+[2015.01.06-00.02.40:078][782]Cmd: DELETE
+[2015.01.06-00.02.40:078][782]Cmd: ACTOR DELETE
+[2015.01.06-00.02.40:079][782]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.01.06-00.02.40:121][782]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2015.01.06-00.02.41:240][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.01.06-00.02.41:500][815]LogSavePackage: Save=162.465576ms
+[2015.01.06-00.02.41:500][815]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Example_Map588CB3C0460BEAE49BD401B79D48395C.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Example_Map.umap'
+[2015.01.06-00.02.51:866][ 76]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.01.06-00.02.53:122][101]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.06-00.03.45:105][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.06-00.03.45:917][354]LogSavePackage: Save=799.234253ms
+[2015.01.06-00.03.45:917][354]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/MyCharacter1382364D4DDAC95DC0413BBFF56DD294.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset'
+[2015.01.06-00.04.02:194][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.06-00.04.02:592][736]LogSavePackage: Save=389.658051ms
+[2015.01.06-00.04.02:592][736]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/MyCharacterBCEC4A4745E56A87E8D4EEB3EA99B51B.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset'
+[2015.01.06-00.04.16:412][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.01.06-00.04.16:802][ 78]LogSavePackage: Save=381.120178ms
+[2015.01.06-00.04.16:802][ 78]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/MyCharacter78F9179F4CC107A181A0FB86D0837573.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/MyCharacter.uasset'
+[2015.01.06-00.04.40:616][686]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.01.06-00.04.42:383][716]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.01.06-00.04.44:215][743]LogMaterial: Missing cached shader map for material T_Door_M_Mat, compiling.
+[2015.01.06-00.04.44:215][743]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Textures/T_Door_M_Mat.T_Door_M_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2015.01.06-00.04.44:215][743]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Masks for /Game/StarterContent/Textures/T_Door_M.T_Door_M
+[2015.01.06-00.04.44:271][743]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit Component=/Game/Maps/Level3.Level3:PersistentLevel.P_Steam_Lit_2.ParticleSystemComponent0
+[2015.01.06-00.04.44:303][743]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2015.01.06-00.04.44:303][743]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.01.06-00.04.44:303][743]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_2) Not registered. Aborting.
+[2015.01.06-00.04.44:303][743]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2015.01.06-00.04.44:303][743]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.01.06-00.04.44:303][743]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2015.01.06-00.04.44:353][743]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000052F2DBC360
+[2015.01.06-00.04.46:543][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Metal_Rust" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/StarterContent/Materials/M_Metal_Rust.uasset" SILENT=true
+[2015.01.06-00.04.46:778][743]LogSavePackage: Save=213.980255ms
+[2015.01.06-00.04.46:778][743]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/M_Metal_RustF0EB1DD94C1E8E20B83EDEAD1BE6A947.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/StarterContent/Materials/M_Metal_Rust.uasset'
+[2015.01.06-00.04.46:902][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/box" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/StarterContent/Props/box.uasset" SILENT=true
+[2015.01.06-00.04.47:559][743]LogSavePackage: Save=654.625000ms
+[2015.01.06-00.04.47:559][743]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/boxC62AC2BB4C44318554182C8BE6A1B4C2.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/StarterContent/Props/box.uasset'
+[2015.01.06-00.04.47:596][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/box_sketch" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/StarterContent/Props/box_sketch.uasset" SILENT=true
+[2015.01.06-00.04.48:168][743]LogSavePackage: Save=515.422241ms
+[2015.01.06-00.04.48:168][743]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/box_sketch69B8F5444C60B773EFE1D89A741C18F8.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/StarterContent/Props/box_sketch.uasset'
+[2015.01.06-00.04.48:206][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/box_wood" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/StarterContent/Props/box_wood.uasset" SILENT=true
+[2015.01.06-00.04.48:587][743]LogSavePackage: Save=377.578217ms
+[2015.01.06-00.04.48:587][743]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/box_wood5521A036419E4D18F94B919C1D27282C.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/StarterContent/Props/box_wood.uasset'
+[2015.01.06-00.04.48:611][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Wooden_Box" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Textures/Wooden_Box.uasset" SILENT=true
+[2015.01.06-00.04.48:873][743]LogSavePackage: Save=257.236450ms
+[2015.01.06-00.04.48:873][743]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Wooden_BoxB36625434185218127652E934C221A97.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Textures/Wooden_Box.uasset'
+[2015.01.06-00.04.48:887][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Wooden_Box_Mat" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Textures/Wooden_Box_Mat.uasset" SILENT=true
+[2015.01.06-00.04.48:975][743]LogSavePackage: Save=76.708122ms
+[2015.01.06-00.04.48:975][743]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Wooden_Box_MatC8EEAA7D47F7BEEDE76569A9782DE7C6.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Textures/Wooden_Box_Mat.uasset'
+[2015.01.06-00.04.48:989][743]Cmd: MAP LOAD FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Level3.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.06-00.04.48:989][743]LightingResults: New page: Lighting Build
+[2015.01.06-00.04.49:033][743]LoadErrors: New page: Loading map: Level3.umap
+[2015.01.06-00.04.49:035][743]MapCheck: New page: Map Check
+[2015.01.06-00.04.49:035][743]LightingResults: New page: Lighting Build
+[2015.01.06-00.04.49:084][743]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000052ECF98F40
+[2015.01.06-00.04.49:114][743]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.06-00.04.49:115][743]LogAIModule: Creating AISystem for world Level3
+[2015.01.06-00.04.49:420][743]Cmd: MAP CHECKDEP
+[2015.01.06-00.04.49:420][743]MapCheck: New page: Level3 - Jan 6, 2015, 4:04:49 AM
+[2015.01.06-00.04.49:670][743]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 248.548ms to complete.
+[2015.01.06-00.04.49:670][743]LogFileHelpers: Loading map 'Level3' took 0.683
+[2015.01.06-00.04.50:666][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level3" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Level3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.01.06-00.04.50:888][772]LogNavigation:Warning: ARecastNavMesh: Unable to serialize navmesh when build is in progress or navmesh is not up to date.
+[2015.01.06-00.04.50:911][772]LogNavigation:Warning: ARecastNavMesh: Unable to serialize navmesh when build is in progress or navmesh is not up to date.
+[2015.01.06-00.04.50:932][772]LogNavigation:Warning: ARecastNavMesh: Unable to serialize navmesh when build is in progress or navmesh is not up to date.
+[2015.01.06-00.04.51:024][772]LogNavigation:Warning: ARecastNavMesh: Unable to serialize navmesh when build is in progress or navmesh is not up to date.
+[2015.01.06-00.04.51:144][772]LogNavigation:Warning: ARecastNavMesh: Unable to serialize navmesh when build is in progress or navmesh is not up to date.
+[2015.01.06-00.04.51:370][772]LogSavePackage: Save=615.337891ms
+[2015.01.06-00.04.51:370][772]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Level335C9401F4303F30A3632E4842AE6032F.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Level3.umap'
+[2015.01.06-00.06.22:427][821]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.06-00.06.22:427][821]LogPlayLevel: [PIE] Compiling Level3 before PIE...
+[2015.01.06-00.06.22:617][821]LogPlayLevel: PIE:  Blueprint regeneration took 189 ms (1 blueprints)
+[2015.01.06-00.06.22:617][821]PIE: New page: PIE session: Level3 (Jan 6, 2015, 4:06:22 AM)
+[2015.01.06-00.06.22:791][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.173152s)
+[2015.01.06-00.06.22:792][821]LogPlayLevel: PIE: World Init took: (0.001384s)
+[2015.01.06-00.06.22:792][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level3.Level3 to /Game/Maps/UEDPIE_0_Level3.Level3 (0.174888s)
+[2015.01.06-00.06.22:837][821]LogWorld: Game class is 'MyGame_C'
+[2015.01.06-00.06.22:840][821]LogAIModule: Creating AISystem for world Level3
+[2015.01.06-00.06.22:846][821]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.06-00.06.22:846][821]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level3.Level3 up for play (max tick rate 0) at 2015.01.06-02.06.22
+[2015.01.06-00.06.22:849][821]LogWorld: Bringing up level for play took: 0.009243
+[2015.01.06-00.06.22:852][821]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.06.22:852][821]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.06.22:852][821]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.06.22:852][821]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.06.22:853][821]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.06.22:853][821]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.06.22:853][821]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.06.22:853][821]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level3 1.242
+[2015.01.06-00.06.24:919][893]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005291F9AAC0
+[2015.01.06-00.06.25:396][909]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor_400x401)
+[2015.01.06-00.06.26:074][930]LogEditorViewport: Clicking on Actor (LMB): ButtonChooseDummy_C (ButtonChooseDummy_3)
+[2015.01.06-00.06.32:254][114]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.06-00.06.32:254][114]LogPlayLevel: [PIE] Compiling Level3 before PIE...
+[2015.01.06-00.06.32:427][114]LogPlayLevel: PIE:  Blueprint regeneration took 171 ms (1 blueprints)
+[2015.01.06-00.06.32:427][114]PIE: New page: PIE session: Level3 (Jan 6, 2015, 4:06:32 AM)
+[2015.01.06-00.06.32:585][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.157808s)
+[2015.01.06-00.06.32:586][114]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2015.01.06-00.06.32:586][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level3.Level3 to /Game/Maps/UEDPIE_0_Level3.Level3 (0.159339s)
+[2015.01.06-00.06.32:626][114]LogWorld: Game class is 'MyGame_C'
+[2015.01.06-00.06.32:628][114]LogAIModule: Creating AISystem for world Level3
+[2015.01.06-00.06.32:633][114]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.06-00.06.32:634][114]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level3.Level3 up for play (max tick rate 0) at 2015.01.06-02.06.32
+[2015.01.06-00.06.32:636][114]LogWorld: Bringing up level for play took: 0.007886
+[2015.01.06-00.06.32:638][114]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.06.32:638][114]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.06.32:638][114]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.06.32:638][114]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.06.32:638][114]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.06.32:638][114]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.06.32:638][114]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.06.32:638][114]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level3 1.027
+[2015.01.06-00.06.35:805][230]LogBlueprintUserMessages: AIDummy_4
+[2015.01.06-00.06.35:806][230]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.06.35:806][230]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors2 out of bounds [7/6]!
+[2015.01.06-00.06.36:871][264]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.06-00.06.45:438][567]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000052E37B36A0
+[2015.01.06-00.07.09:742][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level3" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Level3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.01.06-00.07.10:304][ 52]LogSavePackage: Save=493.765076ms
+[2015.01.06-00.07.10:304][ 52]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/Level39F17E2CF4AE568F76AFA9E90D0D2FB4D.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Level3.umap'
+[2015.01.06-00.07.10:627][ 52]LogFileHelpers: Saving map 'Level3' took 1.138
+[2015.01.06-00.07.10:633][ 52]Cmd: MAP LOAD FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.06-00.07.10:633][ 52]LightingResults: New page: Lighting Build
+[2015.01.06-00.07.10:689][ 52]LoadErrors: New page: Loading map: Level2.umap
+[2015.01.06-00.07.10:855][ 52]MapCheck: New page: Map Check
+[2015.01.06-00.07.10:855][ 52]LightingResults: New page: Lighting Build
+[2015.01.06-00.07.10:901][ 52]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000528936B7E0
+[2015.01.06-00.07.10:933][ 52]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.06-00.07.10:933][ 52]LogAIModule: Creating AISystem for world Level2
+[2015.01.06-00.07.11:240][ 52]Cmd: MAP CHECKDEP
+[2015.01.06-00.07.11:240][ 52]MapCheck: New page: Level2 - Jan 6, 2015, 4:07:11 AM
+[2015.01.06-00.07.11:508][ 52]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 267.793ms to complete.
+[2015.01.06-00.07.11:508][ 52]LogFileHelpers: Loading map 'Level2' took 0.879
+[2015.01.06-00.07.24:588][406]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.06-00.07.24:588][406]LogPlayLevel: [PIE] Compiling Level2 before PIE...
+[2015.01.06-00.07.24:780][406]LogPlayLevel: PIE:  Blueprint regeneration took 191 ms (1 blueprints)
+[2015.01.06-00.07.24:780][406]PIE: New page: PIE session: Level2 (Jan 6, 2015, 4:07:24 AM)
+[2015.01.06-00.07.24:994][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.213532s)
+[2015.01.06-00.07.24:996][406]LogPlayLevel: PIE: World Init took: (0.001897s)
+[2015.01.06-00.07.24:996][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level2.Level2 to /Game/Maps/UEDPIE_0_Level2.Level2 (0.215882s)
+[2015.01.06-00.07.25:035][406]LogWorld: Game class is 'MyGame_C'
+[2015.01.06-00.07.25:037][406]LogAIModule: Creating AISystem for world Level2
+[2015.01.06-00.07.25:135][406]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.06-00.07.25:135][406]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2015.01.06-02.07.25
+[2015.01.06-00.07.25:135][406]LogWorld: Bringing up level for play took: 0.098455
+[2015.01.06-00.07.25:160][406]LogBlueprintUserMessages: huii
+[2015.01.06-00.07.25:160][406]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [1/0]!
+[2015.01.06-00.07.25:164][406]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level2 1.553
+[2015.01.06-00.07.26:372][443]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.06-00.07.26:974][467]LogBlueprintUserMessages: AutoWeapon
+[2015.01.06-00.07.38:549][854]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.06-00.07.39:829][897]LogBlueprintUserMessages: AutoWeapon
+[2015.01.06-00.07.46:475][112]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.06-00.08.14:410][ 87]LogBlueprintUserMessages: AutoWeapon
+[2015.01.06-00.08.15:744][136]LogBlueprintUserMessages: GranadeLauncher
+[2015.01.06-00.08.18:702][242]LogBlueprintUserMessages: AutoWeapon
+[2015.01.06-00.08.27:775][532]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.27:803][533]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.27:831][534]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.27:876][535]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.27:904][536]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.27:931][537]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.27:978][538]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:004][539]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:030][540]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:081][541]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:104][542]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:128][543]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:180][544]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:211][545]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:231][546]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:278][547]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:301][548]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:327][549]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:378][550]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:402][551]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:427][552]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:482][553]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:505][554]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:530][555]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:582][556]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:605][557]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:637][558]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:663][559]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:692][560]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:712][561]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:738][562]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:785][563]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:810][564]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:837][565]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:885][566]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:910][567]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:936][568]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.28:983][569]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:009][570]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:035][571]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:084][572]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:112][573]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:139][574]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:184][575]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:210][576]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:235][577]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:267][578]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:293][579]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:317][580]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:341][581]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:368][582]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:394][583]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:420][584]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:444][585]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:469][586]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:495][587]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:522][588]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:547][589]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:571][590]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:595][591]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:620][592]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:648][593]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:676][594]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:698][595]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:717][596]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:741][597]LogBlueprintUserMessages: Hello
+[2015.01.06-00.08.29:839][597]LogPackageName: SearchForPackageOnDisk took   0.097s to resolve Level3.umap
+[2015.01.06-00.08.29:955][598]LogPackageName: SearchForPackageOnDisk took   0.093s to resolve Level3.umap
+[2015.01.06-00.08.29:955][598]LogNet: Browse: /Game/Maps/Level3
+[2015.01.06-00.08.29:955][598]LogLoad: LoadMap: /Game/Maps/Level3
+[2015.01.06-00.08.30:020][598]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000052E33F0720
+[2015.01.06-00.08.30:020][598]Cmd: MEM
+[2015.01.06-00.08.30:077][598]LogMemory: Platform Memory Stats for Windows
+[2015.01.06-00.08.30:077][598]LogMemory: Process Physical Memory: 892.53 MB used, 922.01 MB peak
+[2015.01.06-00.08.30:077][598]LogMemory: Process Virtual Memory: 783.88 MB used, 810.96 MB peak
+[2015.01.06-00.08.30:077][598]LogMemory: Physical Memory: 3646.09 MB used, 8077.32 MB total
+[2015.01.06-00.08.30:077][598]LogMemory: Virtual Memory: 1411.13 MB used, 134217728.00 MB total
+[2015.01.06-00.08.30:077][598]LogMemory: 
+[2015.01.06-00.08.30:077][598]Allocator Stats for TBB: (not implemented)
+[2015.01.06-00.08.32:902][598]LogWorld: Game class is 'MyGame_C'
+[2015.01.06-00.08.32:904][598]LogAIModule: Creating AISystem for world Level3
+[2015.01.06-00.08.32:917][598]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.01.06-00.08.32:917][598]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level3.Level3 up for play (max tick rate 0) at 2015.01.06-02.08.32
+[2015.01.06-00.08.32:919][598]LogWorld: Bringing up level for play took: 0.015382
+[2015.01.06-00.08.32:922][598]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.08.32:922][598]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.08.32:922][598]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.08.32:922][598]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.08.32:923][598]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.08.32:923][598]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.08.32:923][598]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [7/6]!
+[2015.01.06-00.09.04:215][761]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000052E67A80E0
+[2015.01.06-00.09.10:089][917]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit Component=/Game/Maps/Level3.Level3:PersistentLevel.P_Steam_Lit_2.ParticleSystemComponent0
+[2015.01.06-00.09.10:179][917]Cmd: MAP LOAD FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Maps/Level3.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.06-00.09.10:179][917]LightingResults: New page: Lighting Build
+[2015.01.06-00.09.10:221][917]LoadErrors: New page: Loading map: Level3.umap
+[2015.01.06-00.09.10:223][917]MapCheck: New page: Map Check
+[2015.01.06-00.09.10:223][917]LightingResults: New page: Lighting Build
+[2015.01.06-00.09.10:263][917]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000528106C400
+[2015.01.06-00.09.10:311][917]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.06-00.09.10:312][917]LogAIModule: Creating AISystem for world Level3
+[2015.01.06-00.09.10:621][917]Cmd: MAP CHECKDEP
+[2015.01.06-00.09.10:621][917]MapCheck: New page: Level3 - Jan 6, 2015, 4:09:10 AM
+[2015.01.06-00.09.10:877][917]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 255ms to complete.
+[2015.01.06-00.09.10:877][917]LogFileHelpers: Loading map 'Level3' took 0.701
+[2015.01.06-00.09.24:470][264]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.06-00.09.30:679][366]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2015.01.06-00.09.30:679][366]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.01.06-00.09.30:679][366]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
+[2015.01.06-00.09.30:679][366]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.01.06-00.09.30:679][366]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_3) Not registered. Aborting.
+[2015.01.06-00.09.30:679][366]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_7) Not registered. Aborting.
+[2015.01.06-00.09.30:679][366]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.01.06-00.09.30:679][366]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_4) Not registered. Aborting.
+[2015.01.06-00.09.31:955][394]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.01.06-00.09.31:955][394]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_5) Not registered. Aborting.
+[2015.01.06-00.09.52:808][904]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.52:808][904]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.52:811][904]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.52:811][904]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.52:811][904]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.52:811][904]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.52:812][904]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.52:812][904]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.52:812][904]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.52:812][904]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.52:812][904]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.52:812][904]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.52:812][904]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.52:812][904]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.52:812][904]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.52:812][904]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.52:812][904]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.54:408][937]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.06-00.09.54:408][937]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.06-00.09.54:408][937]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.06-00.09.57:605][997]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.06-00.09.59:361][ 22]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.59:361][ 22]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.59:361][ 22]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.59:362][ 22]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.59:362][ 22]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.59:362][ 22]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.09.59:362][ 22]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.06-00.10.04:317][135]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.06-00.10.04:317][135]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.06-00.10.04:317][135]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.06-00.10.19:954][489]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.01.06-00.10.19:954][489]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_6) Not registered. Aborting.
+[2015.01.06-00.10.21:206][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AIDummy" FILE="../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/AIDummy.uasset" SILENT=true
+[2015.01.06-00.10.21:783][513]LogSavePackage: Save=564.129944ms
+[2015.01.06-00.10.21:783][513]LogSavePackage: Moving '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Saved/AIDummy10BBC59F49FDA42953FDCE98E9B7E571.tmp' to '../../../../../Git/Try1/Nikita(Boss)/SmartProjectFPS/Content/Blueprints/AIDummy.uasset'
+[2015.01.06-00.10.23:623][565]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.06-00.10.23:806][565]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.01.06-00.10.23:806][565]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_7) Not registered. Aborting.
+[2015.01.06-00.10.23:806][565]LogPlayLevel: [PIE] Compiling AIDummy before PIE...
+[2015.01.06-00.10.24:351][565]LogPlayLevel: [PIE] Compiling Level3 before PIE...
+[2015.01.06-00.10.24:583][565]LogPlayLevel: PIE:  Blueprint regeneration took 959 ms (2 blueprints)
+[2015.01.06-00.10.24:584][565]PIE: New page: PIE session: Level3 (Jan 6, 2015, 4:10:24 AM)
+[2015.01.06-00.10.24:755][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.171494s)
+[2015.01.06-00.10.24:757][565]LogPlayLevel: PIE: World Init
