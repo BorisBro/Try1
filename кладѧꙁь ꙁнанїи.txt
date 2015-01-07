@@ -13,13 +13,15 @@ https://www.youtube.com/channel/UCLbkGIcYJxxL0tciH9RVebg/playlist( Ru / 5-15 мин
 https://www.youtube.com/user/DcDenton87/playlists                ( Ru / 5-15 мин / блюпринт / мало//?)
 https://www.youtube.com/user/UnrealDevelopmentKit/playlists      ( En / 5-30 мин / всё / много / говорят эти офф туторы ацтой)
 https://www.youtube.com/user/Meletou1/playlists                  ( Fr / 5-30 мин / всё / много, рассказывает про сложные вещи / долбаные французы)
-
+https://www.youtube.com/user/PeterLNewton/playlists		 ( En / 5-40 мин / AI, механика и реализация движение / не тривиальные вещи, подробно / долгие ролики можно потерять ход мысли / 8 )
 
 https://vk.com/videos-68573701 (свалка)
 
 Статьи:
 http://www.gamedev.ru/community/ue4/MonoUE 			( Ru-En / Mono - C# + UE / ? )
 http://unreal-ai-tutorial.info/					( En / AI ботов / информативно, норм версия / не очень много, сложно )
+http://www.gamasutra.com/blogs/ChrisSimpson/20140717/221339/Behavior_trees_for_AI_How_they_work.php ( En /(Не Анриал) Теория как работают деревья поведения в общем и как их правильно строить на примере Project Zomboid/ ) 
+http://guineashots.com/2014/07/25/an-introduction-to-behavior-trees-part-1/ ( En / (Не Анриал) Дипломная робота по AI в играх и роботах, теоритическая инфа/ )
 
 Другие ссылки:
 https://wiki.unrealengine.com/
