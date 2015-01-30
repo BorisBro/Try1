@@ -1304,9 +1304,11 @@ Design\Content\Box_Brush_87_StaticMesh.uasset
 Design\Content\Box_Brush_88_StaticMesh.uasset
 Design\Content\Box_Brush_89_StaticMesh.uasset
 Design\Content\Box_Brush_StaticMesh.uasset
+Design\Content\Ceramic.uasset
+Design\Content\Material__1000.uasset
+Design\Content\Stylus_Banksia.uasset
 Design\Content\Toggle.uasset
 Design\Content\текст.uasset
-Design\Content\текст_Mat.uasset
 Design\Content\ArchVis\Materials\M_Painting_1.uasset
 Design\Content\ArchVis\Materials\M_RoundCeilingLight_Mat.uasset
 Design\Content\ArchVis\Materials\M_RoundCeilingLight_Mat_Inst.uasset
@@ -1315,14 +1317,10 @@ Design\Content\ArchVis\Mesh\SM_Frame_1.uasset
 Design\Content\ArchVis\Mesh\SM_RoundCeilingLight.uasset
 Design\Content\ArchVis\Textures\T_Frame_M.uasset
 Design\Content\ArchVis\Textures\T_Frame_N.uasset
-Design\Content\ArchVis\Textures\T_Painting_D.uasset
-Design\Content\ArchVis\Textures\T_Painting_N.uasset
 Design\Content\ArchVis\Textures\T_Paint_N.uasset
 Design\Content\ArchVis\Textures\T_RoundCeilingLight_AO.uasset
 Design\Content\ArchVis\Textures\T_RoundCeilingLight_M.uasset
 Design\Content\ArchVis\Textures\T_RoundCeilingLight_N.uasset
-Design\Content\ArchVis\Textures\T_Wood.uasset
-Design\Content\ArchVis\Textures\T_Wood_S.uasset
 Design\Content\Blueprints\FPS_Character.uasset
 Design\Content\Blueprints\MyGame.uasset
 Design\Content\Blueprints\Projectile.uasset
@@ -1388,7 +1386,6 @@ Design\Content\StarterContent\Квартира\ассеты\Glass.uasset
 Design\Content\StarterContent\Квартира\ассеты\Pitch.uasset
 Design\Content\StarterContent\Квартира\ассеты\Siemens_WM12A162DN.uasset
 Design\Content\StarterContent\Квартира\ассеты\u89p_.uasset
-Design\Content\StarterContent\Квартира\ассеты\ynitaz.uasset
 Design\Content\StarterContent\Квартира\ассеты\конвертированый_меш.uasset
 Design\Content\StarterContent\Квартира\материалы\MyGlass.uasset
 Design\Content\StarterContent\Квартира\материалы\oldy2_001_Mat.uasset
@@ -1407,10 +1404,8 @@ Design\Content\StarterContent\Квартира\материалы\Серая_г�
 Design\Content\StarterContent\Квартира\материалы\Серая_рельефная.uasset
 Design\Content\StarterContent\Квартира\материалы\текст1_Mat.uasset
 Design\Content\StarterContent\Квартира\материалы\текст_Mat.uasset
-Design\Content\StarterContent\Квартира\текстуры\oldy2_001.uasset
 Design\Content\StarterContent\Квартира\текстуры\T_Ceramic_Tile_M.uasset
 Design\Content\StarterContent\Квартира\текстуры\T_Ceramic_Tile_N.uasset
-Design\Content\StarterContent\Квартира\текстуры\T_Perlin_Noise_M.uasset
 Design\Content\StarterContent\Квартира\текстуры\Бордюр_вертикальный.uasset
 Design\Content\StarterContent\Квартира\текстуры\Бордюр_вертикальный_-_копия.uasset
 Design\Content\StarterContent\Квартира\текстуры\Бордюр_вертикальный_-_копия__2_.uasset
